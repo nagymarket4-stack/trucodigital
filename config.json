@@ -1,0 +1,53 @@
+{
+  "site": {
+    "name": "TrucoDigital",
+    "tagline": "Trucos de móvil, apps e IA explicados fácil",
+    "url": "https://TU-USUARIO.github.io/trucodigital",
+    "language": "es",
+    "locale": "es_ES",
+    "author": "Equipo TrucoDigital",
+    "contact_email": "contacto@example.com",
+    "owner_legal_name": "TU NOMBRE O EMPRESA",
+    "owner_nif": "TU NIF",
+    "youtube_channel_url": "",
+    "tiktok_url": ""
+  },
+  "niche": "tecnología práctica para el día a día en español: trucos de móvil Android e iPhone, WhatsApp, apps útiles, inteligencia artificial para usuarios normales, ahorro en facturas digitales, seguridad y privacidad online, ordenador Windows",
+  "audience": "personas de 25 a 65 años en España y Latinoamérica que no son técnicas y quieren resolver un problema concreto con su móvil u ordenador",
+  "categories": {
+    "movil": "Móvil",
+    "whatsapp": "WhatsApp",
+    "inteligencia-artificial": "Inteligencia Artificial",
+    "apps": "Apps útiles",
+    "seguridad": "Seguridad y privacidad",
+    "ordenador": "Ordenador",
+    "ahorro": "Ahorro digital"
+  },
+  "generation": {
+    "model": "claude-opus-5",
+    "articles_per_day": 5,
+    "min_words": 900,
+    "require_review": false,
+    "keyword_queue_min": 25
+  },
+  "adsense": {
+    "client_id": "",
+    "in_article_slot": ""
+  },
+  "analytics": {
+    "ga4_id": "",
+    "google_site_verification": ""
+  },
+  "video": {
+    "enabled": true,
+    "piper_voice": "es_ES-davefx-medium",
+    "width": 1080,
+    "height": 1920,
+    "max_seconds": 58
+  },
+  "upload": {
+    "youtube": true,
+    "youtube_privacy": "public",
+    "tiktok": true
+  }
+}

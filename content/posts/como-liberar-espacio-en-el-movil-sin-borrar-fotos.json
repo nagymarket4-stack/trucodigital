@@ -1,0 +1,100 @@
+{
+  "slug": "como-liberar-espacio-en-el-movil-sin-borrar-fotos",
+  "keyword": "cómo liberar espacio en el móvil sin borrar fotos",
+  "date": "2026-09-26T08:00:00+00:00",
+  "updated": "2026-09-26T08:00:00+00:00",
+  "draft": false,
+  "words": 950,
+  "title": "Cómo liberar espacio en el móvil sin borrar tus fotos (Android y iPhone)",
+  "seo_title": "Liberar espacio en el móvil sin borrar fotos: guía 2026",
+  "meta_description": "Recupera gigas en tu Android o iPhone sin perder ni una foto: caché, apps, WhatsApp, descargas y nube, explicado paso a paso y sin complicaciones.",
+  "category": "movil",
+  "intro_markdown": "El aviso de **«Almacenamiento casi lleno»** suele aparecer en el peor momento: justo cuando vas a hacer una foto o a actualizar una app. La reacción habitual es empezar a borrar fotos, pero casi nunca son el verdadero problema. En la mayoría de móviles, lo que se come el espacio son la **caché de las apps, los archivos de WhatsApp, las descargas olvidadas y aplicaciones que no usas**.\n\nEn esta guía verás, paso a paso y en orden de impacto, cómo recuperar varios gigas en Android y en iPhone **sin eliminar ni una sola foto**. Los nombres de los menús pueden variar un poco según la marca y la versión del sistema, pero la ruta es muy parecida en todos los modelos.",
+  "key_takeaways": [
+    "Mira primero qué ocupa espacio: Ajustes › Almacenamiento te lo dice por categorías.",
+    "WhatsApp y la caché de redes sociales suelen ocupar más que tus fotos.",
+    "Desinstalar apps conservando datos (iPhone) o archivarlas (Android) libera espacio sin perder nada.",
+    "Subir las fotos a la nube y liberar la copia local mantiene todo accesible."
+  ],
+  "sections": [
+    {
+      "heading": "Paso 1: averigua qué está llenando tu móvil",
+      "body_markdown": "Antes de tocar nada, mira el reparto del almacenamiento. Así atacas lo que de verdad ocupa.\n\n- **Android:** Ajustes › Almacenamiento (en Samsung: Ajustes › Mantenimiento del dispositivo › Almacenamiento). Verás categorías como Apps, Imágenes, Vídeos, Audio, Documentos y Sistema.\n- **iPhone:** Ajustes › General › Almacenamiento del iPhone. Tras unos segundos aparece una barra de colores y la lista de apps ordenadas por tamaño.\n\nFíjate sobre todo en la lista de apps. Es muy habitual que **WhatsApp, Instagram, TikTok o el navegador** ocupen varios gigas cada una. Esa es la primera mina de espacio."
+    },
+    {
+      "heading": "Paso 2: limpia WhatsApp sin perder tus chats",
+      "body_markdown": "WhatsApp guarda cada foto, vídeo, audio y sticker que recibes, incluidos los de grupos que ni abres. Tiene su propio gestor para limpiarlo con cuidado:\n\n1. Abre WhatsApp y entra en **Ajustes › Almacenamiento y datos › Administrar almacenamiento**.\n2. Arriba verás los archivos **reenviados muchas veces** y los **mayores de 5 MB**. Suelen ser memes y vídeos que no necesitas.\n3. Debajo aparece cada chat ordenado por tamaño. Entra en los grupos más pesados y selecciona solo lo que quieras borrar.\n\n**Consejo clave:** desactiva la descarga automática en *Ajustes › Almacenamiento y datos › Descarga automática*. Déjala solo con wifi para fotos, o en «Nunca» para vídeos. Así el problema no vuelve a aparecer en un mes.\n\nEstos archivos son los que te han enviado otros; las fotos de tu cámara no se tocan."
+    },
+    {
+      "heading": "Paso 3: vacía la caché de las apps más pesadas",
+      "body_markdown": "La **caché** son archivos temporales que las apps guardan para cargar más rápido. Se pueden borrar sin perder tu cuenta ni tus datos: la app simplemente los volverá a descargar cuando los necesite.\n\n**En Android:**\n\n1. Ajustes › Aplicaciones.\n2. Elige una app pesada (Instagram, TikTok, Chrome, Facebook…).\n3. Toca **Almacenamiento › Borrar caché**.\n\n> Ojo: no pulses **«Borrar datos»** o **«Borrar almacenamiento»**, porque eso sí restablece la app y puede cerrarte la sesión.\n\n**En iPhone** no existe un botón general de «borrar caché» por app. Algunas apps lo ofrecen dentro de sus propios ajustes (por ejemplo, TikTok en *Perfil › Configuración › Liberar espacio*). Para Safari: Ajustes › Safari › Borrar historial y datos de sitios web."
+    },
+    {
+      "heading": "Paso 4: desinstala o archiva las apps que casi no usas",
+      "body_markdown": "Tanto iPhone como Android permiten quitar la app pero **conservar sus datos**, para reinstalarla después y encontrarlo todo como estaba.\n\n| Sistema | Dónde está | Qué hace |\n|---|---|---|\n| iPhone | Ajustes › General › Almacenamiento › (app) › **Desinstalar app** | Borra la app, conserva documentos y datos |\n| iPhone | Ajustes › App Store › **Desinstalar apps sin usar** | Lo hace solo con las apps que no abres |\n| Android | Ajustes › Aplicaciones › (app) › **Archivar** | Disponible en muchos modelos recientes |\n| Android | Play Store › Perfil › Ajustes › General › **Archivar apps automáticamente** | Lo hace solo cuando falta espacio |\n\nLos juegos son los mayores candidatos: algunos ocupan varios gigas y se juegan una vez al mes."
+    },
+    {
+      "heading": "Paso 5: revisa descargas, duplicados y archivos grandes",
+      "body_markdown": "La carpeta de **Descargas** acumula PDFs, instaladores y vídeos que abriste una vez.\n\n- **Android:** abre la app **Files de Google** (o «Mis archivos» en Samsung). En la pestaña **Limpiar** te propone archivos basura, duplicados, archivos grandes y memes antiguos. Revisa cada sugerencia antes de confirmar.\n- **iPhone:** abre la app **Archivos › Explorar › En mi iPhone** y revisa la carpeta de Descargas. En Fotos puedes ir a **Álbumes › Duplicados** para fusionar copias idénticas: se queda la de mejor calidad y no pierdes la imagen.\n\nTambién merece la pena mirar los **vídeos grabados en 4K**: un minuto puede ocupar varios cientos de megas. No hace falta borrarlos; en el siguiente paso los mandamos a la nube."
+    },
+    {
+      "heading": "Paso 6: sube las fotos a la nube y libera la copia del móvil",
+      "body_markdown": "Esta es la forma de ganar mucho espacio **sin borrar fotos de verdad**: la foto original queda guardada en la nube y en el móvil se conserva una versión ligera o ninguna copia.\n\n**iPhone (Fotos de iCloud):**\n\n1. Ajustes › tu nombre › iCloud › Fotos › activa **Sincronizar este iPhone**.\n2. Marca **Optimizar almacenamiento del iPhone**.\n\n**Android (Google Fotos):**\n\n1. Abre Google Fotos, toca tu foto de perfil › **Activar copia de seguridad**.\n2. Cuando termine, toca tu perfil › **Liberar espacio**. Solo borra del móvil las fotos que ya están copiadas.\n\nAntes de liberar espacio, comprueba que la copia ha terminado y que tienes espacio suficiente en la nube (los planes gratuitos tienen límite). Si prefieres no depender de la nube, copia las fotos a un ordenador o a un disco externo."
+    },
+    {
+      "heading": "Errores comunes que conviene evitar",
+      "body_markdown": "- **Instalar apps «limpiadoras» milagrosas.** Muchas están llenas de publicidad, piden permisos excesivos y no hacen nada que no haga el propio sistema.\n- **Pulsar «Borrar datos» en lugar de «Borrar caché»** en Android.\n- **Liberar espacio en Google Fotos o iCloud sin haber comprobado la copia.**\n- **Olvidar la papelera:** en Fotos (iPhone: *Eliminado*; Google Fotos: *Papelera*) lo borrado sigue ocupando espacio durante 30 o 60 días, según el servicio.\n\nSi después de todo esto la categoría **«Sistema»** u **«Otros»** sigue siendo enorme, reiniciar el móvil y actualizar a la última versión del sistema suele reducirla."
+    }
+  ],
+  "faq": [
+    {
+      "question": "¿Borrar la caché elimina mis conversaciones o contraseñas?",
+      "answer": "No. La caché solo contiene archivos temporales. Tus chats, cuentas y ajustes se guardan en los datos de la app, que no se tocan al borrar la caché."
+    },
+    {
+      "question": "¿Por qué mi móvil dice que está lleno si tengo pocas fotos?",
+      "answer": "Normalmente por los archivos de WhatsApp, la caché de redes sociales y el propio sistema. Revisa Ajustes › Almacenamiento para ver qué categoría ocupa más."
+    },
+    {
+      "question": "¿Es seguro usar Liberar espacio de Google Fotos?",
+      "answer": "Sí, siempre que la copia de seguridad esté completa. Solo elimina del dispositivo las fotos que ya están guardadas en tu cuenta de Google."
+    },
+    {
+      "question": "¿Cada cuánto conviene limpiar el móvil?",
+      "answer": "Con la descarga automática de WhatsApp desactivada y la copia en la nube activada, basta con una revisión rápida cada dos o tres meses."
+    }
+  ],
+  "tags": [
+    "almacenamiento",
+    "android",
+    "iphone",
+    "whatsapp",
+    "google fotos"
+  ],
+  "short": {
+    "title": "Tu móvil está lleno y NO son las fotos: libera gigas en 1 minuto",
+    "hook": "Tu móvil dice que está lleno. Y no, no son tus fotos.",
+    "lines": [
+      "Entra en Ajustes y abre Almacenamiento.",
+      "Verás que WhatsApp ocupa más que tu galería.",
+      "En WhatsApp, ve a Administrar almacenamiento.",
+      "Borra los vídeos reenviados y los archivos grandes.",
+      "Desactiva la descarga automática de vídeos.",
+      "Después, borra la caché de Instagram y TikTok.",
+      "Y sube tus fotos a la nube para liberar la copia local."
+    ],
+    "cta": "Tienes la guía completa paso a paso en nuestra web.",
+    "hashtags": [
+      "trucos",
+      "movil",
+      "android",
+      "iphone",
+      "tecnologia"
+    ]
+  },
+  "video": {
+    "file": "videos/como-liberar-espacio-en-el-movil-sin-borrar-fotos.mp4",
+    "youtube_id": null,
+    "tiktok_publish_id": null
+  }
+}

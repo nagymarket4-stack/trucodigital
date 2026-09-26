@@ -1,0 +1,6 @@
+public/
+videos/
+data/voices/
+__pycache__/
+bot/client_secret.json
+.env
