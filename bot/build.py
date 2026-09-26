@@ -327,7 +327,8 @@ def footer_html() -> str:
     follow = "".join(f'<li><a href="{url}" rel="noopener" target="_blank">{n}</a></li>' for n, url in socials()) \
         or '<li>Vídeos cortos muy pronto</li>'
     legal = "".join(f'<a href="{u(p)}">{t}</a> · ' for p, t in
-                    (("/aviso-legal/", "Aviso legal"), ("/privacidad/", "Privacidad"), ("/cookies/", "Cookies"))).rstrip(" · ")
+                    (("/aviso-legal/", "Aviso legal"), ("/privacidad/", "Privacidad"), ("/cookies/", "Cookies"),
+                     ("/terminos/", "Términos"))).rstrip(" · ")
     return (f'<footer><div class="wrap"><div class="fgrid"><div>{logo_html()}<p style="max-width:340px">{e(SITE["tagline"])}. '
             'Guías paso a paso, claras y actualizadas, para resolver problemas reales en minutos.</p></div>'
             f'<div><h4>Categorías</h4><ul>{cats}</ul></div><div><h4>El sitio</h4><ul>{site}</ul></div>'
@@ -589,6 +590,18 @@ plataforma certificada por Google (CMP) donde puedes aceptar, rechazar o configu
 <p>La preferencia de tema claro u oscuro se guarda solo en tu navegador (almacenamiento local) y no se usa para rastrearte.</p>
 <p>Puedes cambiar tu elección en cualquier momento borrando las cookies del navegador o desde el enlace de preferencias del aviso.</p>"""),
     }
+    pages["/terminos/"] = ("Términos de servicio", f"""<p>Al usar {e(s['name'])} ({e(BASE_URL)}) y sus canales en redes
+sociales aceptas estos términos. Si no estás de acuerdo, no utilices el sitio.</p>
+<p><strong>Contenido.</strong> Publicamos guías y vídeos informativos sobre tecnología. Se elaboran con ayuda de herramientas de
+inteligencia artificial y se revisan con criterios editoriales, pero pueden contener errores o quedar desactualizados. Úsalos bajo tu
+responsabilidad y consulta siempre la información oficial del fabricante.</p>
+<p><strong>Propiedad intelectual.</strong> Los textos, imágenes y vídeos son de {e(s['name'])} salvo que se indique lo contrario.
+Puedes compartir enlaces libremente; no está permitido copiar el contenido completo sin permiso.</p>
+<p><strong>Integraciones con plataformas.</strong> Usamos las API oficiales de YouTube y TikTok únicamente para publicar nuestros
+propios vídeos en nuestras cuentas. No accedemos a datos de otros usuarios ni los almacenamos.</p>
+<p><strong>Enlaces y afiliación.</strong> Algunos enlaces pueden ser de afiliado; se indican como tales.</p>
+<p><strong>Cambios y contacto.</strong> Podemos actualizar estos términos. Para cualquier consulta:
+<a href="mailto:{e(s['contact_email'])}">{e(s['contact_email'])}</a>. Legislación aplicable: española.</p>""")
     for path, (title, content) in pages.items():
         write(path, page(head(f"{title} | {s['name']}", f"{title} de {s['name']}.", path),
                          f'<div class="wrap page prose"><h1>{title}</h1>{content}</div>'))
@@ -695,6 +708,14 @@ def main() -> None:
                             f'<p class="lead">Puede que la guía haya cambiado de dirección. Prueba a buscarla:</p>'
                             f'<form class="sbox" action="{u("/buscar/")}"><input name="q" type="search" placeholder="Buscar guías…">'
                             f'<button class="btn">Buscar</button></form></div></section>'))
+    cb = ('<div class="wrap page"><h1>Autorización de TikTok</h1><p id="m">Leyendo el código…</p>'
+          '<input id="c" readonly style="width:100%;font:15px monospace;padding:12px;border-radius:12px;border:1px solid var(--line);'
+          'background:var(--card);color:var(--fg)"><p><button class="btn" id="b" type="button">Copiar código</button></p></div>'
+          "<script>var p=new URLSearchParams(location.search),c=p.get('code'),m=document.getElementById('m');"
+          "if(c){document.getElementById('c').value=c;m.textContent='Copia este código y pégalo en la terminal:'}"
+          "else{m.textContent='No hay código: '+(p.get('error_description')||p.get('error')||'abre el enlace de autorización.')}"
+          "document.getElementById('b').onclick=function(){navigator.clipboard.writeText(c||'');this.textContent='¡Copiado!'}</script>")
+    write("/tiktok/callback/", page(head("Autorización TikTok", "Página técnica.", "/tiktok/callback/", noindex=True), cb))
     (PUBLIC_DIR / ".nojekyll").write_text("", encoding="utf-8")
     print(f"Web generada: {len(posts)} artículos → {PUBLIC_DIR}")
 
