@@ -41,7 +41,7 @@ def emoji(e: str) -> Image.Image | None:
     return Image.open(path).convert("RGBA")
 
 
-def cover(post: dict, out: Path) -> None:
+def cover(post: dict, out: Path, thumb: bool = False) -> None:
     seed = int(hashlib.md5(post["slug"].encode()).hexdigest()[:8], 16)
     top, bot, acc = PALETTES[seed % len(PALETTES)]
     img = Image.new("RGB", (IW, IH))
@@ -54,14 +54,17 @@ def cover(post: dict, out: Path) -> None:
     img = Image.alpha_composite(img.convert("RGBA"), glow.filter(ImageFilter.GaussianBlur(90)))
     d = ImageDraw.Draw(img)
 
-    cat = CONFIG["categories"].get(post["category"], post["category"]).upper()
-    fc = font("Poppins-ExtraBold", 26)
-    cw = d.textlength(cat, font=fc)
-    d.rounded_rectangle([64, 60, 64 + cw + 44, 112], radius=26, fill=acc)
-    d.text((86, 66), cat, font=fc, fill=(12, 12, 12))
+    if not thumb:  # en las tarjetas la categoría ya va como etiqueta HTML
+        cat = CONFIG["categories"].get(post["category"], post["category"]).upper()
+        fc = font("Poppins-ExtraBold", 26)
+        cw = d.textlength(cat, font=fc)
+        d.rounded_rectangle([64, 60, 64 + cw + 44, 112], radius=26, fill=acc)
+        d.text((86, 66), cat, font=fc, fill=(12, 12, 12))
 
     title = post["title"]
-    for size, width in ((68, 20), (60, 23), (52, 27), (46, 31)):
+    if thumb:  # miniatura de tarjeta: muestra el gancho del vídeo en vez de repetir el título
+        title = (post.get("short") or {}).get("hook") or title
+    for size, width in (((76, 18), (68, 20), (60, 23), (52, 27)) if thumb else ((68, 20), (60, 23), (52, 27), (46, 31))):
         lines = textwrap.wrap(title, width=width)
         if len(lines) <= 4:
             break

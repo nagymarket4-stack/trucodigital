@@ -517,9 +517,9 @@ def normalize_script(short: dict) -> list[Segment]:
     return segs
 
 
-def render(post: dict, voice: PiperVoice | None) -> Path:
+def render(post: dict, voice: PiperVoice | None, ti: int | None = None) -> Path:
     seed = seed_of(post["slug"])
-    ti = seed % len(THEMES)
+    ti = seed % len(THEMES) if ti is None else ti % len(THEMES)
     th = THEMES[ti]
     segs = normalize_script(post["short"])
 
@@ -675,10 +675,11 @@ def main() -> None:
         return
     voice = None if os.environ.get("GOOGLE_TTS_API_KEY") else piper_voice()
     print(f"Voz: {'Google ' + V.get('google_voice', '') if voice is None else 'Piper ' + V['piper_voice']}")
+    order = [x["slug"] for x in sorted(load_posts(), key=lambda x: x["date"])]  # rotación de plantillas
     for p in pending:
         print(f"Renderizando: {p['slug']}")
         try:
-            out = render(p, voice)
+            out = render(p, voice, order.index(p["slug"]))
         except (subprocess.CalledProcessError, OSError, KeyError, ValueError) as err:
             print(f"  ! fallo: {err}")
             continue
