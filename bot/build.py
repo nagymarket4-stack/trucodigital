@@ -94,7 +94,7 @@ a{color:var(--link)}img{max-width:100%;height:auto;display:block}
 .top{position:sticky;top:0;z-index:20;background:var(--hdr);backdrop-filter:saturate(1.6) blur(14px);-webkit-backdrop-filter:saturate(1.6) blur(14px);border-bottom:1px solid var(--line)}
 .top .wrap{display:flex;align-items:center;gap:20px;height:64px}
 .logo{display:flex;align-items:center;gap:10px;font-weight:800;font-size:21px;color:var(--fg);text-decoration:none;letter-spacing:-.03em;white-space:nowrap}
-.logo i{width:34px;height:34px;border-radius:10px;background:linear-gradient(135deg,var(--brand),var(--brand2));display:grid;place-items:center;color:#fff;font-style:normal;font-size:19px;box-shadow:0 6px 16px rgba(255,77,109,.35)}
+.logo img{width:34px;height:34px;filter:drop-shadow(0 6px 12px rgba(255,77,109,.35))}.logo i{width:34px;height:34px;border-radius:10px;background:linear-gradient(135deg,var(--brand),var(--brand2));display:grid;place-items:center;color:#fff;font-style:normal;font-size:19px;box-shadow:0 6px 16px rgba(255,77,109,.35)}
 .logo b{background:linear-gradient(90deg,var(--brand),var(--brand2));-webkit-background-clip:text;background-clip:text;color:transparent}
 .nav{display:flex;gap:4px;overflow-x:auto;scrollbar-width:none;flex:1}.nav::-webkit-scrollbar{display:none}
 .nav a{color:var(--muted);text-decoration:none;white-space:nowrap;font-size:14.5px;font-weight:600;padding:7px 12px;border-radius:999px}
@@ -279,6 +279,7 @@ def head(title: str, desc: str, path: str, *, og_type="website", jsonld: list | 
         f'<link rel="alternate" type="application/rss+xml" title="{e(SITE["name"])}" href="{u("/feed.xml")}">',
         f'<link rel="icon" href="{u("/favicon.svg")}" type="image/svg+xml">',
         f'<link rel="manifest" href="{u("/manifest.webmanifest")}">',
+        f'<link rel="apple-touch-icon" href="{u("/apple-touch-icon.png")}">',
         f'<link rel="preload" href="{u("/webfonts/Poppins-ExtraBold.woff2")}" as="font" type="font/woff2" crossorigin>',
         THEME_JS,
         f"<style>{css}</style>",
@@ -303,7 +304,7 @@ def head(title: str, desc: str, path: str, *, og_type="website", jsonld: list | 
 def logo_html() -> str:
     name = SITE["name"]
     split = 5 if len(name) > 5 else len(name)
-    return f'<a class="logo" href="{u("/")}"><i>{e(name[0])}</i><span>{e(name[:split])}<b>{e(name[split:])}</b></span></a>'
+    return f'<a class="logo" href="{u("/")}"><img src="{u("/favicon.svg")}" alt="" width="34" height="34"><span>{e(name[:split])}<b>{e(name[split:])}</b></span></a>'
 
 
 def header_html(active: str = "") -> str:
@@ -377,7 +378,7 @@ def card(p: dict) -> str:
 def org_ld() -> dict:
     same = [url for _, url in socials()]
     return {"@type": "Organization", "name": SITE["name"], "url": BASE_URL + "/", "sameAs": same,
-            "logo": absu("/favicon.svg")}
+            "logo": absu("/logo-512.png")}
 
 
 def share_html(p: dict) -> str:
@@ -625,7 +626,8 @@ def build_feeds(posts: list[dict]) -> None:
         (PUBLIC_DIR / "CNAME").write_text(host + "\n", encoding="utf-8")  # dominio propio en GitHub Pages
     manifest = {"name": SITE["name"], "short_name": SITE["name"], "start_url": u("/"), "display": "standalone",
                 "background_color": "#0b0c14", "theme_color": "#ff4d6d", "lang": SITE["language"],
-                "icons": [{"src": u("/favicon.svg"), "sizes": "any", "type": "image/svg+xml"}]}
+                "icons": [{"src": u("/favicon.svg"), "sizes": "any", "type": "image/svg+xml"},
+                          {"src": u("/logo-512.png"), "sizes": "512x512", "type": "image/png"}]}
     (PUBLIC_DIR / "manifest.webmanifest").write_text(json.dumps(manifest, ensure_ascii=False), encoding="utf-8")
 
 
