@@ -72,18 +72,58 @@
     "google fotos"
   ],
   "short": {
-    "title": "Tu móvil está lleno y NO son las fotos: libera gigas en 1 minuto",
-    "hook": "Tu móvil dice que está lleno. Y no, no son tus fotos.",
+    "title": "Tu móvil está lleno y NO son las fotos 😱 Libera gigas en 1 minuto",
+    "hook": "¿Móvil lleno? El culpable no son tus fotos.",
+    "hook_emoji": "😱",
+    "hook_broll_query": "frustrated person phone",
     "lines": [
-      "Entra en Ajustes y abre Almacenamiento.",
-      "Verás que WhatsApp ocupa más que tu galería.",
-      "En WhatsApp, ve a Administrar almacenamiento.",
-      "Borra los vídeos reenviados y los archivos grandes.",
-      "Desactiva la descarga automática de vídeos.",
-      "Después, borra la caché de Instagram y TikTok.",
-      "Y sube tus fotos a la nube para liberar la copia local."
+      {
+        "text": "Entra en Ajustes y abre Almacenamiento.",
+        "emoji": "⚙️",
+        "ui_path": [
+          "Ajustes",
+          "Almacenamiento"
+        ],
+        "broll_query": "smartphone settings"
+      },
+      {
+        "text": "Mira: WhatsApp ocupa más que tu galería.",
+        "emoji": "💬",
+        "ui_path": [],
+        "broll_query": "texting on phone"
+      },
+      {
+        "text": "En WhatsApp ve a Administrar almacenamiento.",
+        "emoji": "",
+        "ui_path": [
+          "WhatsApp",
+          "Ajustes",
+          "Almacenamiento y datos",
+          "Administrar almacenamiento"
+        ],
+        "broll_query": "phone screen scrolling"
+      },
+      {
+        "text": "Borra los vídeos reenviados y los archivos grandes.",
+        "emoji": "🗑️",
+        "ui_path": [],
+        "broll_query": "deleting files phone"
+      },
+      {
+        "text": "Quita la descarga automática de vídeos.",
+        "emoji": "🚫",
+        "ui_path": [],
+        "broll_query": "person using smartphone"
+      },
+      {
+        "text": "Y sube tus fotos a la nube para liberar espacio.",
+        "emoji": "☁️",
+        "ui_path": [],
+        "broll_query": "cloud sky"
+      }
     ],
-    "cta": "Tienes la guía completa paso a paso en nuestra web.",
+    "cta": "Guía completa en el enlace. Sígueme para más trucos.",
+    "cta_emoji": "👉",
     "hashtags": [
       "trucos",
       "movil",
@@ -96,5 +136,17 @@
     "file": "videos/como-liberar-espacio-en-el-movil-sin-borrar-fotos.mp4",
     "youtube_id": null,
     "tiktok_publish_id": null
-  }
+  },
+  "products": [
+    {
+      "name": "Tarjeta microSD de 256 GB",
+      "reason": "Si tu Android tiene ranura, amplía el espacio para fotos y vídeos sin tocar la memoria interna.",
+      "search_query": "tarjeta microsd 256gb"
+    },
+    {
+      "name": "Memoria USB-C doble para móvil",
+      "reason": "Copia fotos del móvil sin ordenador y libéralas del teléfono con total seguridad.",
+      "search_query": "memoria usb c doble movil"
+    }
+  ]
 }

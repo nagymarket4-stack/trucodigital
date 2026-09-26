@@ -2,7 +2,7 @@
   "site": {
     "name": "TrucoDigital",
     "tagline": "Trucos de móvil, apps e IA explicados fácil",
-    "url": "https://TU-USUARIO.github.io/trucodigital",
+    "url": "https://nagymarket4-stack.github.io/trucodigital",
     "language": "es",
     "locale": "es_ES",
     "author": "Equipo TrucoDigital",
@@ -43,11 +43,16 @@
     "piper_voice": "es_ES-davefx-medium",
     "width": 1080,
     "height": 1920,
-    "max_seconds": 58
+    "max_seconds": 58,
+    "music_volume": 0.14,
+    "speech_rate": 0.9
   },
   "upload": {
     "youtube": true,
     "youtube_privacy": "public",
     "tiktok": true
+  },
+  "affiliate": {
+    "amazon_tag": ""
   }
 }

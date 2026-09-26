@@ -1,0 +1,223 @@
+{
+ "$defs": {
+  "FAQ": {
+   "properties": {
+    "question": {
+     "title": "Question",
+     "type": "string"
+    },
+    "answer": {
+     "title": "Answer",
+     "type": "string"
+    }
+   },
+   "required": [
+    "question",
+    "answer"
+   ],
+   "title": "FAQ",
+   "type": "object"
+  },
+  "Product": {
+   "properties": {
+    "name": {
+     "title": "Name",
+     "type": "string"
+    },
+    "reason": {
+     "title": "Reason",
+     "type": "string"
+    },
+    "search_query": {
+     "title": "Search Query",
+     "type": "string"
+    }
+   },
+   "required": [
+    "name",
+    "reason",
+    "search_query"
+   ],
+   "title": "Product",
+   "type": "object"
+  },
+  "Section": {
+   "properties": {
+    "heading": {
+     "title": "Heading",
+     "type": "string"
+    },
+    "body_markdown": {
+     "title": "Body Markdown",
+     "type": "string"
+    }
+   },
+   "required": [
+    "heading",
+    "body_markdown"
+   ],
+   "title": "Section",
+   "type": "object"
+  },
+  "ShortLine": {
+   "properties": {
+    "text": {
+     "title": "Text",
+     "type": "string"
+    },
+    "emoji": {
+     "title": "Emoji",
+     "type": "string"
+    },
+    "ui_path": {
+     "items": {
+      "type": "string"
+     },
+     "title": "Ui Path",
+     "type": "array"
+    },
+    "broll_query": {
+     "title": "Broll Query",
+     "type": "string"
+    }
+   },
+   "required": [
+    "text",
+    "emoji",
+    "ui_path",
+    "broll_query"
+   ],
+   "title": "ShortLine",
+   "type": "object"
+  },
+  "ShortScript": {
+   "properties": {
+    "title": {
+     "title": "Title",
+     "type": "string"
+    },
+    "hook": {
+     "title": "Hook",
+     "type": "string"
+    },
+    "hook_emoji": {
+     "title": "Hook Emoji",
+     "type": "string"
+    },
+    "hook_broll_query": {
+     "title": "Hook Broll Query",
+     "type": "string"
+    },
+    "lines": {
+     "items": {
+      "$ref": "#/$defs/ShortLine"
+     },
+     "title": "Lines",
+     "type": "array"
+    },
+    "cta": {
+     "title": "Cta",
+     "type": "string"
+    },
+    "cta_emoji": {
+     "title": "Cta Emoji",
+     "type": "string"
+    },
+    "hashtags": {
+     "items": {
+      "type": "string"
+     },
+     "title": "Hashtags",
+     "type": "array"
+    }
+   },
+   "required": [
+    "title",
+    "hook",
+    "hook_emoji",
+    "hook_broll_query",
+    "lines",
+    "cta",
+    "cta_emoji",
+    "hashtags"
+   ],
+   "title": "ShortScript",
+   "type": "object"
+  }
+ },
+ "properties": {
+  "title": {
+   "title": "Title",
+   "type": "string"
+  },
+  "seo_title": {
+   "title": "Seo Title",
+   "type": "string"
+  },
+  "meta_description": {
+   "title": "Meta Description",
+   "type": "string"
+  },
+  "category": {
+   "title": "Category",
+   "type": "string"
+  },
+  "intro_markdown": {
+   "title": "Intro Markdown",
+   "type": "string"
+  },
+  "key_takeaways": {
+   "items": {
+    "type": "string"
+   },
+   "title": "Key Takeaways",
+   "type": "array"
+  },
+  "sections": {
+   "items": {
+    "$ref": "#/$defs/Section"
+   },
+   "title": "Sections",
+   "type": "array"
+  },
+  "faq": {
+   "items": {
+    "$ref": "#/$defs/FAQ"
+   },
+   "title": "Faq",
+   "type": "array"
+  },
+  "tags": {
+   "items": {
+    "type": "string"
+   },
+   "title": "Tags",
+   "type": "array"
+  },
+  "products": {
+   "items": {
+    "$ref": "#/$defs/Product"
+   },
+   "title": "Products",
+   "type": "array"
+  },
+  "short": {
+   "$ref": "#/$defs/ShortScript"
+  }
+ },
+ "required": [
+  "title",
+  "seo_title",
+  "meta_description",
+  "category",
+  "intro_markdown",
+  "key_takeaways",
+  "sections",
+  "faq",
+  "tags",
+  "products",
+  "short"
+ ],
+ "title": "Article",
+ "type": "object"
+}

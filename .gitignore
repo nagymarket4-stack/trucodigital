@@ -4,3 +4,5 @@ data/voices/
 __pycache__/
 bot/client_secret.json
 .env
+data/emoji/
+data/drafts/

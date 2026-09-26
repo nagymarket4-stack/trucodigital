@@ -5,6 +5,7 @@ SEO incluido: títulos/metas únicos, canonical, Open Graph, Twitter cards, JSON
 robots.txt, RSS, enlazado interno por categoría y relacionados, ads.txt y páginas legales.
 """
 import datetime as dt
+import hashlib
 import html
 import json
 import re
@@ -15,11 +16,13 @@ from urllib.parse import urlparse
 import markdown
 
 from common import CONFIG, PUBLIC_DIR, ROOT, load_posts
+from images import cover
 
 SITE = CONFIG["site"]
 CATS = CONFIG["categories"]
 ADS = CONFIG["adsense"]
 AN = CONFIG["analytics"]
+AMZ = CONFIG.get("affiliate", {})
 BASE_URL = SITE["url"].rstrip("/")
 BASE_PATH = urlparse(BASE_URL).path.rstrip("/")  # "" con dominio propio, "/repo" en github.io
 YEAR = dt.date.today().year
@@ -88,6 +91,15 @@ aside .box{background:var(--card);border:1px solid var(--line);border-radius:14p
 aside ul{padding-left:18px;margin:0}aside li{margin:8px 0;font-size:15px;line-height:1.4}
 .ad{margin:28px 0;min-height:90px}
 blockquote{margin:16px 0;padding:12px 18px;border-left:4px solid #f0b429;background:var(--card);border-radius:8px}blockquote p{margin:0}
+.hero-img{width:100%;height:auto;aspect-ratio:1200/630;border-radius:16px;margin:14px 0 6px;display:block}
+.card img{width:100%;height:auto;aspect-ratio:1200/630;border-radius:10px;display:block}
+.shop{background:var(--card);border:2px solid var(--accent);border-radius:14px;padding:16px 20px;margin:28px 0}
+.shop h2{margin:0 0 6px;font-size:21px}.shop li{margin:10px 0}.shop a.btn{display:inline-block;background:#ff9900;color:#111;font-weight:700;padding:4px 12px;border-radius:8px;text-decoration:none;font-size:14px;margin-left:6px}
+.shop small{color:var(--muted)}
+.follow{display:flex;gap:10px;flex-wrap:wrap;align-items:center;background:var(--soft);border-radius:14px;padding:14px 18px;margin:24px 0}
+.follow a{background:var(--fg);color:var(--bg);padding:8px 14px;border-radius:999px;text-decoration:none;font-weight:700;font-size:14px}
+.search{margin-left:auto;font-size:14px;color:var(--muted);text-decoration:none}
+#q{width:100%;font-size:18px;padding:14px 16px;border-radius:12px;border:1px solid var(--line);background:var(--card);color:var(--fg)}
 .crumbs{font-size:13px;color:var(--muted)}.crumbs a{color:var(--muted)}
 .pager{display:flex;gap:10px;justify-content:center;padding-bottom:40px}.pager a{padding:8px 14px;border:1px solid var(--line);border-radius:8px;text-decoration:none}
 footer{border-top:1px solid var(--line);padding:28px 0;font-size:14px;color:var(--muted)}footer a{color:var(--muted);margin-right:14px}
@@ -96,8 +108,9 @@ footer{border-top:1px solid var(--line);padding:28px 0;font-size:14px;color:var(
 
 
 def head(title: str, desc: str, path: str, *, og_type="website", jsonld: list | None = None,
-         noindex=False, extra="") -> str:
+         noindex=False, extra="", image: str | None = None) -> str:
     canonical = absu(path)
+    image = image or absu("/img/og-default.jpg")
     tags = [
         '<meta charset="utf-8">',
         '<meta name="viewport" content="width=device-width,initial-scale=1">',
@@ -112,6 +125,9 @@ def head(title: str, desc: str, path: str, *, og_type="website", jsonld: list | 
         f'<meta property="og:description" content="{e(desc)}">',
         f'<meta property="og:url" content="{canonical}">',
         '<meta name="twitter:card" content="summary_large_image">',
+        f'<meta property="og:image" content="{image}">',
+        '<meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">',
+        f'<meta name="twitter:image" content="{image}">',
         f'<link rel="alternate" type="application/rss+xml" title="{e(SITE["name"])}" href="{u("/feed.xml")}">',
         f'<link rel="icon" href="{u("/favicon.svg")}" type="image/svg+xml">',
         f"<style>{CSS}</style>",
@@ -135,7 +151,7 @@ def header_html() -> str:
     links = "".join(f'<a href="{u(f"/categoria/{k}/")}">{e(v)}</a>' for k, v in CATS.items())
     name = SITE["name"]
     logo = f'{e(name[:5])}<b>{e(name[5:])}</b>' if len(name) > 5 else e(name)
-    return f'<header class="top"><div class="wrap"><a class="logo" href="{u("/")}">{logo}</a><nav class="cats">{links}</nav></div></header>'
+    return f'<header class="top"><div class="wrap"><a class="logo" href="{u("/")}">{logo}</a><nav class="cats">{links}</nav><a class="search" href="{u("/buscar/")}">🔎 Buscar</a></div></header>'
 
 
 def footer_html() -> str:
@@ -174,7 +190,8 @@ def write(path: str, content: str) -> None:
 
 
 def card(p: dict) -> str:
-    return (f'<div class="card"><a class="pill" href="{u(f"/categoria/{p["category"]}/")}">{e(CATS.get(p["category"], p["category"]))}</a>'
+    img = f'<a href="{u(f"/{p["slug"]}/")}" tabindex="-1"><img src="{u(f"/img/{p["slug"]}.jpg")}" alt="" width="1200" height="630" loading="lazy" decoding="async"></a>'
+    return (f'<div class="card">{img}<a class="pill" href="{u(f"/categoria/{p["category"]}/")}">{e(CATS.get(p["category"], p["category"]))}</a>'
             f'<a class="t" href="{u(f"/{p["slug"]}/")}">{e(p["title"])}</a>'
             f'<p>{e(p["meta_description"])}</p><span class="meta">{human_date(p["date"])}</span></div>')
 
@@ -198,6 +215,20 @@ def build_article(p: dict, posts: list[dict]) -> None:
     vid = p.get("video", {}).get("youtube_id")
     video_html = (f'<div class="video"><iframe loading="lazy" src="https://www.youtube-nocookie.com/embed/{vid}" '
                   f'title="{e(p["short"]["title"])}" allowfullscreen></iframe></div>') if vid else ""
+    img_url = absu(f"/img/{p['slug']}.jpg")
+    products = p.get("products") or []
+    shop_html = ""
+    if products and AMZ.get("amazon_tag"):
+        items = "".join(
+            f'<li><strong>{e(x["name"])}</strong>: {e(x["reason"])} '
+            f'<a class="btn" rel="sponsored nofollow noopener" target="_blank" '
+            f'href="https://www.amazon.es/s?k={e(x["search_query"].replace(" ", "+"))}&amp;tag={e(AMZ["amazon_tag"])}">Ver precios</a></li>'
+            for x in products)
+        shop_html = (f'<section class="shop"><h2>Lo que te puede ayudar</h2><ul>{items}</ul>'
+                     '<small>Enlaces de afiliado: si compras, recibimos una pequeña comisión sin coste para ti.</small></section>')
+    follow = "".join(f'<a href="{url}" rel="noopener" target="_blank">{name}</a>' for name, url in
+                     (("▶ YouTube", SITE.get("youtube_channel_url")), ("♪ TikTok", SITE.get("tiktok_url"))) if url)
+    follow_html = f'<div class="follow"><strong>¿Prefieres verlo en 30 segundos?</strong>{follow}</div>' if follow else ""
     faq_html = "".join(f"<details><summary>{e(f['question'])}</summary>{md(f['answer'])}</details>" for f in p["faq"])
     takeaways = "".join(f"<li>{e(t)}</li>" for t in p["key_takeaways"])
 
@@ -211,7 +242,7 @@ def build_article(p: dict, posts: list[dict]) -> None:
          "description": p["meta_description"], "datePublished": p["date"], "dateModified": p.get("updated", p["date"]),
          "inLanguage": SITE["language"], "mainEntityOfPage": absu(path), "keywords": ", ".join(p["tags"]),
          "author": {"@type": "Organization", "name": SITE["author"], "url": absu("/sobre-nosotros/")},
-         "publisher": org_ld()},
+         "image": [img_url], "publisher": org_ld()},
         {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [
             {"@type": "Question", "name": f["question"], "acceptedAnswer": {"@type": "Answer", "text": f["answer"]}}
             for f in p["faq"]]},
@@ -230,16 +261,19 @@ def build_article(p: dict, posts: list[dict]) -> None:
 <div class="crumbs"><a href="{u('/')}">Inicio</a> › <a href="{u(f'/categoria/{p["category"]}/')}">{e(cat)}</a></div>
 <h1>{e(p['title'])}</h1>
 <div class="meta">Por {e(SITE['author'])} · Actualizado el {human_date(p.get('updated', p['date']))} · {max(1, p.get('words', 900) // 220)} min de lectura</div>
+<img class="hero-img" src="{u(f"/img/{p['slug']}.jpg")}" alt="{e(p['title'])}" width="1200" height="630" fetchpriority="high">
 {md(p['intro_markdown'])}
 <div class="tldr"><strong>En resumen</strong><ul>{takeaways}</ul></div>
 {video_html}
 <nav class="toc"><strong>Contenido</strong><ol>{toc}</ol></nav>
 {''.join(body_parts)}
+{shop_html}
 <h2 id="preguntas-frecuentes">Preguntas frecuentes</h2>{faq_html}
+{follow_html}
 {ad_unit()}
 </article>
 <aside>{f'<div class="box"><strong>Te puede interesar</strong><ul>{rel_html}</ul></div>' if rel_html else ""}</aside></div>"""
-    write(path, page(head(p["seo_title"], p["meta_description"], path, og_type="article", jsonld=ld,
+    write(path, page(head(p["seo_title"], p["meta_description"], path, og_type="article", jsonld=ld, image=img_url,
                           extra=f'<meta property="article:published_time" content="{p["date"]}">'), body))
 
 
@@ -299,8 +333,12 @@ def build_feeds(posts: list[dict]) -> None:
     urls += [(absu(f"/categoria/{k}/"), today, "daily") for k in CATS]
     urls += [(absu(f"/{p['slug']}/"), p.get("updated", p["date"])[:10], "monthly") for p in posts]
     urls += [(absu(p), "2026-01-01", "yearly") for p in ("/sobre-nosotros/", "/contacto/")]
-    sm = ['<?xml version="1.0" encoding="UTF-8"?>', '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']
-    sm += [f"<url><loc>{e(l)}</loc><lastmod>{m}</lastmod><changefreq>{c}</changefreq></url>" for l, m, c in urls]
+    imgs = {absu(f"/{p['slug']}/"): absu(f"/img/{p['slug']}.jpg") for p in posts}
+    sm = ['<?xml version="1.0" encoding="UTF-8"?>', '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" '
+          'xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">']
+    sm += [f"<url><loc>{e(l)}</loc><lastmod>{m}</lastmod><changefreq>{c}</changefreq>"
+           + (f"<image:image><image:loc>{imgs[l]}</image:loc></image:image>" if l in imgs else "") + "</url>"
+           for l, m, c in urls]
     sm.append("</urlset>")
     (PUBLIC_DIR / "sitemap.xml").write_text("\n".join(sm), encoding="utf-8")
 
@@ -319,20 +357,57 @@ def build_feeds(posts: list[dict]) -> None:
         (PUBLIC_DIR / "ads.txt").write_text(f"google.com, {pub}, DIRECT, f08c47fec0942fa0\n", encoding="utf-8")
 
 
+def indexnow_key() -> str:
+    return hashlib.sha256(BASE_URL.encode()).hexdigest()[:32]
+
+
+SEARCH_JS = """<script>
+const norm=s=>s.toLowerCase().normalize('NFD').replace(/[\\u0300-\\u036f]/g,'');
+let data=[];const q=document.getElementById('q'),out=document.getElementById('res');
+const esc=s=>s.replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+function run(){const v=norm(q.value.trim());if(!v){out.innerHTML='';return}
+const terms=v.split(/\\s+/);const hits=data.map(p=>{const h=norm(p.t+' '+p.k+' '+p.d);let s=0;
+for(const t of terms){if(!h.includes(t))return null;s+=norm(p.t).includes(t)?3:1}return[s,p]}).filter(Boolean)
+.sort((a,b)=>b[0]-a[0]).slice(0,30);
+out.innerHTML=hits.length?hits.map(([,p])=>'<div class="card"><a class="t" href="'+p.u+'">'+esc(p.t)+'</a><p>'+esc(p.d)+'</p></div>').join(''):'<p>Sin resultados. Prueba con otras palabras.</p>'}
+fetch('SEARCH_URL').then(r=>r.json()).then(d=>{data=d;const p=new URLSearchParams(location.search).get('q');if(p){q.value=p}run()});
+q.addEventListener('input',run);
+</script>"""
+
+
+def build_search(posts: list[dict]) -> None:
+    index = [{"t": p["title"], "d": p["meta_description"], "u": u(f"/{p['slug']}/"),
+              "k": " ".join(p.get("tags", []) + [p.get("keyword", "")])} for p in posts]
+    (PUBLIC_DIR / "search.json").write_text(json.dumps(index, ensure_ascii=False), encoding="utf-8")
+    body = ('<div class="wrap"><section class="hero"><h1>Buscar</h1></section>'
+            '<input id="q" type="search" placeholder="Ej.: batería, WhatsApp, wifi..." autofocus>'
+            f'<div class="grid" id="res"></div></div>{SEARCH_JS.replace("SEARCH_URL", u("/search.json"))}')
+    write("/buscar/", page(head(f"Buscar | {SITE['name']}", "Busca entre todas nuestras guías.", "/buscar/",
+                                noindex=True), body))
+
+
 def main() -> None:
     if PUBLIC_DIR.exists():
         shutil.rmtree(PUBLIC_DIR)
     PUBLIC_DIR.mkdir()
     static = ROOT / "static"
     if static.exists():
-        shutil.copytree(static, PUBLIC_DIR, dirs_exist_ok=True)
+        shutil.copytree(static, PUBLIC_DIR, dirs_exist_ok=True, ignore=shutil.ignore_patterns("fonts"))
 
     posts = load_posts()
     for p in posts:
+        cover(p, PUBLIC_DIR / "img" / f"{p['slug']}.jpg")
         build_article(p, posts)
+    cover({"slug": "og-default", "title": f"{SITE['name']}: {SITE['tagline']}", "category": next(iter(CATS)),
+           "short": {"hook_emoji": "📱"}}, PUBLIC_DIR / "img" / "og-default.jpg")
+    build_search(posts)
+    key = indexnow_key()
+    (PUBLIC_DIR / f"{key}.txt").write_text(key, encoding="utf-8")
 
     site_ld = [{"@context": "https://schema.org", "@type": "WebSite", "name": SITE["name"], "url": BASE_URL + "/",
-                "inLanguage": SITE["language"]}, {"@context": "https://schema.org", **org_ld()}]
+                "inLanguage": SITE["language"], "potentialAction": {
+                    "@type": "SearchAction", "target": absu("/buscar/") + "?q={search_term_string}",
+                    "query-input": "required name=search_term_string"}}, {"@context": "https://schema.org", **org_ld()}]
     build_listing("/", f"{SITE['name']} – {SITE['tagline']}", SITE["tagline"],
                   "Guías paso a paso para resolver problemas reales con tu móvil, tu ordenador y la inteligencia artificial.",
                   posts, jsonld=site_ld)

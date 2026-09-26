@@ -6,11 +6,11 @@ on:
   workflow_dispatch:
     inputs:
       articles:
-        description: "Nº de artículos a generar (0 = solo reconstruir la web)"
+        description: "Nº de artículos a generar con la API (0 = solo vídeos, subidas y web)"
         default: "5"
   push:
     branches: [main]
-    paths: ["content/**", "bot/build.py", "config.json", "static/**"]
+    paths: ["content/**", "bot/**", "config.json", "static/**", ".github/workflows/**"]
 
 permissions:
   contents: write
@@ -24,10 +24,12 @@ concurrency:
 jobs:
   run:
     runs-on: ubuntu-latest
-    timeout-minutes: 60
+    timeout-minutes: 90
     env:
       PYTHONUTF8: "1"
+      SITE_URL: ${{ vars.SITE_URL }}
       ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+      PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
       YT_CLIENT_ID: ${{ secrets.YT_CLIENT_ID }}
       YT_CLIENT_SECRET: ${{ secrets.YT_CLIENT_SECRET }}
       YT_REFRESH_TOKEN: ${{ secrets.YT_REFRESH_TOKEN }}
@@ -46,36 +48,32 @@ jobs:
 
       - uses: actions/cache@v4
         with:
-          path: data/voices
-          key: piper-voices-v1
+          path: |
+            data/voices
+            data/emoji
+          key: media-cache-v1-${{ github.run_id }}
+          restore-keys: media-cache-v1-
 
-      - name: Pipeline completo (artículos, vídeos, subidas, web)
-        if: github.event_name != 'push'
+      - name: Generar artículos (API de Claude)
+        if: github.event_name != 'push' && github.event.inputs.articles != '0'
+        run: python bot/generate.py ${{ github.event.inputs.articles || '' }} || echo "::warning::generación con fallos"
+
+      - name: Vídeos, subidas y web
         run: |
-          N="${{ github.event.inputs.articles }}"
-          if [ "$N" = "0" ]; then
-            python bot/video.py; python bot/upload_youtube.py; python bot/upload_tiktok.py; python bot/build.py
-          else
-            sed -i "s/\"articles_per_day\": [0-9]*/\"articles_per_day\": ${N:-5}/" config.json
-            python bot/pipeline.py
-            git checkout config.json
-          fi
+          python bot/video.py || echo "::warning::vídeo con fallos"
+          python bot/upload_youtube.py || echo "::warning::YouTube con fallos"
+          python bot/upload_tiktok.py || echo "::warning::TikTok con fallos"
+          python bot/build.py
 
-      - name: Solo reconstruir la web
-        if: github.event_name == 'push'
-        run: python bot/build.py
-
-      - name: Guardar artículos nuevos en el repo
-        if: github.event_name != 'push'
+      - name: Guardar estado en el repo
         run: |
           git config user.name "autopiloto-bot"
           git config user.email "autopiloto-bot@users.noreply.github.com"
           git add content data/keywords.txt data/keywords_used.txt
           git diff --cached --quiet || git commit -m "contenido: $(date -u +%F) [skip ci]"
-          git push
+          git pull --rebase --autostash && git push
 
       - name: Vídeos del día (descargables)
-        if: github.event_name != 'push'
         uses: actions/upload-artifact@v4
         with:
           name: shorts-${{ github.run_number }}
@@ -96,3 +94,16 @@ jobs:
     steps:
       - id: deployment
         uses: actions/deploy-pages@v4
+
+  indexnow:
+    needs: deploy
+    runs-on: ubuntu-latest
+    env:
+      PYTHONUTF8: "1"
+      SITE_URL: ${{ vars.SITE_URL }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install markdown pillow requests && python bot/indexnow.py

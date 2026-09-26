@@ -4,6 +4,7 @@ Cada artículo incluye además el guion de un YouTube Short / TikTok.
 Si la cola baja del mínimo, Claude propone nuevas keywords long-tail.
 """
 import datetime as dt
+import os
 import sys
 
 import anthropic
@@ -12,7 +13,7 @@ from pydantic import BaseModel
 from common import (CONFIG, KEYWORDS_FILE, USED_KEYWORDS_FILE, load_posts,
                     read_lines, save_post, slugify, write_lines)
 
-client = anthropic.Anthropic()
+client: anthropic.Anthropic | None = None  # se crea en main() solo si hay clave
 GEN = CONFIG["generation"]
 SITE = CONFIG["site"]
 CATEGORIES = CONFIG["categories"]
@@ -28,12 +29,28 @@ class FAQ(BaseModel):
     answer: str
 
 
+class ShortLine(BaseModel):
+    text: str
+    emoji: str
+    ui_path: list[str]
+    broll_query: str
+
+
 class ShortScript(BaseModel):
     title: str
     hook: str
-    lines: list[str]
+    hook_emoji: str
+    hook_broll_query: str
+    lines: list[ShortLine]
     cta: str
+    cta_emoji: str
     hashtags: list[str]
+
+
+class Product(BaseModel):
+    name: str
+    reason: str
+    search_query: str
 
 
 class Article(BaseModel):
@@ -46,6 +63,7 @@ class Article(BaseModel):
     sections: list[Section]
     faq: list[FAQ]
     tags: list[str]
+    products: list[Product]
     short: ShortScript
 
 
@@ -72,9 +90,21 @@ y las de contenido útil de Google):
 - Enlaza internamente (formato markdown [texto](/slug/)) a 1-3 artículos relacionados de la lista
   que te dé, solo si son realmente relevantes. Nunca inventes URLs internas.
 
-El guion del Short (vertical, ~40-50 s narrado) debe enganchar en el primer segundo con un hook,
-dar el truco en 5-8 frases muy cortas (máx. 14 palabras cada una) y cerrar con una llamada a la acción
-a leer la guía completa en la web. Sin emojis en las frases (se leen en voz alta)."""
+GUION DEL SHORT (YouTube Shorts / TikTok, vertical, 25-45 s narrado por voz sintética):
+- hook: máx. 10 palabras. Debe parar el scroll en el primer segundo: una pregunta que duela, un error
+  común o una promesa concreta ("¿Móvil lleno? El culpable no son tus fotos."). Nada de "Hola" ni "Hoy te enseño".
+- lines: 4-7 pasos, cada text de máx. 12 palabras, en imperativo, concretos y en orden. Ritmo rápido.
+  Sin emojis ni símbolos dentro de text (se leen en voz alta). Escribe los números con cifras.
+- emoji: un único emoji que represente visualmente el paso (⚙️ ajustes, 💬 WhatsApp, 🔋 batería, 🔒 seguridad...).
+- ui_path: si el paso consiste en navegar menús, la ruta tal y como aparece en pantalla, 2-4 elementos cortos
+  (["Ajustes", "Batería", "Ahorro de energía"]). Si no es navegación, lista vacía. Úsalo en al menos 2 pasos.
+- broll_query: 2-4 palabras EN INGLÉS para buscar vídeo de stock que ilustre el paso ("woman using smartphone").
+- cta: invita a la guía completa del enlace del perfil y a seguir la cuenta, máx. 14 palabras.
+- title: máx. 70 caracteres + 1 emoji al final, curiosidad sin mentir.
+
+PRODUCTOS (products): 0-3 productos físicos que de verdad ayuden a resolver el problema del artículo
+(cargador, power bank, tarjeta microSD, router wifi mesh, funda...). name genérico sin marca inventada,
+reason en 1 frase útil y search_query de 2-5 palabras para buscar en Amazon España. Si no encaja ninguno, lista vacía."""
 
 
 def generate_article(keyword: str, existing: list[dict]) -> Article | None:
@@ -88,8 +118,7 @@ meta_description: 140-155 caracteres, con beneficio claro.
 key_takeaways: 3-5 puntos de resumen.
 faq: 3-5 preguntas reales que la gente busca sobre el tema.
 tags: 3-6 etiquetas cortas en minúscula.
-short.title: máx. 90 caracteres, atractivo, sin clickbait engañoso.
-short.hashtags: 3-5 hashtags sin '#'.
+short.hashtags: 3-5 hashtags sin '#', en minúscula.
 
 Artículos ya publicados para enlazado interno:
 {related}"""
@@ -140,6 +169,11 @@ No repitas ni parafrasees ninguna de estas:
 
 
 def main() -> int:
+    global client
+    if not os.environ.get("ANTHROPIC_API_KEY"):
+        print("Sin ANTHROPIC_API_KEY: se omite la generación (el cerebro local puede subir artículos por git)")
+        return 0
+    client = anthropic.Anthropic()
     n = int(sys.argv[1]) if len(sys.argv) > 1 else GEN["articles_per_day"]
     queue = read_lines(KEYWORDS_FILE)
     used = read_lines(USED_KEYWORDS_FILE)

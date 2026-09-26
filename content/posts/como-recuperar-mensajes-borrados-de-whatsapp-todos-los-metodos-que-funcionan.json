@@ -1,0 +1,144 @@
+{
+  "slug": "como-recuperar-mensajes-borrados-de-whatsapp-todos-los-metodos-que-funcionan",
+  "keyword": "cómo recuperar mensajes borrados de WhatsApp",
+  "date": "2026-09-26T13:35:28+00:00",
+  "updated": "2026-09-26T13:35:28+00:00",
+  "draft": false,
+  "words": 878,
+  "title": "Cómo recuperar mensajes borrados de WhatsApp: todos los métodos que funcionan",
+  "seo_title": "Recuperar mensajes borrados de WhatsApp: 5 métodos",
+  "meta_description": "¿Borraste un chat de WhatsApp o alguien eliminó un mensaje? Te explicamos qué se puede recuperar, cómo hacerlo en Android e iPhone y qué es un timo.",
+  "category": "whatsapp",
+  "intro_markdown": "Borrar un chat por error, cambiar de móvil sin copia o ver el aviso **«Se eliminó este mensaje»** son de los sustos más habituales con WhatsApp. La buena noticia: en muchos casos **sí hay forma de recuperar los mensajes**. La mala: depende de si existe una copia de seguridad y de quién borró el mensaje.\n\nEn esta guía verás qué se puede recuperar y qué no, los métodos oficiales en Android e iPhone ordenados de más fácil a más técnico, y por qué deberías desconfiar de las apps que prometen milagros.",
+  "key_takeaways": [
+    "Si tienes copia en Google Drive o iCloud, reinstalar WhatsApp y restaurar recupera los chats hasta la hora de esa copia.",
+    "En Android existen copias locales diarias de los últimos días que permiten volver a una fecha concreta.",
+    "Los mensajes «eliminados para todos» no se recuperan desde WhatsApp, pero el historial de notificaciones de Android puede mostrarlos.",
+    "Antes de nada, revisa los chats archivados: muchos «chats perdidos» solo están ocultos."
+  ],
+  "sections": [
+    {
+      "heading": "Antes de nada: qué se puede recuperar y qué no",
+      "body_markdown": "Conviene tener claras las reglas del juego para no perder tiempo:\n\n| Situación | ¿Se puede recuperar? | Cómo |\n|---|---|---|\n| Borraste un chat o mensajes tú mismo | Sí, si hay copia anterior al borrado | Restaurar copia de seguridad |\n| Cambiaste de móvil | Sí, si hiciste copia o transferencia | Restaurar o transferir chats |\n| Alguien usó «Eliminar para todos» | No desde WhatsApp | Historial de notificaciones (solo Android) |\n| Nunca activaste copias | Muy difícil | Copias locales de Android, si existen |\n\nWhatsApp no guarda tus mensajes en sus servidores una vez entregados: **la única fuente de recuperación son tus copias de seguridad** y lo que quede en tu propio teléfono."
+    },
+    {
+      "heading": "Paso 1: revisa los chats archivados",
+      "body_markdown": "Parece obvio, pero es la causa más frecuente de «he perdido una conversación». Un chat archivado desaparece de la lista principal.\n\n- **Android:** en la pantalla de Chats, arriba del todo aparece **Archivados**. Si no lo ves, desliza la lista hacia abajo.\n- **iPhone:** desliza hacia abajo en la lista de Chats y toca **Archivados**.\n\nPara devolverlo a la lista, mantén pulsado el chat (Android) o deslízalo a la izquierda (iPhone) y elige **Desarchivar**."
+    },
+    {
+      "heading": "Paso 2: restaura la copia de Google Drive o iCloud",
+      "body_markdown": "Es el método oficial y el que más mensajes recupera. Primero comprueba cuándo se hizo la última copia:\n\n1. Abre WhatsApp y ve a **Ajustes › Chats › Copia de seguridad**.\n2. Mira la fecha y hora de **Última copia**. Si es **anterior** al momento en que borraste los mensajes, esa copia los contiene.\n3. **No pulses «Guardar» ahora**: sobrescribirías la copia buena con la versión sin los mensajes.\n\nPara restaurar:\n\n1. Desinstala WhatsApp (en iPhone: mantén pulsado el icono › Eliminar app).\n2. Vuelve a instalarlo desde Play Store o App Store.\n3. Verifica **el mismo número de teléfono** y, en Android, usa la misma cuenta de Google de la copia.\n4. Cuando WhatsApp detecte la copia, toca **Restaurar** y espera a que termine.\n\n> Ojo: perderás los mensajes recibidos **después** de la hora de esa copia. Si son importantes, haz capturas antes de reinstalar."
+    },
+    {
+      "heading": "Paso 3 (solo Android): usa una copia local de días anteriores",
+      "body_markdown": "Además de la copia en Google Drive, WhatsApp para Android guarda **copias locales diarias** en el propio teléfono, normalmente de los últimos días. Sirven para volver a una fecha concreta si la copia de Drive ya se sobrescribió.\n\n1. Abre la app **Archivos** (o «Mis archivos») y entra en **Almacenamiento interno › Android › media › com.whatsapp › WhatsApp › Databases**.\n2. Verás archivos como `msgstore-2026-09-20.1.db.crypt14` (la fecha está en el nombre; la terminación puede variar según la versión).\n3. Elige el de la fecha que quieres y **cámbiale el nombre** a `msgstore.db.crypt14`. Antes, renombra el `msgstore.db.crypt14` actual a algo como `msgstore-actual.db.crypt14` para no perderlo.\n4. Desinstala y reinstala WhatsApp. Para que use la copia local en lugar de la de Drive, restaura **sin** acceso a esa copia de Google Drive (por ejemplo, eligiendo otra cuenta o sin conexión durante la restauración).\n\nEs un método algo más técnico: hazlo con calma y sin borrar archivos de esa carpeta."
+    },
+    {
+      "heading": "Paso 4: mensajes «eliminados para todos»: el truco del historial de notificaciones",
+      "body_markdown": "Cuando alguien borra un mensaje para todos, desaparece de tu móvil y **ninguna copia lo tendrá** si no llegó a guardarse antes. Pero en Android hay un truco legítimo: si te llegó la notificación, el sistema puede haberla guardado.\n\n1. Ve a **Ajustes › Notificaciones › Ajustes avanzados › Historial de notificaciones** (en Samsung: *Ajustes › Notificaciones › Configuración avanzada › Historial de notificaciones*).\n2. Actívalo. **Solo guarda las notificaciones a partir de ese momento**, así que conviene dejarlo encendido siempre.\n3. Cuando veas «Se eliminó este mensaje», entra en el historial: si la notificación llegó completa, verás el texto.\n\nEn **iPhone** no existe un historial equivalente: una vez borrado para todos, no hay forma oficial de verlo."
+    },
+    {
+      "heading": "Cuidado con las apps que prometen recuperarlo todo",
+      "body_markdown": "Si buscas en internet encontrarás programas y apps que aseguran recuperar cualquier mensaje borrado «sin copia». Desconfía:\n\n- **Muchas son de pago y no funcionan** con el cifrado actual de WhatsApp.\n- Algunas piden acceso total a tu móvil o a tu cuenta, un riesgo serio para tu privacidad.\n- Las que «leen» mensajes borrados para todos suelen limitarse a guardar notificaciones, lo mismo que hace Android gratis.\n\nNunca des tu código de verificación de WhatsApp a nadie ni a ninguna web: es la forma más común de robo de cuentas."
+    },
+    {
+      "heading": "Cómo no volver a perder un chat",
+      "body_markdown": "Dos minutos de configuración te ahorran el disgusto la próxima vez:\n\n1. Activa la **copia automática diaria**: *Ajustes › Chats › Copia de seguridad › Frecuencia* (Android) o *Copia automática* (iPhone) y elige **Diaria**.\n2. Incluye los vídeos solo si tienes espacio suficiente en la nube.\n3. En Android, deja activado el **historial de notificaciones**.\n4. Antes de cambiar de móvil, usa la función oficial **Transferir chats** (*Ajustes › Chats › Transferir chats*) o haz una copia manual justo antes."
+    }
+  ],
+  "faq": [
+    {
+      "question": "¿Se pueden recuperar mensajes de WhatsApp sin copia de seguridad?",
+      "answer": "En iPhone, prácticamente no. En Android existe la opción de las copias locales diarias si todavía están en el teléfono, y el historial de notificaciones si estaba activado."
+    },
+    {
+      "question": "¿WhatsApp guarda mis mensajes en sus servidores?",
+      "answer": "No. Los mensajes entregados solo quedan en los dispositivos y en tus copias de Google Drive o iCloud, por eso las copias son la clave para recuperarlos."
+    },
+    {
+      "question": "¿Puedo ver un mensaje que alguien eliminó para todos?",
+      "answer": "Desde WhatsApp no. En Android puedes verlo en el historial de notificaciones si estaba activado y la notificación mostraba el texto."
+    },
+    {
+      "question": "¿Pierdo los mensajes nuevos al restaurar una copia?",
+      "answer": "Sí, se pierden los mensajes recibidos después de la hora de esa copia. Guarda capturas de lo importante antes de reinstalar."
+    }
+  ],
+  "tags": [
+    "whatsapp",
+    "copia de seguridad",
+    "android",
+    "iphone",
+    "recuperar"
+  ],
+  "products": [],
+  "short": {
+    "title": "Así recuperas mensajes BORRADOS de WhatsApp (de verdad) 🔥",
+    "hook": "¿Borraste un chat de WhatsApp? Aún puedes recuperarlo.",
+    "hook_emoji": "😰",
+    "hook_broll_query": "worried woman looking at phone",
+    "lines": [
+      {
+        "text": "Primero, mira si está en Archivados.",
+        "emoji": "🗂️",
+        "ui_path": [
+          "Chats",
+          "Archivados"
+        ],
+        "broll_query": "scrolling phone chats"
+      },
+      {
+        "text": "Comprueba la hora de tu última copia.",
+        "emoji": "☁️",
+        "ui_path": [
+          "Ajustes",
+          "Chats",
+          "Copia de seguridad"
+        ],
+        "broll_query": "cloud backup phone"
+      },
+      {
+        "text": "Si es anterior al borrado, desinstala WhatsApp.",
+        "emoji": "📲",
+        "ui_path": [],
+        "broll_query": "uninstalling app smartphone"
+      },
+      {
+        "text": "Reinstálalo y pulsa Restaurar.",
+        "emoji": "✅",
+        "ui_path": [],
+        "broll_query": "person using smartphone"
+      },
+      {
+        "text": "En Android, activa el historial de notificaciones.",
+        "emoji": "🔔",
+        "ui_path": [
+          "Ajustes",
+          "Notificaciones",
+          "Historial de notificaciones"
+        ],
+        "broll_query": "phone notifications"
+      },
+      {
+        "text": "Así verás hasta los mensajes eliminados para todos.",
+        "emoji": "👀",
+        "ui_path": [],
+        "broll_query": "surprised person phone"
+      }
+    ],
+    "cta": "Método completo paso a paso en el enlace del perfil. Sígueme.",
+    "cta_emoji": "👉",
+    "hashtags": [
+      "whatsapp",
+      "trucos",
+      "android",
+      "iphone",
+      "tecnologia"
+    ]
+  },
+  "video": {
+    "file": "videos/como-recuperar-mensajes-borrados-de-whatsapp-todos-los-metodos-que-funcionan.mp4",
+    "youtube_id": null,
+    "tiktok_publish_id": null
+  }
+}

@@ -2,17 +2,26 @@
 
 Web de nicho que se escribe sola + fábrica de YouTube Shorts / TikTok. Cada día, GitHub Actions:
 
-1. **Escribe 5 artículos** con Claude (≥900 palabras, FAQ, enlazado interno, guion de Short).
-2. **Renderiza 5 vídeos verticales** 1080×1920 (voz Piper TTS + diapositivas + ffmpeg), 100 % gratis.
+1. **Escribe 5 artículos** con Claude (≥900 palabras, FAQ, enlazado interno, productos afiliados, guion de Short).
+   Dos cerebros posibles: la API de Claude en GitHub Actions, o **el cerebro local** (Claude Code programado en
+   tu PC con tu suscripción, sin coste de API) siguiendo [CEREBRO.md](CEREBRO.md) + `bot/add_post.py`.
+2. **Renderiza 5 Shorts** 1080×1920 con el motor v2, 100 % gratis y sin copyright: subtítulos karaoke palabra a
+   palabra, maqueta de móvil animada que recorre los menús, emojis animados, música lo-fi generada por código con
+   ducking, efectos whoosh/pop, zoom de impacto, 4 plantillas visuales y vídeo de stock real de Pexels (opcional).
 3. **Los sube** a YouTube Shorts (API oficial) y a la bandeja de TikTok (Content Posting API).
-4. **Reconstruye la web** (SEO completo) y la publica en GitHub Pages, incrustando cada Short en su artículo.
+4. **Reconstruye la web** y la publica en GitHub Pages: portada 1200×630 por artículo (Discover/redes), schema
+   Article/FAQ/Breadcrumb/Video/SearchAction, sitemap con imágenes, RSS, buscador, caja de afiliados de Amazon,
+   Short incrustado en su artículo e **IndexNow** (indexación instantánea en Bing/DuckDuckGo/ChatGPT Search).
 5. Cuando se acaban las keywords, **Claude investiga nuevas long-tail** y recarga la cola sola.
 
 ```
 content/posts/*.json   ← artículos (fuente de verdad, versionados en git)
 data/keywords.txt      ← cola de búsquedas por atacar (se autorrellena)
 bot/generate.py        ← cerebro: artículos + guiones (Claude API)
-bot/video.py           ← Shorts gratis (Piper + Pillow + ffmpeg)
+bot/video.py           ← motor de Shorts v2 (Piper + Pillow + numpy + ffmpeg)
+bot/images.py          ← portadas 1200x630
+bot/add_post.py        ← importa artículos del cerebro local (valida el esquema)
+bot/indexnow.py        ← aviso instantáneo a buscadores
 bot/upload_youtube.py  ← subida a YouTube Shorts
 bot/upload_tiktok.py   ← subida a TikTok (borrador en tu bandeja)
 bot/build.py           ← web estática + sitemap, RSS, schema, ads.txt, legales
@@ -48,13 +57,17 @@ bot/pipeline.py        ← orquestador diario
    tendencia (eso multiplica el alcance). Para publicación 100 % directa, solicita la auditoría de TikTok.
 - Sin credenciales, los vídeos del día igualmente quedan descargables en la pestaña Actions (artefacto `shorts-N`).
 
+### 4b. Vídeo de stock (opcional, gratis)
+Crea una clave en pexels.com/api y guárdala como secret `PEXELS_API_KEY`: cada paso del Short usará un clip real
+en lugar del fondo animado.
+
 ### 5. Monetización
 | Fuente | Cuándo | Qué hacer |
 |---|---|---|
 | **Google AdSense** | Con ~25-30 artículos y tráfico inicial (3-6 semanas) | Solicita en adsense.google.com, pega tu `ca-pub-…` en `config.json › adsense.client_id` (genera `ads.txt` solo). Activa **Anuncios automáticos** y el **CMP de Google** (Privacidad y mensajes) — obligatorio en la UE. |
 | **YouTube Partner Program** | 1.000 suscriptores + 10 M de vistas de Shorts en 90 días | Reparto de ingresos de Shorts |
 | **TikTok Creator Rewards** | 10.000 seguidores + 100.000 vistas/30 días; vídeos >1 min | Considera versiones >60 s para este programa |
-| **Afiliación (Amazon Afiliados)** | Desde ya | Muchas guías (cargadores, fundas, routers wifi…) convierten mejor que AdSense |
+| **Afiliación (Amazon Afiliados)** | Desde ya | Date de alta en afiliados.amazon.es y pon tu tag en `config.json › affiliate.amazon_tag`: aparece la caja «Lo que te puede ayudar» con enlaces `sponsored` y aviso legal |
 | **Search Console** | Día 1 | Verifica el sitio, envía `sitemap.xml`, pon el código en `analytics.google_site_verification` |
 
 ## Uso manual
