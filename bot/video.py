@@ -1,7 +1,8 @@
 """Motor de Shorts v2: convierte el guion de cada artículo en un vídeo vertical 1080x1920 listo para
 YouTube Shorts / TikTok / Reels. Todo gratis y sin copyright:
 
-- Voz: Piper TTS (open source, local).
+- Voz: Google Chirp 3 HD (voz generativa muy humana; 1M caracteres/mes gratis, basta GOOGLE_TTS_API_KEY)
+  con Piper TTS (open source, local) como respaldo automático.
 - Subtítulos karaoke palabra a palabra (sincronizados por fonemas + energía del audio), con pop.
 - Emojis animados (Noto Emoji, Apache 2.0) y maqueta de móvil que recorre la ruta de menús.
 - Fondo: vídeo de stock de Pexels (si hay PEXELS_API_KEY) o fondo animado procedural.
@@ -9,7 +10,9 @@ YouTube Shorts / TikTok / Reels. Todo gratis y sin copyright:
 - 4 plantillas visuales elegidas por artículo para que los vídeos no parezcan clones.
 """
 import datetime as dt
+import base64
 import hashlib
+import io
 import math
 import os
 import re
@@ -116,6 +119,11 @@ class Segment:
     clip: Path | None = None
 
 
+@lru_cache(maxsize=1)
+def piper_voice() -> PiperVoice:
+    return load_voice()
+
+
 def load_voice() -> PiperVoice:
     name = V["piper_voice"]
     model = VOICES_DIR / f"{name}.onnx"
@@ -139,7 +147,53 @@ def _place(words: list[str], weights: list[float], t0: float, t1: float) -> list
     return out
 
 
-def synth(voice: PiperVoice, text: str) -> tuple[np.ndarray, list]:
+def _syllables(word: str) -> float:
+    """Peso aproximado de duración de una palabra: sílabas + pausa por puntuación."""
+    core = re.sub(r"[^a-záéíóúüñ0-9]", "", word.lower())
+    syl = max(1, len(re.findall(r"[aeiouáéíóúü]+", core))) if core else 1
+    if core.isdigit():
+        syl = 2 * len(core)
+    return syl + (1.2 if re.search(r"[,;:]$", word) else 0) + (1.8 if re.search(r"[.!?…]$", word) else 0)
+
+
+_GOOGLE_OK = [True]
+
+
+def google_tts(text: str) -> tuple[np.ndarray, list] | None:
+    key = os.environ.get("GOOGLE_TTS_API_KEY")
+    if not key or not _GOOGLE_OK[0]:
+        return None
+    body = {"input": {"text": text},
+            "voice": {"languageCode": V.get("google_voice", "es-ES-Chirp3-HD-Charon")[:5],
+                      "name": V.get("google_voice", "es-ES-Chirp3-HD-Charon")},
+            "audioConfig": {"audioEncoding": "LINEAR16", "sampleRateHertz": SR,
+                            "speakingRate": V.get("google_rate", 1.1)}}
+    try:
+        r = requests.post("https://texttospeech.googleapis.com/v1/text:synthesize", params={"key": key},
+                          json=body, timeout=60)
+        r.raise_for_status()
+        with wave.open(io.BytesIO(base64.b64decode(r.json()["audioContent"])), "rb") as w:
+            rate, raw = w.getframerate(), w.readframes(w.getnframes())
+    except (requests.RequestException, KeyError, wave.Error) as err:
+        print(f"    (Google TTS no disponible, uso Piper: {err})")
+        _GOOGLE_OK[0] = False
+        return None
+    audio = np.frombuffer(raw, np.int16).astype(np.float32) / 32768
+    if rate != SR:
+        audio = np.interp(np.linspace(0, len(audio) - 1, int(len(audio) * SR / rate)), np.arange(len(audio)), audio)
+    audio = audio.astype(np.float32)
+    env = np.abs(audio)
+    idx = np.where(env > max(0.01, float(env.max()) * 0.05))[0]
+    s0, s1 = (idx[0] / SR, idx[-1] / SR) if len(idx) else (0.0, len(audio) / SR)
+    ws = text.split()
+    return audio, _place(ws, [_syllables(w) for w in ws], s0, s1)
+
+
+def synth(voice: PiperVoice | None, text: str) -> tuple[np.ndarray, list]:
+    got = google_tts(text)
+    if got:
+        return got
+    voice = voice or piper_voice()
     chunks = list(voice.synthesize(text, syn_config=SynthesisConfig(length_scale=V.get("speech_rate", 0.9))))
     sr = chunks[0].sample_rate
     sentences = [s for s in re.split(r"(?<=[.!?…])\s+", text.strip()) if s]
@@ -463,7 +517,7 @@ def normalize_script(short: dict) -> list[Segment]:
     return segs
 
 
-def render(post: dict, voice: PiperVoice) -> Path:
+def render(post: dict, voice: PiperVoice | None) -> Path:
     seed = seed_of(post["slug"])
     ti = seed % len(THEMES)
     th = THEMES[ti]
@@ -619,7 +673,8 @@ def main() -> None:
     if not pending:
         print("Sin vídeos pendientes")
         return
-    voice = load_voice()
+    voice = None if os.environ.get("GOOGLE_TTS_API_KEY") else piper_voice()
+    print(f"Voz: {'Google ' + V.get('google_voice', '') if voice is None else 'Piper ' + V['piper_voice']}")
     for p in pending:
         print(f"Renderizando: {p['slug']}")
         try:

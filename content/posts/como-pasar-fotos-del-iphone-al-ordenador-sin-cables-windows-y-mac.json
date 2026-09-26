@@ -1,0 +1,148 @@
+{
+  "slug": "como-pasar-fotos-del-iphone-al-ordenador-sin-cables-windows-y-mac",
+  "keyword": "cómo pasar fotos del iPhone al ordenador sin cables",
+  "date": "2026-09-26T13:44:57+00:00",
+  "updated": "2026-09-26T13:44:57+00:00",
+  "draft": false,
+  "words": 933,
+  "title": "Cómo pasar fotos del iPhone al ordenador sin cables (Windows y Mac)",
+  "seo_title": "Pasar fotos del iPhone al ordenador sin cables",
+  "meta_description": "5 formas de pasar fotos del iPhone al PC o al Mac sin cables: iCloud, AirDrop, Google Fotos y transferencia por wifi. Con calidad original y sin líos de HEIC.",
+  "category": "movil",
+  "intro_markdown": "Buscar el cable, que el ordenador no reconozca el iPhone, pulsar «Confiar» tres veces… Pasar fotos con cable puede ser un fastidio. La buena noticia es que hoy **no hace falta ningún cable**: hay varias formas inalámbricas, gratuitas y oficiales de llevar tus fotos del iPhone al ordenador, tanto si usas Windows como Mac.\n\nEn esta guía verás cinco métodos, cuál conviene según cuántas fotos quieras pasar, cómo mantener la **calidad original** y cómo evitar el problema de los archivos **HEIC** que algunos programas de Windows no abren.",
+  "key_takeaways": [
+    "Para pocas fotos a un Mac, AirDrop es lo más rápido; para Windows, el navegador con iCloud.com o una web de transferencia por wifi.",
+    "Para pasar la galería entera y mantenerla sincronizada, activa Fotos de iCloud o Google Fotos.",
+    "Enviar fotos por WhatsApp o por correo reduce su calidad: evita esos métodos si quieres el original.",
+    "Si Windows no abre las fotos HEIC, descárgalas como JPEG o cambia el formato de la cámara a «Más compatible»."
+  ],
+  "sections": [
+    {
+      "heading": "Qué método elegir según tu caso",
+      "body_markdown": "Antes de empezar, elige el método que mejor encaja contigo:\n\n| Tu situación | Mejor método |\n|---|---|\n| Tienes un Mac y quieres pasar unas pocas fotos | AirDrop |\n| Tienes Windows y quieres pasar unas pocas fotos | iCloud.com o transferencia por wifi en el navegador |\n| Quieres pasar toda la galería y que se mantenga al día | Fotos de iCloud (con iCloud para Windows en PC) |\n| No quieres pagar almacenamiento de iCloud | Google Fotos |\n\nTodos los métodos funcionan sin cables. Los que usan la nube requieren conexión a internet y espacio suficiente en tu cuenta."
+    },
+    {
+      "heading": "Método 1: AirDrop (iPhone a Mac)",
+      "body_markdown": "Si tu ordenador es un Mac, AirDrop es la forma más rápida y mantiene la calidad original.\n\n1. En el Mac, abre el **Finder** y selecciona **AirDrop** en la barra lateral. Comprueba que el wifi y el Bluetooth estén activados y que permitas recibir de **Contactos** o de **Todos**.\n2. En el iPhone, abre **Fotos** y toca **Seleccionar**. Marca las fotos que quieras.\n3. Toca el botón **Compartir** (el cuadrado con la flecha) y elige **AirDrop**.\n4. Toca el nombre de tu Mac. Las fotos aparecerán en la carpeta **Descargas**.\n\nSi el Mac no aparece, acerca los dispositivos, desbloquea ambos y comprueba que estén con la misma cuenta de Apple o que la opción de recepción esté en «Todos»."
+    },
+    {
+      "heading": "Método 2: Fotos de iCloud (iPhone a Windows o Mac)",
+      "body_markdown": "Fotos de iCloud sube automáticamente tu galería a la nube de Apple y la mantiene sincronizada con tus otros dispositivos.\n\n**En el iPhone:** ve a **Ajustes › [tu nombre] › iCloud › Fotos** y activa **Sincronizar este iPhone**. La primera subida puede tardar horas si tienes muchas fotos: déjalo conectado al wifi y cargando.\n\n**En un PC con Windows** tienes dos opciones:\n\n1. **Sin instalar nada:** entra en **icloud.com/photos** desde el navegador, inicia sesión, selecciona las fotos y pulsa el botón de descarga.\n2. **Para tenerlas siempre a mano:** instala la app **iCloud para Windows** desde la Microsoft Store, inicia sesión y activa **Fotos**. Tus fotos aparecerán integradas en la app Fotos de Windows y en el Explorador de archivos.\n\n**En un Mac**, basta con abrir la app **Fotos**, ir a **Ajustes › iCloud** y activar **Fotos de iCloud**.\n\nOjo: el plan gratuito de iCloud tiene poco espacio. Si tu galería no cabe, tendrás que ampliar el almacenamiento o usar otro método."
+    },
+    {
+      "heading": "Método 3: Google Fotos (funciona con cualquier ordenador)",
+      "body_markdown": "Si no quieres depender de iCloud, Google Fotos es una alternativa multiplataforma:\n\n1. Instala **Google Fotos** en el iPhone desde la App Store e inicia sesión con tu cuenta de Google.\n2. Toca tu foto de perfil y activa la **copia de seguridad**. Concede acceso a **todas las fotos**.\n3. Espera a que se suban (mejor con wifi y el móvil cargando).\n4. En el ordenador, entra en **photos.google.com**, selecciona las fotos y pulsa **Descargar** en el menú de los tres puntos.\n\nPara descargar la galería completa de una vez existe la herramienta oficial **Google Takeout** (takeout.google.com), que genera archivos comprimidos con todas tus fotos. La cuenta de Google comparte su espacio gratuito con Gmail y Drive, así que revisa cuánto te queda."
+    },
+    {
+      "heading": "Método 4: transferencia por wifi desde el navegador",
+      "body_markdown": "Si solo quieres pasar unas fotos a un PC con Windows sin subir nada a la nube, puedes usar una web de transferencia directa entre dispositivos de la misma red wifi, como **PairDrop** (pairdrop.net), que es de código abierto y gratuita.\n\n1. Conecta el iPhone y el ordenador a **la misma red wifi**.\n2. Abre **pairdrop.net** en el navegador de ambos dispositivos. Cada uno verá al otro en pantalla con un nombre aleatorio.\n3. En el iPhone, toca el icono del ordenador y elige las fotos de tu galería.\n4. Acepta la descarga en el ordenador.\n\nLos archivos viajan directamente entre tus dispositivos dentro de tu red. Aun así, como con cualquier servicio web, úsalo para fotos normales y no para documentos sensibles."
+    },
+    {
+      "heading": "El problema del formato HEIC y cómo evitarlo",
+      "body_markdown": "Los iPhone guardan las fotos por defecto en formato **HEIC**, que ocupa menos espacio con la misma calidad. El problema es que algunos programas de Windows no lo abren.\n\nTienes tres soluciones:\n\n1. **Al descargar desde iCloud.com**, elige la opción **Más compatible**, que entrega las fotos en JPEG.\n2. **Instala las extensiones HEIF** desde la Microsoft Store para que Windows abra los HEIC sin problemas.\n3. **Cambia el formato de la cámara** en el iPhone: **Ajustes › Cámara › Formatos › Más compatible**. Las fotos nuevas se guardarán en JPEG, a cambio de ocupar algo más de espacio.\n\nPara la mayoría de gente, la opción 2 es la mejor: mantienes el ahorro de espacio del HEIC y Windows lo abre igualmente."
+    },
+    {
+      "heading": "Métodos que es mejor evitar",
+      "body_markdown": "Hay formas de pasar fotos que parecen cómodas pero tienen trampa:\n\n- **Enviártelas por WhatsApp** (por ejemplo, a tu propio número o a WhatsApp Web): comprime las imágenes y pierden calidad, salvo que las envíes como **documento**.\n- **Mandártelas por correo**: muchos servicios limitan el tamaño de los adjuntos y algunos también reducen la resolución.\n- **Apps desconocidas de «transferencia gratis»** que piden acceso total a tu galería y a tu cuenta: no sabes dónde acaban tus fotos.\n\nSi las fotos te importan, quédate con AirDrop, iCloud, Google Fotos o una transferencia local."
+    }
+  ],
+  "faq": [
+    {
+      "question": "¿Se pierde calidad al pasar las fotos por iCloud o Google Fotos?",
+      "answer": "Con Fotos de iCloud y con Google Fotos en calidad original, no. La calidad se pierde al enviarlas por apps de mensajería como WhatsApp o al usar opciones de ahorro de espacio."
+    },
+    {
+      "question": "¿Puedo usar AirDrop entre un iPhone y un PC con Windows?",
+      "answer": "No, AirDrop solo funciona entre dispositivos de Apple. En Windows usa iCloud.com, iCloud para Windows, Google Fotos o una transferencia por wifi en el navegador."
+    },
+    {
+      "question": "¿Por qué mis fotos del iPhone no se abren en Windows?",
+      "answer": "Probablemente estén en formato HEIC. Instala las extensiones HEIF de la Microsoft Store o descárgalas como JPEG eligiendo la opción Más compatible."
+    },
+    {
+      "question": "¿Cuál es la forma más rápida de pasar muchas fotos a la vez?",
+      "answer": "Activar Fotos de iCloud o la copia de Google Fotos y descargarlas desde el ordenador, o usar Google Takeout para descargar toda la galería de una vez."
+    }
+  ],
+  "tags": [
+    "iphone",
+    "fotos",
+    "icloud",
+    "windows",
+    "mac"
+  ],
+  "products": [
+    {
+      "name": "Memoria USB-C / Lightning para iPhone",
+      "reason": "Si prefieres no depender de la nube, copia las fotos a una memoria que se conecta directamente al iPhone.",
+      "search_query": "memoria usb iphone fotos"
+    }
+  ],
+  "short": {
+    "title": "Pasa las fotos del iPhone al PC SIN cables en segundos 📸",
+    "hook": "Deja de buscar el cable. Tus fotos vuelan solas.",
+    "hook_emoji": "📸",
+    "hook_broll_query": "iphone photos laptop",
+    "lines": [
+      {
+        "text": "¿Tienes Mac? Usa AirDrop desde el botón Compartir.",
+        "emoji": "💻",
+        "ui_path": [
+          "Fotos",
+          "Seleccionar",
+          "Compartir",
+          "AirDrop"
+        ],
+        "broll_query": "macbook iphone"
+      },
+      {
+        "text": "¿Tienes Windows? Activa las fotos de iCloud.",
+        "emoji": "☁️",
+        "ui_path": [
+          "Ajustes",
+          "iCloud",
+          "Fotos"
+        ],
+        "broll_query": "cloud storage laptop"
+      },
+      {
+        "text": "Luego descárgalas desde icloud punto com.",
+        "emoji": "⬇️",
+        "ui_path": [],
+        "broll_query": "downloading files laptop"
+      },
+      {
+        "text": "Sin iCloud, Google Fotos también funciona.",
+        "emoji": "🖼️",
+        "ui_path": [],
+        "broll_query": "photo gallery phone"
+      },
+      {
+        "text": "Nunca las pases por WhatsApp: pierden calidad.",
+        "emoji": "⚠️",
+        "ui_path": [],
+        "broll_query": "blurry photo"
+      },
+      {
+        "text": "¿No abren en Windows? Instala las extensiones HEIF.",
+        "emoji": "🧩",
+        "ui_path": [],
+        "broll_query": "windows computer"
+      }
+    ],
+    "cta": "Los 5 métodos paso a paso en el enlace del perfil. Sígueme.",
+    "cta_emoji": "👉",
+    "hashtags": [
+      "iphone",
+      "trucos",
+      "fotos",
+      "windows",
+      "tecnologia"
+    ]
+  },
+  "video": {
+    "file": null,
+    "youtube_id": null,
+    "tiktok_publish_id": null
+  }
+}

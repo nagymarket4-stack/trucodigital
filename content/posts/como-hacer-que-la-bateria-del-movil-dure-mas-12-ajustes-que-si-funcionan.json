@@ -1,0 +1,155 @@
+{
+  "slug": "como-hacer-que-la-bateria-del-movil-dure-mas-12-ajustes-que-si-funcionan",
+  "keyword": "cómo hacer que la batería del móvil dure más",
+  "date": "2026-09-26T13:44:57+00:00",
+  "updated": "2026-09-26T13:44:57+00:00",
+  "draft": false,
+  "words": 977,
+  "title": "Cómo hacer que la batería del móvil dure más: 12 ajustes que sí funcionan",
+  "seo_title": "Cómo hacer que la batería del móvil dure más: 12 ajustes",
+  "meta_description": "Consigue que la batería de tu Android o iPhone dure más cada día y más años: los ajustes que de verdad ahorran, los mitos que no sirven y cómo cargar bien.",
+  "category": "movil",
+  "intro_markdown": "Que el móvil llegue justo a la noche (o no llegue) es una de las quejas más comunes. Y en internet abundan los consejos que no sirven para nada, como cerrar todas las apps cada cinco minutos. La realidad es más sencilla: **unos pocos ajustes concretos marcan casi toda la diferencia**, y cargar el móvil con cabeza alarga la vida de la batería durante años.\n\nEn esta guía tienes dos partes: primero, cómo averiguar qué está gastando tu batería; después, los ajustes que de verdad funcionan en Android e iPhone, ordenados por impacto, y los hábitos de carga que protegen la batería a largo plazo. Los nombres de los menús cambian un poco según la marca y la versión, pero la ruta es parecida en todos.",
+  "key_takeaways": [
+    "Mira primero qué consume: Ajustes › Batería muestra el gasto por app.",
+    "La pantalla es lo que más gasta: brillo automático, tiempo de apagado corto y modo oscuro en pantallas OLED.",
+    "Cerrar apps constantemente no ahorra batería; limitar las que trabajan en segundo plano, sí.",
+    "Para alargar la vida de la batería, evita el calor y activa la carga optimizada o el límite de carga."
+  ],
+  "sections": [
+    {
+      "heading": "Paso 1: descubre qué está gastando tu batería",
+      "body_markdown": "Antes de tocar ajustes a ciegas, mira el consumo real:\n\n- **Android:** **Ajustes › Batería › Uso de la batería** (en Samsung: *Ajustes › Batería › Uso de batería*). Verás el porcentaje que ha consumido cada app en las últimas horas o días.\n- **iPhone:** **Ajustes › Batería**. Desliza hasta la lista de apps y toca **Mostrar actividad** para ver cuánto tiempo ha estado cada una en pantalla y en segundo plano.\n\nBusca apps que consuman mucho **sin que las uses apenas**: ese gasto en segundo plano es el que merece la pena cortar. Si una app que casi no abres aparece arriba, desinstálala o limita su actividad (lo verás en el paso 4)."
+    },
+    {
+      "heading": "Paso 2: domina la pantalla, el mayor consumidor",
+      "body_markdown": "La pantalla suele ser, con diferencia, lo que más batería gasta. Tres ajustes rápidos:\n\n1. **Brillo automático activado:** en Android, *Ajustes › Pantalla › Brillo adaptable*; en iPhone, *Ajustes › Accesibilidad › Pantalla y tamaño de texto › Brillo automático*. Evita tener el brillo al máximo en interiores.\n2. **Apagado de pantalla en 30 segundos:** Android, *Ajustes › Pantalla › Tiempo de espera de la pantalla*; iPhone, *Ajustes › Pantalla y brillo › Bloqueo automático*.\n3. **Modo oscuro:** en móviles con pantalla **OLED o AMOLED** (la mayoría de gama media y alta actuales), los píxeles negros se apagan y ahorran energía. En pantallas LCD el ahorro es mínimo.\n\nSi tu móvil tiene pantalla de **120 Hz**, el modo de frecuencia **adaptable** o **estándar (60 Hz)** también ayuda a ahorrar."
+    },
+    {
+      "heading": "Paso 3: activa el modo de ahorro de energía a tiempo",
+      "body_markdown": "Todos los móviles tienen un modo que reduce la actividad en segundo plano, el rendimiento y algunos efectos visuales:\n\n- **Android:** *Ajustes › Batería › Ahorro de batería* (o *Modo de ahorro de energía* en Samsung). Puedes programarlo para que se active solo al llegar a un porcentaje, por ejemplo al 20 %.\n- **iPhone:** *Ajustes › Batería › Modo de bajo consumo*. También puedes añadirlo al **Centro de control** para activarlo con un toque.\n\nNo hace falta llevarlo siempre activado, pero es muy útil en días largos fuera de casa."
+    },
+    {
+      "heading": "Paso 4: controla las apps en segundo plano y la ubicación",
+      "body_markdown": "Las apps que trabajan cuando no las usas (redes sociales, compras, juegos) son las que más batería «roban» a escondidas.\n\n**Actividad en segundo plano:**\n\n- **Android:** entra en *Ajustes › Aplicaciones › (app) › Batería* y elige **Optimizada** o **Restringida** para las apps que no necesitan avisarte al momento.\n- **iPhone:** *Ajustes › General › Actualización en segundo plano* y desactívala en las apps que no la necesitan.\n\n**Ubicación:** revisa qué apps usan el GPS en *Ajustes › Ubicación* (Android) o *Ajustes › Privacidad y seguridad › Localización* (iPhone). Cambia a **Mientras se usa la app** o **Nunca** en todas las que no sean de mapas o transporte.\n\n**Notificaciones:** cada notificación enciende la pantalla y despierta el móvil. Desactiva las de apps que no te aportan nada."
+    },
+    {
+      "heading": "Paso 5: conexiones que gastan sin que te enteres",
+      "body_markdown": "- **Mala cobertura:** cuando el móvil tiene poca señal, gasta mucho más buscando antena. En zonas con cobertura débil, el **modo avión** con wifi activado puede ahorrar bastante.\n- **5G:** en zonas donde el 5G es inestable, el móvil salta entre redes y consume más. Muchos móviles tienen un modo 5G automático o inteligente; en Android puedes elegir **4G/LTE** como red preferida en los ajustes de red móvil si notas mucho gasto.\n- **Wifi antes que datos:** usar wifi suele gastar menos batería que los datos móviles, así que conéctate siempre que puedas.\n\nEl Bluetooth y el wifi encendidos pero sin usar gastan muy poco en los móviles actuales: no hace falta obsesionarse con apagarlos."
+    },
+    {
+      "heading": "Mitos que no ahorran batería",
+      "body_markdown": "Algunos consejos populares no solo no ayudan, sino que pueden empeorar las cosas:\n\n- **Cerrar todas las apps continuamente:** el sistema gestiona la memoria solo. Cerrar y volver a abrir una app gasta **más** energía que dejarla en pausa. Ciérrala solo si se ha quedado colgada.\n- **Apps «ahorradoras» o «limpiadoras»:** muchas funcionan en segundo plano, llenas de publicidad, y acaban gastando batería en lugar de ahorrarla.\n- **Descargar la batería al 0 % de vez en cuando:** con las baterías de litio actuales es contraproducente; los ciclos completos las desgastan más."
+    },
+    {
+      "heading": "Cómo cargar el móvil para que la batería dure años",
+      "body_markdown": "La capacidad de la batería se reduce con el tiempo, pero puedes frenar ese desgaste:\n\n1. **Evita el calor:** es el peor enemigo de la batería. No lo dejes al sol ni en el coche, y quítale la funda si se calienta mucho mientras carga.\n2. **Activa la carga optimizada:** en iPhone, *Ajustes › Batería › Carga* (según el modelo, aparece la carga optimizada o un límite del 80 %). En Samsung, *Ajustes › Batería › Protección de batería*; otras marcas tienen opciones similares de carga adaptable.\n3. **Mejor entre el 20 % y el 80 %:** no hace falta obsesionarse, pero las cargas cortas y frecuentes desgastan menos que llevarla siempre al límite.\n4. **Usa cargadores de calidad** y certificados; los muy baratos pueden calentar más de la cuenta.\n\nPara ver el estado de salud: en iPhone, *Ajustes › Batería › Estado y carga*. En Android depende de la marca (Samsung lo muestra en la app **Samsung Members**, en *Diagnóstico*). Si la capacidad ha bajado mucho, cambiar la batería en un servicio técnico oficial suele salir más a cuenta que cambiar de móvil."
+    }
+  ],
+  "faq": [
+    {
+      "question": "¿Es malo dejar el móvil cargando toda la noche?",
+      "answer": "Con la carga optimizada o el límite de carga activado no es un problema, porque el móvil retrasa o detiene la carga al llegar a cierto nivel. Evita hacerlo sobre superficies que retengan calor."
+    },
+    {
+      "question": "¿El modo oscuro ahorra batería de verdad?",
+      "answer": "Sí, en móviles con pantalla OLED o AMOLED, donde los píxeles negros se apagan. En pantallas LCD el ahorro es muy pequeño."
+    },
+    {
+      "question": "¿Cerrar las apps ahorra batería?",
+      "answer": "No. Cerrar y reabrir apps constantemente gasta más energía. Lo útil es limitar la actividad en segundo plano de las apps que no necesitas."
+    },
+    {
+      "question": "¿Cuándo debo cambiar la batería del móvil?",
+      "answer": "Cuando su capacidad máxima haya bajado mucho y el móvil no aguante el día, o se apague de repente con porcentaje restante. Hazlo en un servicio técnico oficial."
+    }
+  ],
+  "tags": [
+    "batería",
+    "android",
+    "iphone",
+    "ahorro"
+  ],
+  "products": [
+    {
+      "name": "Batería externa (power bank) de 10.000 mAh",
+      "reason": "Para días largos fuera de casa: da una o dos cargas completas y cabe en el bolsillo.",
+      "search_query": "power bank 10000 mah carga rapida"
+    },
+    {
+      "name": "Cargador USB-C de carga rápida certificado",
+      "reason": "Un cargador de calidad calienta menos el móvil y protege la batería a largo plazo.",
+      "search_query": "cargador usb c carga rapida 20w"
+    }
+  ],
+  "short": {
+    "title": "Tu batería aguanta mucho más con estos ajustes 🔋",
+    "hook": "Cerrar apps no ahorra batería. Esto sí.",
+    "hook_emoji": "🔋",
+    "hook_broll_query": "low battery phone",
+    "lines": [
+      {
+        "text": "Mira qué app gasta más en Ajustes, Batería.",
+        "emoji": "📊",
+        "ui_path": [
+          "Ajustes",
+          "Batería",
+          "Uso de la batería"
+        ],
+        "broll_query": "phone settings screen"
+      },
+      {
+        "text": "Activa el brillo automático.",
+        "emoji": "☀️",
+        "ui_path": [
+          "Ajustes",
+          "Pantalla",
+          "Brillo adaptable"
+        ],
+        "broll_query": "phone screen brightness"
+      },
+      {
+        "text": "Pon el modo oscuro si tu pantalla es OLED.",
+        "emoji": "🌙",
+        "ui_path": [],
+        "broll_query": "dark mode phone"
+      },
+      {
+        "text": "Quita la ubicación a las apps que no la necesitan.",
+        "emoji": "📍",
+        "ui_path": [],
+        "broll_query": "map location phone"
+      },
+      {
+        "text": "Con poca cobertura, modo avión y wifi.",
+        "emoji": "✈️",
+        "ui_path": [],
+        "broll_query": "airplane mode phone"
+      },
+      {
+        "text": "Y activa la carga optimizada para que dure años.",
+        "emoji": "⚡",
+        "ui_path": [
+          "Ajustes",
+          "Batería",
+          "Carga"
+        ],
+        "broll_query": "phone charging"
+      }
+    ],
+    "cta": "Los 12 ajustes completos en el enlace del perfil. Sígueme.",
+    "cta_emoji": "👉",
+    "hashtags": [
+      "bateria",
+      "trucos",
+      "android",
+      "iphone",
+      "tecnologia"
+    ]
+  },
+  "video": {
+    "file": null,
+    "youtube_id": null,
+    "tiktok_publish_id": null
+  }
+}

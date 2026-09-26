@@ -57,6 +57,12 @@ bot/pipeline.py        ← orquestador diario
    tendencia (eso multiplica el alcance). Para publicación 100 % directa, solicita la auditoría de TikTok.
 - Sin credenciales, los vídeos del día igualmente quedan descargables en la pestaña Actions (artefacto `shorts-N`).
 
+### 4a. Voz humana (recomendado, gratis)
+En el mismo proyecto de Google Cloud de YouTube: activa **Cloud Text-to-Speech API** → Credenciales → **Crear clave de API**
+(restríngela a esa API) → secret `GOOGLE_TTS_API_KEY`. Usa las voces generativas **Chirp 3 HD** (1 millón de caracteres/mes
+gratis; 5 Shorts/día gastan unos 70.000). Voz configurable en `config.json › video.google_voice`
+(p. ej. `es-ES-Chirp3-HD-Charon`, `-Aoede`, `-Kore`, `-Puck`). Sin clave, se usa Piper automáticamente.
+
 ### 4b. Vídeo de stock (opcional, gratis)
 Crea una clave en pexels.com/api y guárdala como secret `PEXELS_API_KEY`: cada paso del Short usará un clip real
 en lugar del fondo animado.
