@@ -1,0 +1,149 @@
+{
+  "slug": "el-movil-se-calienta-mucho-causas-reales-y-soluciones-que-funcionan",
+  "keyword": "el móvil se calienta mucho: causas y soluciones",
+  "date": "2026-10-05T20:21:35+00:00",
+  "updated": "2026-10-05T20:21:35+00:00",
+  "draft": false,
+  "words": 1218,
+  "title": "El móvil se calienta mucho: causas reales y soluciones que funcionan",
+  "seo_title": "El móvil se calienta mucho: causas y soluciones (2026)",
+  "meta_description": "Por qué se calienta tu móvil al cargar, jugar o sin hacer nada, cuándo es peligroso y cómo enfriarlo bien en Android e iPhone, con los ajustes paso a paso.",
+  "category": "movil",
+  "intro_markdown": "Que el móvil se ponga templado al cargarlo o al grabar un vídeo es normal. Lo que no es normal es que **queme al tocarlo**, que se caliente **sin hacer nada** o que aparezcan avisos de temperatura. El calor excesivo acorta la vida de la batería, ralentiza el teléfono (el sistema baja la potencia para protegerse) y, en casos extremos, puede indicar un problema de batería.\n\nEn esta guía vas a ver **por qué se calienta el móvil**, cómo saber qué app es la culpable en Android y en iPhone, qué hacer en el momento para enfriarlo sin dañarlo y cuándo toca llevarlo al servicio técnico. Los nombres de los menús pueden variar un poco según la marca y la versión del sistema.",
+  "key_takeaways": [
+    "Cargar, jugar, usar GPS y grabar vídeo calientan el móvil de forma normal; quemar no es normal.",
+    "Mira en Ajustes › Batería qué app consume más: suele ser la culpable del calor.",
+    "Para enfriarlo: quita la funda, deja de cargarlo y ponlo a la sombra. Nunca en la nevera.",
+    "La mala cobertura y las apps colgadas calientan el móvil aunque no lo uses.",
+    "Una batería hinchada o un olor extraño son motivo para dejar de usarlo y llevarlo al técnico."
+  ],
+  "sections": [
+    {
+      "heading": "Por qué se calienta el móvil: las causas más comunes",
+      "body_markdown": "El calor sale sobre todo de dos sitios: el **procesador** cuando trabaja mucho y la **batería** cuando se carga o descarga rápido. Estas son las situaciones típicas:\n\n1. **Cargar mientras lo usas.** Cargar ya genera calor; si además juegas o ves vídeos, se suman las dos fuentes.\n2. **Carga rápida.** Los cargadores de alta potencia calientan más, sobre todo en los primeros minutos.\n3. **Juegos, vídeo en 4K o videollamadas largas.** Exprimen el procesador y la pantalla.\n4. **GPS y navegación** con la pantalla siempre encendida, especialmente en el coche al sol.\n5. **Mala cobertura.** Con poca señal, la antena trabaja al máximo para mantener la conexión. Es un clásico en sótanos, trenes y zonas rurales.\n6. **Una app colgada o en bucle** que sigue funcionando en segundo plano.\n7. **Después de actualizar el sistema.** Durante unas horas o un par de días el móvil reorganiza datos e indexa fotos, y puede calentarse un poco más.\n8. **Calor ambiente y fundas gruesas,** que impiden que el teléfono disipe el calor.\n9. **Batería envejecida o dañada,** que se calienta más con el mismo uso.\n\nSi tu caso encaja con las cinco primeras y el móvil se enfría al parar, no hay problema real. Si se calienta **en reposo**, sigue leyendo."
+    },
+    {
+      "heading": "Descubre qué app está calentando tu móvil",
+      "body_markdown": "La app que más batería consume suele ser la que más calor genera. Así la encuentras:\n\n**En Android:**\n\n1. Ve a **Ajustes › Batería** (en Samsung: **Ajustes › Batería** o **Ajustes › Mantenimiento del dispositivo › Batería**).\n2. Toca **Uso de batería** o el gráfico de consumo.\n3. Revisa qué apps aparecen arriba. Si una que casi no has abierto consume mucho, es sospechosa.\n4. Entra en ella y pulsa **Forzar detención**. Si el problema se repite, en la misma pantalla puedes limitar su uso en segundo plano o desinstalarla.\n\n**En iPhone:**\n\n1. Abre **Ajustes › Batería**.\n2. Baja hasta la lista de apps y alterna entre las últimas 24 horas y los últimos días.\n3. Fíjate en el tiempo de **actividad en segundo plano**.\n4. Si una app destaca sin motivo, ciérrala desde el selector de apps, actualízala o desactívala en **Ajustes › General › Actualización en segundo plano**.\n\nLas redes sociales con reproducción automática de vídeo, los navegadores con muchas pestañas abiertas y algunas apps de juegos son culpables frecuentes. Si además te preocupa la duración, tienes [12 ajustes para que la batería dure más](/como-hacer-que-la-bateria-del-movil-dure-mas-12-ajustes-que-si-funcionan/)."
+    },
+    {
+      "heading": "Cómo enfriar el móvil rápido (y lo que nunca debes hacer)",
+      "body_markdown": "Si el móvil está muy caliente ahora mismo, sigue estos pasos:\n\n1. **Desconéctalo del cargador.**\n2. **Quítale la funda.** Es lo que más ayuda y lo que menos gente hace.\n3. **Cierra la app que estabas usando,** sobre todo juegos, cámara o navegación.\n4. **Déjalo sobre una superficie dura y a la sombra,** no encima de la cama ni del sofá, que retienen el calor.\n5. Si quieres, **activa el modo avión** unos minutos para que la antena descanse.\n6. Espera 10 o 15 minutos antes de volver a usarlo con normalidad.\n\n**Lo que nunca debes hacer:**\n\n- **Meterlo en la nevera o el congelador.** El cambio brusco de temperatura puede condensar humedad dentro y dañar componentes.\n- **Ponerle hielo o mojarlo,** aunque sea resistente al agua.\n- **Soplarle con un secador en frío** pegado al puerto de carga.\n- **Seguir cargándolo bajo la almohada** o en el salpicadero del coche al sol.\n\nCuando el iPhone se calienta demasiado, puede mostrar un aviso de temperatura y bloquear su uso hasta enfriarse. En Android también hay avisos similares. Es una protección: respétala."
+    },
+    {
+      "heading": "Cargar sin que se caliente: buenos hábitos",
+      "body_markdown": "La carga es el momento en el que más se calienta un móvil, así que merece atención especial:\n\n- **Usa cargadores y cables de calidad.** Los cargadores muy baratos y sin marca pueden no regular bien la corriente.\n- **No lo uses para jugar mientras carga.** Si necesitas usarlo, que sea para algo ligero.\n- **Carga fuera de la funda** si notas que se calienta demasiado, sobre todo con carga inalámbrica, que suele generar más calor que la de cable.\n- **Activa la carga optimizada o protegida.** En iPhone está en **Ajustes › Batería › Carga** (u *Optimización de carga*, según el modelo). En muchos Android aparece en **Ajustes › Batería › Protección de la batería** o similar. Hace que el móvil se cargue más despacio al final o se detenga antes del 100 %.\n- **Si no tienes prisa, desactiva la carga rápida.** En Samsung, por ejemplo, está en **Ajustes › Batería › Más ajustes de batería**.\n\nCargar por la noche no es un problema si el móvil está sobre una mesa y tiene activada la carga optimizada."
+    },
+    {
+      "heading": "Cuando el móvil se calienta sin usarlo",
+      "body_markdown": "Si el teléfono está caliente en el bolsillo o encima de la mesa, algo está trabajando sin que lo veas. Prueba en este orden:\n\n1. **Reinicia el móvil.** Cierra procesos colgados y soluciona muchos casos al momento.\n2. **Revisa la cobertura.** Si estás en una zona con poca señal, el calor es normal. Activa el wifi si lo tienes disponible o el modo avión si no necesitas recibir llamadas.\n3. **Actualiza todas las apps** desde Play Store o App Store; los fallos que provocan bucles suelen corregirse en actualizaciones.\n4. **Comprueba las sincronizaciones.** Una copia de seguridad de fotos o de WhatsApp atascada puede tener el móvil trabajando horas. Mira si Google Fotos o iCloud están subiendo archivos.\n5. **Libera espacio.** Con el almacenamiento casi lleno, el sistema trabaja peor. Tienes cómo hacerlo en nuestra guía para [liberar espacio sin borrar fotos](/como-liberar-espacio-en-el-movil-sin-borrar-fotos/).\n6. **Restablece de fábrica** como último recurso, tras hacer copia de seguridad.\n\nSi tras restablecerlo sigue calentándose en reposo, lo más probable es un problema de hardware."
+    },
+    {
+      "heading": "Señales de que es la batería y toca ir al técnico",
+      "body_markdown": "Las baterías de litio se degradan con el tiempo y con el calor. Revisa su estado:\n\n- **iPhone:** **Ajustes › Batería › Estado de la batería y carga**. Si la capacidad máxima es baja o aparece un mensaje de *servicio*, conviene cambiarla.\n- **Android:** depende del fabricante. En algunos Samsung puedes revisar el estado de la batería desde la app **Samsung Members** (en *Diagnóstico*). En otros modelos aparece en **Ajustes › Batería** o en el apartado de información del teléfono.\n\n**Deja de usar el móvil y llévalo a un servicio técnico** si notas:\n\n- La **pantalla o la tapa trasera levantadas**, o el móvil ya no apoya plano sobre la mesa (batería hinchada).\n- **Olor químico** o a quemado.\n- Que se apaga de golpe con batería disponible y está muy caliente.\n- Que se calienta en exceso incluso apagado.\n\nEn estos casos no intentes abrirlo ni perforarlo: una batería dañada puede incendiarse. Cambiar la batería en un servicio técnico oficial o de confianza suele devolver al móvil su comportamiento normal."
+    }
+  ],
+  "faq": [
+    {
+      "question": "¿Es normal que el móvil se caliente al cargar?",
+      "answer": "Que esté templado, sí. Si quema al tocarlo o muestra avisos de temperatura, quítale la funda, deja de usarlo mientras carga y revisa el cargador y el cable."
+    },
+    {
+      "question": "¿Puedo meter el móvil en la nevera para enfriarlo?",
+      "answer": "No. El cambio brusco de temperatura puede generar condensación dentro del teléfono y dañarlo. Déjalo sin funda, a la sombra y sobre una superficie dura."
+    },
+    {
+      "question": "¿El calor estropea la batería?",
+      "answer": "Sí. Las temperaturas altas aceleran el desgaste de las baterías de litio. Evitar el calor al cargar y no dejar el móvil al sol alarga su vida útil."
+    },
+    {
+      "question": "¿Por qué se calienta el móvil en el coche?",
+      "answer": "Se suman el sol, el GPS, la pantalla encendida y a menudo la carga. Usa un soporte en la rejilla del aire acondicionado y evita el salpicadero."
+    }
+  ],
+  "tags": [
+    "movil",
+    "bateria",
+    "android",
+    "iphone",
+    "trucos"
+  ],
+  "products": [
+    {
+      "name": "Cargador USB-C de marca reconocida",
+      "reason": "Un cargador de calidad regula mejor la corriente y reduce el calor durante la carga.",
+      "search_query": "cargador usb c carga rapida certificado"
+    },
+    {
+      "name": "Soporte de móvil para rejilla del coche",
+      "reason": "Mantiene el móvil frente al aire del climatizador en lugar de al sol en el salpicadero.",
+      "search_query": "soporte movil coche rejilla ventilacion"
+    }
+  ],
+  "short": {
+    "title": "Tu móvil quema y no sabes por qué 🔥 Así lo arreglas",
+    "hook": "Si tu móvil quema, no lo metas en la nevera.",
+    "hook_emoji": "🔥",
+    "hook_broll_query": "hot smartphone hand",
+    "lines": [
+      {
+        "text": "Desconéctalo del cargador y quítale la funda.",
+        "emoji": "🔌",
+        "ui_path": [],
+        "broll_query": "unplug phone charger"
+      },
+      {
+        "text": "Déjalo a la sombra sobre una mesa.",
+        "emoji": "🌳",
+        "ui_path": [],
+        "broll_query": "phone on wooden table"
+      },
+      {
+        "text": "Mira qué app gasta más batería.",
+        "emoji": "🔋",
+        "ui_path": [
+          "Ajustes",
+          "Batería",
+          "Uso de batería"
+        ],
+        "broll_query": "battery usage screen"
+      },
+      {
+        "text": "Fuerza la detención de la app sospechosa.",
+        "emoji": "⛔",
+        "ui_path": [
+          "Ajustes",
+          "Aplicaciones",
+          "Forzar detención"
+        ],
+        "broll_query": "tapping phone screen"
+      },
+      {
+        "text": "Reinicia el móvil si se calienta sin usarlo.",
+        "emoji": "🔄",
+        "ui_path": [],
+        "broll_query": "restart smartphone"
+      },
+      {
+        "text": "Si la batería se hincha, llévalo al técnico.",
+        "emoji": "🛠️",
+        "ui_path": [],
+        "broll_query": "phone repair shop"
+      }
+    ],
+    "cta": "Guía completa en el enlace del perfil. Sígueme para más trucos.",
+    "cta_emoji": "👉",
+    "hashtags": [
+      "movil",
+      "bateria",
+      "trucos",
+      "android",
+      "iphone"
+    ]
+  },
+  "video": {
+    "file": null,
+    "youtube_id": null,
+    "tiktok_publish_id": null
+  }
+}

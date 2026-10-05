@@ -1,0 +1,150 @@
+{
+  "slug": "mejores-apps-para-ahorrar-en-la-factura-de-la-luz-gratis-y-oficiales",
+  "keyword": "mejores apps para ahorrar en la factura de la luz",
+  "date": "2026-10-05T20:21:35+00:00",
+  "updated": "2026-10-05T20:21:35+00:00",
+  "draft": false,
+  "words": 1392,
+  "title": "Mejores apps para ahorrar en la factura de la luz (gratis y oficiales)",
+  "seo_title": "Apps para ahorrar en la factura de la luz: las que sirven",
+  "meta_description": "Las apps gratuitas que sí ayudan a pagar menos luz: precio por horas oficial, tu consumo real del contador, comparador de la CNMC y enchufes con medición.",
+  "category": "ahorro",
+  "intro_markdown": "Abrir la factura de la luz y no entender por qué ha subido es una experiencia muy común. La buena noticia es que hoy tienes en el móvil herramientas **gratuitas, y algunas oficiales**, que te dicen cuánto cuesta la luz en cada hora, cuánto gastas de verdad según tu contador y si tu tarifa es la adecuada.\n\nNinguna app baja la factura por arte de magia: lo que hacen es darte **datos para tomar mejores decisiones**, como mover la lavadora a otra hora, bajar la potencia contratada o cambiar de oferta. En esta guía repasamos las apps que de verdad merecen la pena en España, para qué sirve cada una y en qué orden usarlas. No vamos a darte precios concretos porque cambian cada día; te enseñamos dónde consultarlos tú mismo en fuentes fiables.",
+  "key_takeaways": [
+    "Primero averigua si tienes tarifa regulada (PVPC) o de mercado libre: cambia qué apps te sirven.",
+    "redOS, la app oficial de Red Eléctrica, muestra el precio PVPC por horas para hoy y mañana.",
+    "Datadis y la app de tu distribuidora enseñan tu consumo real hora a hora y tu potencia máxima.",
+    "El comparador de la CNMC es la forma oficial y gratuita de comparar ofertas con tu consumo.",
+    "Un enchufe inteligente con medición descubre qué aparato dispara el gasto."
+  ],
+  "sections": [
+    {
+      "heading": "Antes de instalar nada: mira qué tarifa tienes",
+      "body_markdown": "Coge una factura reciente (en papel o en el área de clientes de tu compañía) y busca dos datos:\n\n1. **El tipo de contrato.** Si pone *PVPC* o *Precio Voluntario para el Pequeño Consumidor*, tienes la tarifa regulada y el precio del kWh cambia **cada hora**. Si aparece el nombre de una oferta comercial con precio fijo, estás en el **mercado libre**.\n2. **La potencia contratada** (en kW), normalmente con dos valores: punta y valle.\n\n¿Por qué importa? Con PVPC te interesa mucho saber qué horas son baratas. Con una tarifa de precio fijo único, la hora te da igual y lo que más ahorra es **consumir menos y ajustar la potencia**. Si tu oferta libre tiene precios distintos por tramos, también te conviene conocer los periodos.\n\nComo referencia, en los contratos domésticos de hasta 15 kW (peaje 2.0TD) los tramos son:\n\n| Periodo | Horario de lunes a viernes |\n|---|---|\n| Valle | de 0 a 8 h (y fines de semana y festivos nacionales todo el día) |\n| Llano | de 8 a 10 h, de 14 a 18 h y de 22 a 24 h |\n| Punta | de 10 a 14 h y de 18 a 22 h |\n\nLos peajes y cargos de la parte regulada son más baratos en valle, así que mover consumos allí suele ayudar."
+    },
+    {
+      "heading": "redOS: el precio de la luz por horas, de fuente oficial",
+      "body_markdown": "**redOS** es la app oficial de Red Eléctrica (REE), gratuita para Android e iPhone. Toma los datos del sistema ESIOS, el mismo que usan las webs y medios que publican el precio de la luz.\n\nQué te ofrece:\n\n- El **precio PVPC hora a hora** de hoy. Los precios del día siguiente se publican cada tarde, de modo que por la noche ya puedes planificar mañana.\n- Indicadores del sistema eléctrico, como la demanda y el precio del mercado mayorista.\n\n**Cómo usarla para ahorrar:**\n\n1. Abre la app y busca el apartado del precio de la tarifa PVPC.\n2. Identifica las 3 o 4 horas más baratas del día.\n3. Programa ahí lavadora, lavavajillas, secadora o la carga del coche eléctrico, si tienes.\n\nSi prefieres no instalar nada, la web **esios.ree.es** muestra la misma información. También hay apps de terceros como **PVPCApp** (Android) o **Precio Luz España** (iPhone) con widgets cómodos para la pantalla de inicio. Funcionan bien, pero recuerda que solo replican datos públicos: no necesitan tu DNI ni tus datos bancarios. Si alguna te los pide, desconfía."
+    },
+    {
+      "heading": "Datadis: tu consumo real, el que mide el contador",
+      "body_markdown": "**Datadis** es la plataforma de las distribuidoras eléctricas que agrupa los datos de los contadores inteligentes. Es gratuita y te permite ver **cuántos kWh gastas cada hora**, no una estimación.\n\n**Cómo empezar:**\n\n1. Entra en **datadis.es** y pulsa en **Registro**.\n2. Elige *Persona física* y rellena los datos del **titular del contrato** (el que figura en la factura).\n3. Tras validar tu cuenta, entra en **Mis suministros**. Verás tus puntos de suministro (el código CUPS de tu factura).\n4. Consulta el consumo o descárgalo en CSV para un periodo largo, idealmente un año.\n\n**Qué buscar en tus datos:**\n\n- **Consumo nocturno de fondo.** Si de madrugada, con todo apagado, sigues gastando bastante cada hora, hay aparatos en reposo o un electrodoméstico antiguo tirando de la red.\n- **Picos repetidos en hora punta.** Son los consumos que más te conviene mover.\n- **Comparación entre meses.** Te ayuda a ver el efecto real del aire acondicionado o la calefacción eléctrica.\n\nDatadis consulta la información de tu distribuidora y la muestra de forma unificada, así que es la fuente más fiable para saber qué gastas de verdad."
+    },
+    {
+      "heading": "La app o el área web de tu distribuidora: ajusta la potencia",
+      "body_markdown": "La **distribuidora** es la empresa dueña de los cables de tu zona (no la que te cobra). Las grandes tienen su propia área de clientes: **i-DE** (grupo Iberdrola), **e-distribución** (grupo Endesa), **UFD** (grupo Naturgy), entre otras. Tu factura indica cuál te corresponde.\n\nAdemás del consumo, allí suele aparecer un dato muy útil: la **potencia máxima demandada**, es decir, el pico más alto que ha registrado tu contador en cada periodo.\n\n**Para qué sirve:** la potencia se paga todos los días, consumas o no. Si tienes contratados, por ejemplo, 5,75 kW y tus máximos reales nunca han superado 3,5 kW, probablemente estés pagando de más.\n\n**Pasos prudentes:**\n\n1. Revisa los máximos de al menos un año completo, incluidos invierno y verano.\n2. Deja un margen razonable por encima del pico real.\n3. Pide el cambio a tu **comercializadora** (la que te factura).\n\n> Ojo: si bajas demasiado, saltará el interruptor al encender a la vez horno, lavadora y vitrocerámica. Además, los cambios de potencia pueden tener costes de gestión y limitaciones de frecuencia. Pregunta antes las condiciones."
+    },
+    {
+      "heading": "El comparador oficial de la CNMC: ¿tu tarifa es la mejor?",
+      "body_markdown": "Una vez conoces tu consumo real, el siguiente paso es comprobar si otra oferta te saldría más barata. Para eso existe el **Comparador de ofertas de energía de la CNMC**, el organismo regulador. Es gratuito, no es una web comercial y no te llama nadie después.\n\n**Cómo usarlo:**\n\n1. Busca *comparador de ofertas de energía CNMC* y entra en la web oficial (dominio de la CNMC).\n2. Elige electricidad, tu código postal y la potencia contratada.\n3. Introduce tu consumo anual en kWh. Lo tienes en la factura o en Datadis; si sabes el reparto por periodos, mejor.\n4. Revisa las ofertas ordenadas por coste estimado anual y lee las condiciones: permanencia, servicios añadidos obligatorios y si el precio es fijo o indexado.\n\n**Errores comunes al comparar:**\n\n- Fijarse solo en el precio del kWh y olvidar el término de potencia.\n- No ver que la oferta incluye un seguro de mantenimiento de pago.\n- Comparar con el mes de más consumo en lugar de con el año completo.\n\nSi cumples los requisitos de renta o situación familiar, informa también sobre el **bono social**, que solo puede aplicarse con la tarifa PVPC de una comercializadora de referencia."
+    },
+    {
+      "heading": "La app de tu comercializadora y los enchufes con medición",
+      "body_markdown": "**La app de tu compañía** (la que te cobra) también ayuda: allí descargas facturas, ves el consumo estimado del mes y, en muchas, puedes activar **avisos** cuando el gasto supera un umbral. Úsala sobre todo para controlar fechas de facturación y detectar sorpresas pronto.\n\n**Los enchufes inteligentes con medición de consumo** son el complemento perfecto. Se conectan al wifi y su app (de la propia marca) te dice cuánto gasta el aparato que tengas enchufado, en tiempo real y acumulado.\n\nIdeas para sacarles partido:\n\n- Mide una semana la **nevera vieja**, el **calefactor** o el **termo eléctrico**. A veces el culpable es un solo aparato.\n- Mide el consumo en reposo del **televisor, la consola o el router**.\n- Programa horarios para que aparatos como el termo solo funcionen en horas baratas, si su uso lo permite.\n\nElige modelos que indiquen expresamente *medición de energía* o *monitor de consumo*, porque no todos los enchufes inteligentes lo incluyen. Comprueba también la **potencia máxima** que soportan antes de conectar aparatos que calientan."
+    },
+    {
+      "heading": "Rutina de 15 minutos al mes para no perder el control",
+      "body_markdown": "Las apps solo ahorran si las miras. Esta rutina sencilla funciona:\n\n1. **Cada noche (1 minuto):** consulta en redOS las horas baratas de mañana si tienes PVPC.\n2. **Cada mes (10 minutos):** abre Datadis o tu distribuidora y compara el consumo con el mismo mes del año anterior.\n3. **Cada factura (3 minutos):** verifica que la potencia y el periodo facturado son correctos.\n4. **Una vez al año:** pasa tu consumo anual por el comparador de la CNMC.\n\nPor último, desconfía de apps que prometen ahorros garantizados a cambio de tus datos bancarios o de cambiarte de compañía sin explicar condiciones. Si te llaman ofreciendo una rebaja de la luz, no des datos por teléfono: cuelga y compara tú mismo con las herramientas oficiales de esta guía."
+    }
+  ],
+  "faq": [
+    {
+      "question": "¿Sirven estas apps si tengo una tarifa de precio fijo?",
+      "answer": "Sí, aunque de otra forma. El precio por horas importa poco, pero Datadis, la distribuidora y los enchufes con medición te ayudan a consumir menos y a ajustar la potencia, que es donde más se ahorra con precio fijo."
+    },
+    {
+      "question": "¿Es seguro registrarse en Datadis?",
+      "answer": "Datadis es la plataforma de las propias distribuidoras eléctricas. Entra siempre escribiendo datadis.es en el navegador, no desde enlaces de SMS o correos, y usa una contraseña única."
+    },
+    {
+      "question": "¿A qué hora se conoce el precio de la luz de mañana?",
+      "answer": "Red Eléctrica publica los precios PVPC del día siguiente cada tarde. Puedes verlos en la app redOS o en la web esios.ree.es."
+    },
+    {
+      "question": "¿Cuánto puedo ahorrar bajando la potencia contratada?",
+      "answer": "Depende de tu tarifa y de cuánto bajes. Calcúlalo multiplicando los kW que reduces por el precio diario del término de potencia que figura en tu factura y por los días del año."
+    }
+  ],
+  "tags": [
+    "factura de la luz",
+    "ahorro",
+    "pvpc",
+    "apps",
+    "datadis"
+  ],
+  "products": [
+    {
+      "name": "Enchufe inteligente con medición de consumo",
+      "reason": "Te dice cuánto gasta cada aparato y permite programar horarios en horas baratas.",
+      "search_query": "enchufe inteligente wifi medidor consumo"
+    },
+    {
+      "name": "Regleta con interruptor",
+      "reason": "Apaga de golpe televisor, consola y descodificador para eliminar el consumo en reposo.",
+      "search_query": "regleta con interruptor individual"
+    }
+  ],
+  "short": {
+    "title": "Tu factura de la luz baja con estas apps gratis 💡",
+    "hook": "Pagas luz de más y no lo sabes.",
+    "hook_emoji": "💸",
+    "hook_broll_query": "electricity bill shock",
+    "lines": [
+      {
+        "text": "Instala redOS, la app oficial de Red Eléctrica.",
+        "emoji": "📲",
+        "ui_path": [],
+        "broll_query": "smartphone app download"
+      },
+      {
+        "text": "Mira las horas más baratas de mañana.",
+        "emoji": "⏰",
+        "ui_path": [
+          "redOS",
+          "Precio PVPC"
+        ],
+        "broll_query": "clock night kitchen"
+      },
+      {
+        "text": "Pon la lavadora en esas horas.",
+        "emoji": "🧺",
+        "ui_path": [],
+        "broll_query": "washing machine start"
+      },
+      {
+        "text": "Entra en Datadis y revisa tu consumo real.",
+        "emoji": "📊",
+        "ui_path": [
+          "datadis.es",
+          "Mis suministros"
+        ],
+        "broll_query": "energy chart laptop"
+      },
+      {
+        "text": "Comprueba si tu potencia contratada sobra.",
+        "emoji": "⚡",
+        "ui_path": [],
+        "broll_query": "electric meter home"
+      },
+      {
+        "text": "Compara ofertas en el comparador de la CNMC.",
+        "emoji": "🔍",
+        "ui_path": [],
+        "broll_query": "comparing prices laptop"
+      }
+    ],
+    "cta": "Guía completa en el enlace del perfil. Sígueme para ahorrar más.",
+    "cta_emoji": "👉",
+    "hashtags": [
+      "facturaluz",
+      "ahorro",
+      "trucos",
+      "energia"
+    ]
+  },
+  "video": {
+    "file": null,
+    "youtube_id": null,
+    "tiktok_publish_id": null
+  }
+}

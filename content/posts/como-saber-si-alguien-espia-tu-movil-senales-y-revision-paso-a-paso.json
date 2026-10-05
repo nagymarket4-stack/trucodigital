@@ -1,0 +1,152 @@
+{
+  "slug": "como-saber-si-alguien-espia-tu-movil-senales-y-revision-paso-a-paso",
+  "keyword": "cómo saber si alguien espía mi móvil",
+  "date": "2026-10-05T20:21:35+00:00",
+  "updated": "2026-10-05T20:21:35+00:00",
+  "draft": false,
+  "words": 1304,
+  "title": "Cómo saber si alguien espía tu móvil: señales y revisión paso a paso",
+  "seo_title": "Cómo saber si alguien espía mi móvil: revisión en 10 min",
+  "meta_description": "Señales de que te espían el móvil y cómo revisarlo en Android y iPhone: apps ocultas, permisos, perfiles, dispositivos vinculados y qué hacer después.",
+  "category": "seguridad",
+  "intro_markdown": "Si sospechas que alguien lee tus mensajes, sabe dónde estás o conoce cosas que solo estaban en tu teléfono, no es paranoia preguntarse si te están espiando el móvil. Las aplicaciones de espionaje (a menudo llamadas *stalkerware*) existen, y también formas más sencillas de vigilancia, como una sesión de WhatsApp abierta en otro ordenador o una cuenta de Google compartida.\n\nEn esta guía verás **las señales que sí son relevantes**, las que no lo son tanto, y una **revisión paso a paso para Android y iPhone** con los nombres reales de los menús. Al final, qué hacer si encuentras algo. Los menús pueden variar ligeramente según la marca y la versión del sistema, pero las rutas son muy parecidas.\n\n> Importante: si temes por tu seguridad física (por ejemplo, una pareja o expareja controladora), piensa antes de borrar nada: quien te vigila podría notar el cambio. Más abajo te explicamos cómo actuar con prudencia.",
+  "key_takeaways": [
+    "La vigilancia más común no es un virus: son sesiones abiertas en WhatsApp, Google o Apple en otros dispositivos.",
+    "En Android, revisa las apps con permisos de accesibilidad y de administración del dispositivo.",
+    "En iPhone, usa la Comprobación de seguridad y mira si hay perfiles de configuración instalados.",
+    "Cambia contraseñas desde un dispositivo de confianza y activa la verificación en dos pasos.",
+    "Si la situación implica a tu pareja o expareja, busca ayuda antes de actuar."
+  ],
+  "sections": [
+    {
+      "heading": "Señales de alerta (y falsas alarmas)",
+      "body_markdown": "Ninguna señal por sí sola demuestra que te espíen, pero varias juntas merecen una revisión.\n\n**Señales relevantes:**\n\n- Alguien conoce **conversaciones, fotos o ubicaciones** que solo estaban en tu móvil.\n- Aparecen **apps que no instalaste**, a veces con nombres genéricos como «Servicio del sistema» o «Sync».\n- Ves **mensajes leídos** que no has abierto, o chats archivados que no tocaste.\n- Recibes avisos de **inicio de sesión** en tu cuenta de Google, Apple o redes sociales desde dispositivos que no reconoces.\n- Alguien tuvo tu móvil desbloqueado en sus manos un rato, o te lo «regaló configurado».\n\n**Falsas alarmas frecuentes:**\n\n- Que el móvil se caliente o gaste batería (suele deberse a apps normales o a la cobertura).\n- Ruidos raros en llamadas o que la pantalla se encienda sola por una notificación.\n- Que aparezcan anuncios relacionados con lo que hablaste: lo explican tus búsquedas y el seguimiento publicitario, no un micrófono espía.\n\nLas apps espía necesitan casi siempre **acceso físico al móvil** para instalarse. Por eso, lo primero es pensar quién ha podido tenerlo."
+    },
+    {
+      "heading": "Revisa las sesiones abiertas: WhatsApp, Google y Apple",
+      "body_markdown": "Es la vía de espionaje más sencilla y frecuente, y la más fácil de cortar.\n\n**WhatsApp:**\n\n1. Abre WhatsApp. En Android toca los **tres puntos › Dispositivos vinculados**; en iPhone, **Ajustes › Dispositivos vinculados**.\n2. Verás cada ordenador o tablet con WhatsApp Web o la app de escritorio, con la fecha de última actividad.\n3. Si hay alguno que no reconoces, tócalo y elige **Cerrar sesión**.\n\n**Cuenta de Google (Android):**\n\n1. Entra en **myaccount.google.com › Seguridad**.\n2. Baja hasta **Tus dispositivos** y pulsa **Gestionar todos los dispositivos**.\n3. Cierra la sesión en los que no sean tuyos.\n\n**Cuenta de Apple (iPhone):**\n\n1. Abre **Ajustes** y toca tu nombre arriba del todo.\n2. Baja hasta la lista de dispositivos y revisa cada uno.\n3. Elimina de la cuenta los que no reconozcas.\n\nHaz lo mismo con Instagram, Facebook o tu correo: todos tienen un apartado de *dispositivos* o *actividad de inicio de sesión* en los ajustes de seguridad. Si quieres profundizar en WhatsApp, también te puede interesar [cómo recuperar mensajes borrados](/como-recuperar-mensajes-borrados-de-whatsapp-todos-los-metodos-que-funcionan/), donde explicamos cómo funcionan las copias de seguridad, otra puerta que conviene vigilar."
+    },
+    {
+      "heading": "Revisión en Android: accesibilidad, administradores y apps",
+      "body_markdown": "Las apps espía de Android suelen esconderse pidiendo **permisos de accesibilidad** (que les permiten leer la pantalla) o de **administración del dispositivo** (que dificultan desinstalarlas).\n\n1. **Accesibilidad:** ve a **Ajustes › Accesibilidad**. Busca un apartado como *Apps descargadas* o *Servicios instalados*. Ahí solo deberían aparecer apps que reconozcas y que realmente uses para eso (por ejemplo, un gestor de contraseñas).\n2. **Administradores del dispositivo:** suele estar en **Ajustes › Seguridad y privacidad › Más ajustes de seguridad › Apps de administración de dispositivos** (en Samsung, busca «administración» con la lupa de Ajustes). Desactiva cualquier cosa desconocida.\n3. **Lista de apps completa:** **Ajustes › Aplicaciones**. Activa la opción de mostrar apps del sistema (menú de tres puntos) y busca nombres genéricos o sin icono.\n4. **Play Protect:** abre **Play Store**, toca tu foto de perfil › **Play Protect** › **Analizar**. Detecta muchas apps de espionaje conocidas.\n5. **Permisos sensibles:** **Ajustes › Seguridad y privacidad › Privacidad › Gestor de permisos**. Revisa quién tiene acceso a ubicación, micrófono, cámara y SMS.\n\nDesde Android 12, aparece un **punto verde** en la esquina superior cuando una app usa la cámara o el micrófono. Si lo ves sin estar usando nada, desliza hacia abajo para ver qué app es."
+    },
+    {
+      "heading": "Revisión en iPhone: Comprobación de seguridad y perfiles",
+      "body_markdown": "En iPhone es mucho más difícil instalar apps espía sin que lo notes, pero hay otras vías: alguien que conoce tu código y tu contraseña de Apple, un **perfil de configuración** malicioso o compartir datos con alguien.\n\n1. **Comprobación de seguridad:** ve a **Ajustes › Privacidad y seguridad › Comprobación de seguridad**. Te muestra con quién compartes ubicación, fotos o notas, y qué apps tienen permisos. Tiene un modo de **restablecimiento de emergencia** que corta de golpe todos los accesos.\n2. **Perfiles y gestión:** entra en **Ajustes › General › VPN y gestión de dispositivos**. Si no tienes un móvil de empresa o de colegio, ahí no debería haber ningún perfil. Si hay uno que no reconoces, ábrelo y elimínalo.\n3. **Compartir ubicación:** abre la app **Buscar** › pestaña **Personas** y comprueba con quién compartes tu ubicación.\n4. **Indicadores:** un **punto verde** indica que se usa la cámara y uno **naranja**, el micrófono. Desliza el Centro de control para ver qué app lo está usando.\n5. **Actualiza** en **Ajustes › General › Actualización de software**: las versiones nuevas cierran fallos que algunas herramientas aprovechan."
+    },
+    {
+      "heading": "Qué hacer si encuentras algo sospechoso",
+      "body_markdown": "Actúa en este orden para no dejar puertas abiertas:\n\n1. **Haz capturas** de lo que encuentres (apps, perfiles, dispositivos desconocidos). Pueden servir como prueba si decides denunciar.\n2. **Cambia las contraseñas desde otro dispositivo de confianza**, empezando por tu cuenta de Google o Apple y tu correo. Usa contraseñas largas y distintas.\n3. **Activa la verificación en dos pasos** en esas cuentas y en WhatsApp (**Ajustes › Cuenta › Verificación en dos pasos**).\n4. **Cambia el código de desbloqueo** del móvil por uno que nadie conozca, y no uses fechas de nacimiento.\n5. **Desinstala o elimina** la app o el perfil sospechoso.\n6. Si sigues con dudas, haz una **copia de seguridad solo de fotos y contactos** y **restablece el móvil de fábrica**. Al configurarlo, no restaures una copia completa antigua: podría reinstalar lo mismo.\n\nEspiar el móvil de otra persona sin su consentimiento es delito en España. Puedes denunciarlo en la Policía Nacional o la Guardia Civil."
+    },
+    {
+      "heading": "Si quien te vigila es tu pareja o expareja",
+      "body_markdown": "Cuando el control viene de alguien cercano, borrar la app de golpe puede alertarle y empeorar la situación. Antes de tocar nada:\n\n- Habla con alguien de confianza o con un servicio especializado. En España, el **016** atiende de forma gratuita y confidencial a víctimas de violencia contra las mujeres, y no deja rastro en la factura.\n- Si necesitas comunicarte de forma segura, usa **otro dispositivo** que esa persona no haya tocado.\n- Planifica cuándo cortar los accesos, idealmente con ayuda.\n\nRecuerda que nadie tiene derecho a revisar tu móvil, conocer tus contraseñas ni seguir tu ubicación sin tu permiso, aunque sea tu pareja."
+    },
+    {
+      "heading": "Cómo evitar que vuelva a pasar",
+      "body_markdown": "La prevención es sencilla y no requiere apps de pago:\n\n- **No dejes el móvil desbloqueado** a nadie, ni «un momento». Configura el bloqueo automático en 30 segundos o 1 minuto.\n- **Usa un código de 6 dígitos o más**, no un patrón fácil de ver por encima del hombro.\n- **Instala apps solo desde Play Store o App Store**, y no aceptes móviles ya configurados por otra persona.\n- **Revisa cada mes** los dispositivos vinculados de WhatsApp y de tu cuenta de Google o Apple. Te lleva dos minutos.\n- **Mantén el sistema actualizado** y no desactives Play Protect.\n- Si alguna vez dudas de si te han bloqueado o te ignoran en WhatsApp, recuerda que [hay señales concretas para saberlo](/como-saber-si-te-han-bloqueado-en-whatsapp-6-senales-y-cuando-no-es-un-bloqueo/) sin instalar apps de terceros que prometen «espiar» conversaciones: esas apps suelen ser estafas o, precisamente, programas espía."
+    }
+  ],
+  "faq": [
+    {
+      "question": "¿Pueden espiarme el móvil solo con mi número de teléfono?",
+      "answer": "Para un particular, en la práctica no. Las apps espía comerciales necesitan acceso físico al móvil o tus contraseñas. Las webs que prometen espiar cualquier móvil con el número suelen ser estafas."
+    },
+    {
+      "question": "¿Restablecer de fábrica elimina las apps espía?",
+      "answer": "En la gran mayoría de casos, sí, siempre que no restaures después una copia completa del sistema que las vuelva a instalar. Cambia también tus contraseñas, porque el restablecimiento no protege tus cuentas en la nube."
+    },
+    {
+      "question": "¿Un antivirus detecta el stalkerware?",
+      "answer": "Play Protect y muchos antivirus reconocidos detectan las apps espía más conocidas en Android, pero no todas. Complementa el análisis con la revisión manual de permisos y dispositivos vinculados."
+    },
+    {
+      "question": "¿Es legal instalar una app de control en el móvil de mi pareja?",
+      "answer": "No. Acceder al móvil de otra persona adulta sin su consentimiento puede ser delito. El control parental solo es legítimo sobre dispositivos de menores a tu cargo."
+    }
+  ],
+  "tags": [
+    "seguridad",
+    "privacidad",
+    "android",
+    "iphone",
+    "stalkerware"
+  ],
+  "products": [
+    {
+      "name": "Protector de pantalla antiespía",
+      "reason": "Impide que quien está a tu lado vea tu código o tus mensajes al desbloquear el móvil.",
+      "search_query": "protector pantalla antiespia privacidad"
+    }
+  ],
+  "short": {
+    "title": "¿Te espían el móvil? Revísalo en 2 minutos 🕵️",
+    "hook": "Alguien puede estar leyendo tus WhatsApp ahora mismo.",
+    "hook_emoji": "🕵️",
+    "hook_broll_query": "worried woman phone",
+    "lines": [
+      {
+        "text": "Abre WhatsApp y entra en Dispositivos vinculados.",
+        "emoji": "💻",
+        "ui_path": [
+          "WhatsApp",
+          "Ajustes",
+          "Dispositivos vinculados"
+        ],
+        "broll_query": "laptop whatsapp web"
+      },
+      {
+        "text": "Cierra cualquier sesión que no reconozcas.",
+        "emoji": "🚪",
+        "ui_path": [],
+        "broll_query": "closing laptop"
+      },
+      {
+        "text": "En Android revisa las apps de Accesibilidad.",
+        "emoji": "🤖",
+        "ui_path": [
+          "Ajustes",
+          "Accesibilidad",
+          "Apps descargadas"
+        ],
+        "broll_query": "android settings screen"
+      },
+      {
+        "text": "En iPhone usa la Comprobación de seguridad.",
+        "emoji": "🍎",
+        "ui_path": [
+          "Ajustes",
+          "Privacidad y seguridad",
+          "Comprobación de seguridad"
+        ],
+        "broll_query": "iphone privacy settings"
+      },
+      {
+        "text": "Cambia tus contraseñas desde otro dispositivo.",
+        "emoji": "🔑",
+        "ui_path": [],
+        "broll_query": "typing password laptop"
+      },
+      {
+        "text": "Activa la verificación en 2 pasos.",
+        "emoji": "🛡️",
+        "ui_path": [],
+        "broll_query": "phone security lock"
+      }
+    ],
+    "cta": "Guía completa en el enlace del perfil. Sígueme para proteger tu móvil.",
+    "cta_emoji": "👉",
+    "hashtags": [
+      "seguridad",
+      "privacidad",
+      "whatsapp",
+      "trucos",
+      "movil"
+    ]
+  },
+  "video": {
+    "file": null,
+    "youtube_id": null,
+    "tiktok_publish_id": null
+  }
+}

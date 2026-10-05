@@ -1,0 +1,139 @@
+{
+  "slug": "como-bloquear-llamadas-spam-en-android-e-iphone-paso-a-paso",
+  "keyword": "cómo bloquear llamadas spam en Android e iPhone",
+  "date": "2026-10-05T20:21:35+00:00",
+  "updated": "2026-10-05T20:21:35+00:00",
+  "draft": false,
+  "words": 1055,
+  "title": "Cómo bloquear llamadas spam en Android e iPhone, paso a paso",
+  "seo_title": "Bloquear llamadas spam en Android e iPhone: guía fácil",
+  "meta_description": "Acaba con las llamadas comerciales y de estafa: filtro de spam de Google, filtrado de iOS 26, bloqueo por número, Samsung y Lista Robinson, paso a paso.",
+  "category": "seguridad",
+  "intro_markdown": "Ofertas de luz que no has pedido, supuestos bancos, llamadas que cuelgan nada más contestar… Las llamadas spam son una de las molestias más habituales del móvil, y algunas no son solo publicidad: son **intentos de estafa**.\n\nLa buena noticia es que tanto Android como iPhone traen **filtros integrados** que bloquean o silencian buena parte de estas llamadas sin instalar nada. En esta guía verás cómo activarlos, cómo bloquear un número concreto, qué opciones tienen los Samsung y qué puedes hacer además para que dejen de llamarte. Los nombres de los menús pueden variar un poco según la marca y la versión del sistema.",
+  "key_takeaways": [
+    "En móviles con la app Teléfono de Google, activa Identificador de llamada y spam y Filtrar llamadas de spam.",
+    "En iPhone con iOS 26, Filtrar llamadas de números desconocidos pide el motivo antes de que suene.",
+    "Bloquear un número concreto se hace en segundos desde el historial de llamadas.",
+    "Inscribirte en la Lista Robinson reduce la publicidad de empresas que respetan la normativa.",
+    "Nunca des datos bancarios ni códigos por teléfono, aunque parezca tu banco."
+  ],
+  "sections": [
+    {
+      "heading": "Android con la app Teléfono de Google",
+      "body_markdown": "Muchos Android (Pixel, Motorola, Xiaomi recientes y otros) usan la app **Teléfono de Google**. Tiene un filtro antispam que se alimenta de los avisos de millones de usuarios.\n\n**Cómo activarlo:**\n\n1. Abre la app **Teléfono**.\n2. Toca los **tres puntos** (o tu foto de perfil, según la versión) y entra en **Ajustes**. En algunas versiones el apartado aparece dentro de **Asistencia de llamadas**.\n3. Entra en **Identificador de llamada y spam**.\n4. Activa **Ver ID de emisor y spam** para que te avise de las llamadas sospechosas.\n5. Activa **Filtrar llamadas de spam**: las llamadas que Google considera spam ni siquiera sonarán.\n\nLas llamadas bloqueadas no se pierden: quedan en el **historial** para que puedas revisarlas. Si alguna vez se cuela una llamada legítima marcada como spam, márcala como *No es spam* desde el historial.\n\nEn los Pixel, además, existe la función **Filtrar llamadas**, que contesta por ti a números desconocidos y te muestra la transcripción. Su disponibilidad depende del país y del idioma."
+    },
+    {
+      "heading": "iPhone con iOS 26: filtrar llamadas desconocidas",
+      "body_markdown": "Con **iOS 26**, Apple ha mejorado mucho el filtrado. El iPhone puede contestar automáticamente a los números que no tienes en la agenda y pedirles el motivo de la llamada antes de que suene.\n\n**Cómo activarlo:**\n\n1. Ve a **Ajustes › Apps › Teléfono**.\n2. Toca **Filtrar llamadas de números desconocidos**.\n3. Elige una opción:\n   - **Nunca:** los desconocidos llaman como siempre.\n   - **Preguntar motivo de la llamada:** el iPhone pide al interlocutor que se identifique y te muestra su respuesta en pantalla antes de que decidas contestar.\n   - **Silenciar:** las llamadas de desconocidos van directas al buzón de voz sin sonar.\n\nTus contactos, y en general los números con los que ya has hablado, llaman con normalidad. Por eso es importante tener **guardados los números importantes**: médico, colegio, repartidores habituales.\n\nEn versiones anteriores de iOS existe la opción **Silenciar llamadas de desconocidos** en **Ajustes › Teléfono**, que manda al buzón todas las llamadas de números que no tienes guardados. Es más radical, así que úsala con cuidado si esperas llamadas importantes."
+    },
+    {
+      "heading": "Cómo bloquear un número concreto",
+      "body_markdown": "Si un número en particular no deja de llamarte, bloquéalo directamente:\n\n**En iPhone:**\n\n1. Abre **Teléfono › Recientes**.\n2. Toca la **i** junto al número.\n3. Baja y pulsa **Bloquear contacto**.\n\n**En Android (Teléfono de Google):**\n\n1. Abre **Teléfono** y ve al **historial** (Recientes).\n2. Mantén pulsado el número.\n3. Toca **Bloquear/Denunciar spam**. Marca la casilla de denunciar si es publicidad o estafa: así ayudas a que el filtro aprenda.\n\n**En Samsung:**\n\n1. Abre **Teléfono › Recientes**.\n2. Toca el número y luego el icono de **información** (o mantén pulsado).\n3. Elige **Bloquear**.\n\nLos números bloqueados no podrán llamarte ni enviarte SMS. El problema es que muchos call centers **cambian de número constantemente**, por eso bloquear uno a uno ayuda poco por sí solo: combínalo con los filtros automáticos."
+    },
+    {
+      "heading": "Opciones extra en Samsung y otros fabricantes",
+      "body_markdown": "Los Samsung usan su propia app **Teléfono**, con ajustes antispam propios:\n\n1. Abre **Teléfono**, toca los **tres puntos › Ajustes**.\n2. Entra en **Bloquear números**. Aquí puedes:\n   - Añadir números manualmente.\n   - Activar **Bloquear llamadas de números desconocidos y privados**, útil contra llamadas con número oculto.\n3. Vuelve a los ajustes y busca la opción de **identificación de llamadas y protección contra spam** (el nombre varía según el modelo y la versión de One UI). Actívala para que te avise de los números sospechosos.\n\nOtros fabricantes, como Xiaomi, OPPO o Realme, incluyen opciones similares dentro de **Ajustes** de su app Teléfono, normalmente en un apartado de **Bloqueo** o **Lista negra**. Busca la palabra *bloquear* en la lupa de Ajustes si no lo encuentras.\n\n**¿Y las apps de terceros?** Existen apps conocidas de identificación de llamadas, pero algunas piden acceso a tu agenda completa para funcionar. Antes de instalarlas, prueba los filtros integrados: en la mayoría de casos son suficientes."
+    },
+    {
+      "heading": "Corta el problema de raíz: Lista Robinson y tus derechos",
+      "body_markdown": "Los filtros reducen las llamadas, pero también puedes atacar el origen:\n\n1. **Lista Robinson.** Es el servicio gratuito de exclusión publicitaria en España. Te registras en **listarobinson.es**, eliges el canal *teléfono* y añades tus números. Las empresas que hacen campañas deben consultarla y excluirte, salvo que les hayas dado tu consentimiento.\n2. **Retira consentimientos.** Muchas llamadas vienen de empresas a las que diste permiso sin darte cuenta (sorteos, comparadores, tarjetas de fidelización). Si una empresa te llama, pide que te borren de su base de datos y que te digan de dónde sacaron tu número.\n3. **Reclama si insisten.** En España, las llamadas comerciales no solicitadas necesitan tu consentimiento previo o una base legal. Si una empresa insiste tras pedirle que pare, puedes presentar una reclamación ante la **Agencia Española de Protección de Datos (AEPD)**.\n\nTen en cuenta que los estafadores no respetan la Lista Robinson. Para ellos, lo que funciona son los filtros y la prudencia."
+    },
+    {
+      "heading": "Cómo reconocer una llamada de estafa",
+      "body_markdown": "Algunas llamadas spam buscan robarte dinero o datos. Señales de alarma:\n\n- Dicen ser **tu banco**, la policía, Hacienda o tu compañía de luz y te meten **prisa**.\n- Te piden **códigos que te llegan por SMS**, contraseñas o el número completo de la tarjeta.\n- Te piden **instalar una app** o dar acceso remoto al móvil o al ordenador.\n- El número parece legítimo, pero puede estar **falsificado**: que en pantalla aparezca el número de tu banco no garantiza que sea tu banco.\n\n**Qué hacer:**\n\n1. **Cuelga** sin dar ningún dato.\n2. **Llama tú** al número oficial de tu banco o empresa (el de su web o el reverso de la tarjeta).\n3. **Bloquea y denuncia** el número como spam.\n4. Si has dado datos bancarios, **llama a tu banco inmediatamente** para bloquear la tarjeta y denúncialo en la Policía o Guardia Civil.\n\nY si alguna vez sospechas que alguien tiene acceso a tu teléfono, revisa también [cómo funcionan los bloqueos en WhatsApp](/como-saber-si-te-han-bloqueado-en-whatsapp-6-senales-y-cuando-no-es-un-bloqueo/) y los dispositivos vinculados a tu cuenta."
+    }
+  ],
+  "faq": [
+    {
+      "question": "¿Bloquear un número también bloquea sus SMS y WhatsApp?",
+      "answer": "En el móvil, bloquear un número impide sus llamadas y SMS normales. WhatsApp es independiente: para bloquearlo allí, abre el chat, toca el nombre y elige Bloquear."
+    },
+    {
+      "question": "¿Me perderé llamadas importantes si filtro los desconocidos?",
+      "answer": "Puede pasar con la opción más estricta. Por eso es mejor el modo que pregunta el motivo de la llamada en iPhone, o el filtro de spam de Google, que solo bloquea números marcados como spam."
+    },
+    {
+      "question": "¿La Lista Robinson elimina todas las llamadas comerciales?",
+      "answer": "No todas. Las empresas que respetan la ley deben excluirte, pero no afecta a las que ya tienen tu consentimiento ni a los estafadores. Combínala con los filtros del móvil."
+    },
+    {
+      "question": "¿Cómo bloqueo las llamadas con número oculto?",
+      "answer": "En Samsung, en Teléfono, Ajustes, Bloquear números, activa el bloqueo de números desconocidos y privados. En iPhone, el filtrado de desconocidos también afecta a los números ocultos."
+    }
+  ],
+  "tags": [
+    "llamadas spam",
+    "seguridad",
+    "android",
+    "iphone",
+    "estafas"
+  ],
+  "products": [],
+  "short": {
+    "title": "Adiós llamadas spam en Android e iPhone 📵 Actívalo ya",
+    "hook": "Las llamadas spam se acaban con este ajuste.",
+    "hook_emoji": "📵",
+    "hook_broll_query": "annoyed person phone call",
+    "lines": [
+      {
+        "text": "En Android abre Teléfono y entra en Ajustes.",
+        "emoji": "🤖",
+        "ui_path": [
+          "Teléfono",
+          "Ajustes",
+          "Identificador de llamada y spam"
+        ],
+        "broll_query": "android phone app"
+      },
+      {
+        "text": "Activa Filtrar llamadas de spam.",
+        "emoji": "🛡️",
+        "ui_path": [],
+        "broll_query": "toggle switch phone"
+      },
+      {
+        "text": "En iPhone ve a Ajustes, Apps, Teléfono.",
+        "emoji": "🍎",
+        "ui_path": [
+          "Ajustes",
+          "Apps",
+          "Teléfono",
+          "Filtrar llamadas de números desconocidos"
+        ],
+        "broll_query": "iphone settings screen"
+      },
+      {
+        "text": "Elige Preguntar motivo de la llamada.",
+        "emoji": "❓",
+        "ui_path": [],
+        "broll_query": "incoming call screen"
+      },
+      {
+        "text": "Bloquea los números pesados desde Recientes.",
+        "emoji": "🚫",
+        "ui_path": [],
+        "broll_query": "blocking phone number"
+      },
+      {
+        "text": "Apúntate gratis a la Lista Robinson.",
+        "emoji": "📝",
+        "ui_path": [],
+        "broll_query": "filling form laptop"
+      }
+    ],
+    "cta": "Guía completa en el enlace del perfil. Sígueme para más trucos.",
+    "cta_emoji": "👉",
+    "hashtags": [
+      "spam",
+      "trucos",
+      "android",
+      "iphone",
+      "seguridad"
+    ]
+  },
+  "video": {
+    "file": null,
+    "youtube_id": null,
+    "tiktok_publish_id": null
+  }
+}
