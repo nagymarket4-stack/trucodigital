@@ -666,7 +666,9 @@ def main() -> None:
             return p["slug"] == only
         v = p["video"]
         missing = not v.get("file") or not (ROOT / v["file"]).exists()
-        not_uploaded = (up["youtube"] and not v.get("youtube_id")) or (up["tiktok"] and not v.get("tiktok_publish_id"))
+        yt_on = up["youtube"] and os.environ.get("YT_REFRESH_TOKEN")  # solo cuenta si hay credenciales
+        tt_on = up["tiktok"] and os.environ.get("TIKTOK_REFRESH_TOKEN")
+        not_uploaded = (yt_on and not v.get("youtube_id")) or (tt_on and not v.get("tiktok_publish_id"))
         return missing and (not_uploaded or not v.get("file")) and dt.datetime.fromisoformat(p["date"]) > recent
 
     pending = [p for p in load_posts() if needs(p)][:MAX_PER_RUN]
