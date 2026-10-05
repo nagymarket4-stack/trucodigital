@@ -571,7 +571,8 @@ Si detectas un error o algo ha cambiado tras una actualización, escríbenos y l
         "/contacto/": ("Contacto", f"""<p>¿Dudas, sugerencias de temas o correcciones? Escríbenos a
 <a href="mailto:{e(s['contact_email'])}">{e(s['contact_email'])}</a>. Respondemos en 48-72 horas laborables.</p>"""),
         "/aviso-legal/": ("Aviso legal", f"""<p>En cumplimiento de la Ley 34/2002 (LSSI-CE) se informa: titular del sitio
-<strong>{e(s['owner_legal_name'])}</strong>, NIF {e(s['owner_nif'])}, correo {e(s['contact_email'])}.</p>
+<strong>{e(s['owner_legal_name'])}</strong>{f", NIF {e(s['owner_nif'])}" if s.get('owner_nif') else ""}, correo de contacto
+<a href="mailto:{e(s['contact_email'])}">{e(s['contact_email'])}</a>.</p>
 <p>Los contenidos son informativos. {e(s['name'])} no se responsabiliza de los daños derivados del uso de la información;
 sigue siempre las instrucciones oficiales del fabricante de tu dispositivo. Los enlaces externos pertenecen a sus titulares.</p>
 <p>Las marcas mencionadas (WhatsApp, Android, iPhone, Windows, etc.) pertenecen a sus propietarios y se citan solo con fines informativos.</p>"""),
