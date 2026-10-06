@@ -1,0 +1,168 @@
+{
+  "slug": "que-hacer-si-te-roban-el-movil-los-9-pasos-urgentes-android-y-iphone",
+  "keyword": "qué hacer si te roban el móvil",
+  "date": "2026-10-06T08:47:35+00:00",
+  "updated": "2026-10-06T08:47:35+00:00",
+  "draft": false,
+  "words": 1646,
+  "title": "Qué hacer si te roban el móvil: los 9 pasos urgentes (Android y iPhone)",
+  "seo_title": "Qué hacer si te roban el móvil: 9 pasos urgentes",
+  "meta_description": "Te han robado el móvil: aprende qué hacer en los primeros 30 minutos para bloquearlo, proteger tu banco, tu WhatsApp y denunciar sin perder datos.",
+  "category": "seguridad",
+  "intro_markdown": "Que te roben el móvil no es solo perder un aparato caro. Dentro van tu WhatsApp, tus fotos, tu correo, las apps del banco y, muchas veces, el SMS que confirma los pagos. Por eso **los primeros 30 minutos importan más que el seguro**.\n\nEsta guía está pensada para leerla desde otro móvil o desde un ordenador, justo después del robo. Vas a encontrar los pasos en el orden correcto: primero cortar el acceso a tu dinero y tus cuentas, después bloquear el teléfono, luego denunciar y, por último, dejarlo todo preparado para que la próxima vez no duela tanto.\n\nAvisos importantes desde el principio: **no vayas a recuperar el móvil por tu cuenta** si la localización te lleva a una dirección. Si el ladrón ya se lo ha llevado, el teléfono es sustituible; tú no. Y ojo con los mensajes que te lleguen días después diciendo que \"han encontrado tu iPhone\": casi siempre son intentos de estafa para que entregues tu contraseña de iCloud.",
+  "key_takeaways": [
+    "Lo primero no es localizar el móvil: es bloquear la SIM y avisar al banco.",
+    "Usa Buscar mi dispositivo (Android) o Buscar (iPhone) desde otro móvil u ordenador para marcarlo como perdido y borrarlo en remoto.",
+    "Cierra sesión en WhatsApp registrando tu número en otro teléfono y activa la verificación en dos pasos.",
+    "Denuncia con el IMEI: permite bloquear el terminal en las operadoras y es imprescindible para el seguro.",
+    "Desconfía de los correos y SMS que dicen haber encontrado tu móvil: son phishing para robarte la cuenta."
+  ],
+  "sections": [
+    {
+      "heading": "Los primeros 10 minutos: corta el acceso a tu dinero",
+      "body_markdown": "Un ladrón con tu móvil encendido puede recibir SMS de verificación, abrir apps que quedaron con sesión iniciada y pagar con el móvil. Por eso el orden correcto es este:\n\n1. **Llama a tu operadora y pide el bloqueo de la línea (SIM o eSIM).** Sin línea, no puede recibir los SMS de confirmación de pagos ni los códigos de recuperación de tus cuentas. Pide también un **duplicado de SIM** con el mismo número: lo necesitarás para recuperar WhatsApp y los códigos de verificación.\n2. **Avisa a tu banco.** Pide que bloqueen los pagos desde el móvil (Apple Pay, Google Wallet, Bizum) y la app. Si tenías tarjetas añadidas al monedero virtual, cancélalas como si hubieras perdido la tarjeta física.\n3. **Cambia la contraseña de tu cuenta principal**: la de Google si usas Android, la de Apple si usas iPhone. Hazlo desde un ordenador. Al cambiarla, muchos servicios cierran sesión en los dispositivos.\n4. **Cambia la contraseña del correo electrónico**, porque es la llave para recuperar todo lo demás.\n\nSi tenías el móvil con PIN de pantalla y PIN de SIM, ganas tiempo, pero no te confíes: haz igualmente estos pasos.\n\n> Si te roban el móvil con violencia o te obligan a desbloquearlo, prioriza siempre tu seguridad física. Entrega el teléfono y haz estos pasos después, desde un lugar seguro."
+    },
+    {
+      "heading": "Bloquea y localiza el móvil en remoto (Android)",
+      "body_markdown": "Desde otro móvil o desde el ordenador, entra en **android.com/find** e inicia sesión con tu cuenta de Google. Verás tus dispositivos asociados.\n\n1. Selecciona el móvil robado en la lista.\n2. Pulsa **Marcar como perdido** (en algunas versiones, \"Proteger dispositivo\"). Esto **bloquea la pantalla**, cierra la sesión de pagos y te permite escribir un mensaje y un número de contacto que se mostrarán en la pantalla bloqueada.\n3. Si crees que puedes recuperarlo y está cerca, usa **Reproducir sonido**: sonará aunque esté en silencio.\n4. Si das el móvil por perdido, pulsa **Borrar dispositivo**. Atención: **después del borrado dejarás de poder localizarlo**, así que hazlo cuando tengas claro que no lo recuperas.\n\n### Si aparece \"sin conexión\"\nEl móvil solo responde cuando se conecta a internet. Deja la orden enviada: en muchos casos se ejecuta en cuanto el teléfono vuelve a tener red. En móviles recientes, Google puede mostrar la **última ubicación conocida** aunque esté apagado, si la función estaba activada.\n\n### Qué no hace el bloqueo\nUn móvil bloqueado sigue siendo revendible por piezas, pero **con la cuenta de Google asociada no se puede reutilizar fácilmente** (protección de restablecimiento de fábrica). Nunca elimines el dispositivo de tu cuenta: eso facilitaría su reutilización."
+    },
+    {
+      "heading": "Bloquea y localiza el móvil en remoto (iPhone)",
+      "body_markdown": "Entra en **iCloud.com/find** desde un navegador, o usa la app **Buscar** de un iPad, Mac o del iPhone de un familiar (pestaña **Yo** > **Ayudar a un amigo**).\n\n1. Elige tu iPhone en la lista de dispositivos.\n2. Activa **Marcar como perdido**. El iPhone se bloquea con código, suspende Apple Pay y muestra tu mensaje con un número de contacto.\n3. Si quieres oírlo cerca, pulsa **Reproducir sonido**.\n4. Como último paso, **Borrar este dispositivo**. En iOS reciente, al borrarlo **puedes mantener el bloqueo de activación** y seguir viéndolo en Buscar, siempre que no elimines el dispositivo de la cuenta.\n\nEl **Bloqueo de activación** es tu mejor aliado: sin tu ID de Apple y tu contraseña, el iPhone no se puede configurar ni usar. Por eso los ladrones intentan sacártela con mensajes falsos.\n\n### La trampa más habitual\nA los pocos días recibirás un SMS o correo tipo \"Su iPhone ha sido localizado, consulte la ubicación aquí\". El enlace lleva a una web idéntica a la de Apple que te pide usuario y contraseña. **Nunca entres desde un enlace**: comprueba siempre desde la app Buscar o escribiendo iCloud.com a mano. Si quieres reconocer mejor este tipo de fraudes, te ayudará leer [cómo saber si alguien espía tu móvil](/como-saber-si-alguien-espia-tu-movil-senales-y-revision-paso-a-paso/)."
+    },
+    {
+      "heading": "Recupera WhatsApp y cierra sesión en tus apps",
+      "body_markdown": "WhatsApp solo funciona en un teléfono a la vez. Esa es tu ventaja.\n\n1. Consigue una **SIM duplicada con tu mismo número** en tu operadora.\n2. Instala WhatsApp en el móvil nuevo o prestado y **regístrate con tu número**. En cuanto introduzcas el código SMS, la sesión del móvil robado se cierra automáticamente.\n3. Si no puedes conseguir la SIM rápido, **escribe a soporte de WhatsApp** desde el correo oficial de la app indicando que te han robado el teléfono y tu número en formato internacional (+34...). Pedirán que escribas \"Perdido/Robado: Desactiva mi cuenta\".\n4. Avisa a tus contactos y **grupos importantes** de que te han robado el móvil, por si intentan pedir dinero en tu nombre. Esta estafa es muy común.\n5. Activa después la **verificación en dos pasos** en WhatsApp: *Ajustes > Cuenta > Verificación en dos pasos*.\n\n### Otras cuentas que debes cerrar\nDesde un ordenador, entra en cada servicio y busca la sección de sesiones activas o dispositivos:\n\n| Servicio | Dónde cerrar sesión |\n|---|---|\n| Google | Cuenta de Google > Seguridad > Tus dispositivos |\n| Apple | Cuenta de Apple > Dispositivos |\n| WhatsApp | Se cierra al registrar el número en otro móvil |\n| Instagram / Facebook | Configuración > Centro de cuentas > Contraseña y seguridad > Dónde inicias sesión |\n| Correo (Gmail, Outlook) | Actividad reciente / Dispositivos |\n\nY si usabas WhatsApp también en el PC, revisa los dispositivos vinculados siguiendo esta guía de [WhatsApp en el ordenador](/como-usar-whatsapp-en-el-ordenador-sin-el-movil-guia-real-paso-a-paso/)."
+    },
+    {
+      "heading": "Denuncia y bloquea el IMEI",
+      "body_markdown": "La denuncia no suele devolverte el móvil, pero **es imprescindible** para el seguro, para que la línea no se use de forma fraudulenta a tu nombre y para que el terminal quede inutilizable en las redes del país.\n\n**Qué necesitas:**\n\n- Tu **IMEI** (15 dígitos). Lo encuentras en la caja del móvil, en la factura de compra, en tu cuenta de Google (en el apartado de dispositivos) o en la cuenta de Apple (en la ficha del dispositivo).\n- Datos del robo: hora, lugar aproximado y si hubo violencia.\n\n**Pasos:**\n\n1. Pon la denuncia en la Policía Nacional, Guardia Civil o policía local (en España puedes hacerlo online si no hubo violencia; si la hubo, debe ser presencial).\n2. Entrega el IMEI a tu **operadora** y pide el **bloqueo del terminal** en la lista de equipos robados. Así no funcionará con otras SIM del país.\n3. Guarda la copia de la denuncia: la pedirá el **seguro del móvil**, el seguro del hogar o la cobertura de la tarjeta con la que lo compraste.\n\n**Diferencia clave:** bloquear la SIM corta la línea; bloquear el IMEI inutiliza el aparato. Haz las dos cosas."
+    },
+    {
+      "heading": "Qué hacer los días siguientes (y qué NO hacer)",
+      "body_markdown": "**Sí conviene hacer:**\n\n- Revisar movimientos del banco y de Bizum durante varias semanas.\n- Cambiar contraseñas de las apps donde la sesión estaba abierta: tienda online, correo secundario, redes sociales, apps de transporte.\n- Avisar en el trabajo si tenías correo corporativo o acceso a sistemas internos.\n- Si tenías documentos sensibles guardados en el móvil (DNI escaneado, nóminas), tenerlo en cuenta por si recibes intentos de suplantación.\n\n**No hagas esto:**\n\n- **No acudas a la dirección** que muestra el mapa. Si lo haces, ve siempre con la policía.\n- **No elimines el dispositivo de tu cuenta** de Google o Apple: perderías la protección antirrobo.\n- **No respondas a quien te contacte pidiendo dinero** por devolverlo ni pagues \"gastos de envío\".\n- **No introduzcas tus credenciales** en ninguna web a la que llegues por un enlace recibido por SMS o correo.\n- No publiques en redes la ubicación exacta del dispositivo."
+    },
+    {
+      "heading": "Prepárate ahora para la próxima vez (5 minutos bien invertidos)",
+      "body_markdown": "La mayoría de los problemas graves tras un robo vienen de cosas que no estaban configuradas. Dedica un rato a esto hoy:\n\n1. **Apunta tu IMEI** en un lugar seguro (nota en el correo, gestor de contraseñas o foto de la caja guardada en la nube). Lo ves marcando `*#06#` en el teclado del teléfono.\n2. **Activa la localización remota**: en Android, *Ajustes > Seguridad > Buscar mi dispositivo*; en iPhone, *Ajustes > [tu nombre] > Buscar > Buscar mi iPhone* (activa también **Red de Buscar** y **Última ubicación**).\n3. **Pon PIN a la SIM** y un código de pantalla de 6 dígitos (mejor que un patrón sencillo).\n4. **Oculta las notificaciones sensibles en la pantalla bloqueada**, para que no se lean los SMS con códigos: en Android, *Ajustes > Notificaciones > Notificaciones en pantalla de bloqueo*; en iPhone, *Ajustes > Notificaciones > Mostrar previsualizaciones > Si está desbloqueado*.\n5. **Activa la copia de seguridad automática**: Google One / Fotos en Android, iCloud en iPhone. Perder el móvil duele mucho menos que perder las fotos.\n6. En iPhone, activa **Protección de dispositivo robado** (*Ajustes > Face ID y código*): obliga a usar biometría y añade retrasos de seguridad cuando el móvil está fuera de sitios conocidos.\n7. En Android reciente, revisa el **Bloqueo por detección de robo** y el **Bloqueo remoto** con tu número de teléfono.\n8. **Activa la verificación en dos pasos** en WhatsApp, correo y banco.\n\nY aprovecha para hacer limpieza y copias: te servirá también [liberar espacio sin borrar tus fotos](/como-liberar-espacio-en-el-movil-sin-borrar-fotos/)."
+    }
+  ],
+  "faq": [
+    {
+      "question": "¿Pueden localizar mi móvil si está apagado?",
+      "answer": "Normalmente no en tiempo real, pero sí puedes ver la última ubicación conocida antes de apagarse. Algunos iPhone recientes siguen siendo localizables unas horas tras apagarse gracias a la Red de Buscar, y ciertos Android muestran la última ubicación aunque estén sin batería. Deja la orden de bloqueo enviada: se ejecutará cuando vuelva a conectarse."
+    },
+    {
+      "question": "¿Debo borrar el móvil en remoto o esperar?",
+      "answer": "Si hay posibilidad real de recuperarlo (se te ha caído, está en un local conocido), espera y usa solo el modo perdido. Si ha sido un robo, bórralo cuando hayas comprobado que no va a volver: tras el borrado pierdes la localización, aunque en iPhone puedes mantener el bloqueo de activación."
+    },
+    {
+      "question": "¿Me pueden vaciar la cuenta del banco con mi móvil robado?",
+      "answer": "Es posible si el teléfono estaba desbloqueado y las apps tenían la sesión iniciada, o si pueden recibir los SMS de confirmación. Por eso lo primero es bloquear la línea y avisar al banco. Si detectas cargos no autorizados, comunícalo de inmediato al banco y añádelo a la denuncia."
+    },
+    {
+      "question": "¿Puedo recuperar mi WhatsApp y mis conversaciones?",
+      "answer": "Puedes recuperar la cuenta registrando tu número en otro teléfono con una SIM duplicada. Las conversaciones solo vuelven si tenías copia de seguridad en Google Drive o iCloud; si no la tenías, se pierden. Más detalles en la guía sobre recuperar mensajes de WhatsApp."
+    },
+    {
+      "question": "¿Sirve de algo bloquear el IMEI?",
+      "answer": "Sí. Con el IMEI bloqueado el terminal deja de funcionar con cualquier SIM de las operadoras del país, lo que reduce mucho su valor de reventa. No impide que se venda por piezas o fuera del país, pero es un paso necesario y gratuito."
+    }
+  ],
+  "tags": [
+    "robo movil",
+    "seguridad",
+    "android",
+    "iphone",
+    "imei",
+    "whatsapp"
+  ],
+  "products": [
+    {
+      "name": "Localizador Bluetooth para llaveros y mochilas",
+      "reason": "Ayuda a encontrar la mochila o el bolso donde llevas el móvil y avisa si te alejas de él.",
+      "search_query": "localizador bluetooth llaves"
+    },
+    {
+      "name": "Funda de móvil con cordón cruzado",
+      "reason": "Reduce los tirones en la calle al llevar el teléfono sujeto al cuerpo en lugar de en la mano.",
+      "search_query": "funda movil cordon bandolera"
+    },
+    {
+      "name": "Disco duro externo o SSD portátil",
+      "reason": "Permite guardar copias de tus fotos y documentos fuera del móvil para que un robo no te deje sin recuerdos.",
+      "search_query": "ssd externo portatil 1tb"
+    }
+  ],
+  "short": {
+    "title": "Te roban el móvil: los 4 pasos de los primeros 10 minutos 📱",
+    "hook": "¿Te roban el móvil? Lo primero no es localizarlo.",
+    "hook_emoji": "😱",
+    "hook_broll_query": "phone theft street",
+    "lines": [
+      {
+        "text": "Llama a tu operadora y bloquea la línea ya",
+        "emoji": "📵",
+        "ui_path": [],
+        "broll_query": "woman calling phone"
+      },
+      {
+        "text": "Avisa al banco y cancela los pagos del móvil",
+        "emoji": "💳",
+        "ui_path": [],
+        "broll_query": "mobile banking app"
+      },
+      {
+        "text": "Entra en android punto com barra find y márcalo como perdido",
+        "emoji": "🔎",
+        "ui_path": [
+          "Buscar mi dispositivo",
+          "Marcar como perdido"
+        ],
+        "broll_query": "laptop map tracking"
+      },
+      {
+        "text": "En iPhone usa la app Buscar y bloquéalo",
+        "emoji": "🍏",
+        "ui_path": [
+          "Buscar",
+          "Dispositivos",
+          "Marcar como perdido"
+        ],
+        "broll_query": "iphone find my app"
+      },
+      {
+        "text": "Pide SIM duplicada y registra WhatsApp en otro móvil",
+        "emoji": "💬",
+        "ui_path": [],
+        "broll_query": "sim card replacement"
+      },
+      {
+        "text": "Denuncia con el IMEI y pide bloquear el terminal",
+        "emoji": "🚓",
+        "ui_path": [],
+        "broll_query": "police station report"
+      },
+      {
+        "text": "Nunca abras enlaces que dicen haber encontrado tu móvil",
+        "emoji": "⚠️",
+        "ui_path": [],
+        "broll_query": "phishing message smartphone"
+      }
+    ],
+    "cta": "Guía completa paso a paso en el enlace del perfil. Síguenos.",
+    "cta_emoji": "🔒",
+    "hashtags": [
+      "robomovil",
+      "seguridadmovil",
+      "trucosmovil",
+      "android",
+      "iphone"
+    ]
+  },
+  "video": {
+    "file": "videos/que-hacer-si-te-roban-el-movil-los-9-pasos-urgentes-android-y-iphone.mp4",
+    "youtube_id": "iYvYSaE8unk",
+    "tiktok_publish_id": null
+  }
+}

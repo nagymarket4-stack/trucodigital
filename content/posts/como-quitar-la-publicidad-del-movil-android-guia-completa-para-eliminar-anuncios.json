@@ -1,0 +1,164 @@
+{
+  "slug": "como-quitar-la-publicidad-del-movil-android-guia-completa-para-eliminar-anuncios",
+  "keyword": "cómo quitar la publicidad del móvil Android",
+  "date": "2026-10-06T08:46:09+00:00",
+  "updated": "2026-10-06T08:46:09+00:00",
+  "draft": false,
+  "words": 1771,
+  "title": "Cómo quitar la publicidad del móvil Android: guía completa para eliminar anuncios molestos",
+  "seo_title": "Cómo quitar la publicidad del móvil Android (paso a paso)",
+  "meta_description": "Elimina los anuncios de tu Android: anuncios emergentes, notificaciones spam y publicidad en el navegador. Pasos reales para encontrar la app culpable.",
+  "category": "movil",
+  "intro_markdown": "Estás leyendo una noticia y, de pronto, la pantalla salta a una página que dice que has ganado un premio. O desbloqueas el móvil y aparece un anuncio a pantalla completa que no sabes de dónde sale. O el navegador se llena de ventanas emergentes. No, tu móvil no está \"roto\": casi siempre hay **una aplicación concreta** detrás, y se puede encontrar y eliminar.\n\nEn esta guía vas a ver, paso a paso, cómo reducir al mínimo la publicidad en un móvil Android: cómo cortar las **notificaciones spam**, cómo identificar la app que lanza anuncios a pantalla completa, cómo bloquear anuncios en el navegador y qué ajustes de Google conviene tocar para que los anuncios dejen de perseguirte. También te diré qué **no** debes hacer, porque muchos \"limpiadores\" que prometen quitar publicidad son precisamente los que la generan.\n\nLos nombres de los menús pueden variar un poco según la marca (Samsung, Xiaomi, Motorola, OPPO...) y la versión de Android, pero las rutas son muy parecidas. Te indico las variantes más habituales en cada paso.",
+  "key_takeaways": [
+    "La mayoría de anuncios a pantalla completa vienen de una app instalada recientemente: localízala y desinstálala.",
+    "Las notificaciones spam se cortan desde Ajustes > Notificaciones, app por app, o manteniendo pulsado el aviso.",
+    "En el navegador, activa el bloqueo de ventanas emergentes y, si quieres ir más allá, usa un navegador con bloqueador integrado.",
+    "Desactivar los anuncios personalizados en los Ajustes de Google reduce el seguimiento, aunque no elimina los anuncios.",
+    "Desconfía de las apps 'limpiadoras' y 'booster': suelen ser la causa del problema, no la solución."
+  ],
+  "sections": [
+    {
+      "heading": "Primero entiende de dónde sale la publicidad",
+      "body_markdown": "No toda la publicidad es igual, y cada tipo se quita de una forma distinta. Identificar el tipo te ahorra mucho tiempo:\n\n| Dónde aparece | Causa probable | Solución rápida |\n|---|---|---|\n| Anuncio a pantalla completa al desbloquear o al salir de una app | App instalada con publicidad agresiva (o adware) | Localizar y desinstalar esa app |\n| Notificaciones con ofertas, \"tienes 1 mensaje\", cupones | Permiso de notificaciones de una app o del navegador | Revocar notificaciones de esa app/web |\n| Ventanas emergentes al navegar | Web con pop-ups o redirecciones | Bloqueo de pop-ups / bloqueador de anuncios |\n| Anuncios dentro de una app gratuita | Modelo de negocio de la app | Versión de pago o alternativa sin anuncios |\n| Iconos nuevos que no instalaste, consumo de datos raro | Adware instalado fuera de Google Play | Modo seguro + desinstalar + revisar permisos |\n\n**Pista clave:** si los anuncios empezaron hace poco, piensa qué instalaste en esos días. En el 80 % de los casos ahí está el culpable."
+    },
+    {
+      "heading": "Corta las notificaciones publicitarias en 2 minutos",
+      "body_markdown": "Es la vía más rápida y la que más alivio da. Tienes dos caminos.\n\n### Opción A: desde la propia notificación\n1. Cuando aparezca el anuncio, **desliza la notificación hacia un lado lentamente** (sin llegar a borrarla).\n2. Toca el icono del **engranaje** o los tres puntos.\n3. Verás el nombre de la app responsable. Desactiva **Mostrar notificaciones** o elige **Desactivar notificaciones**.\n\nEsto es oro: te dice exactamente **qué app** te está molestando.\n\n### Opción B: desde Ajustes\n1. Entra en **Ajustes > Notificaciones > Notificaciones de aplicaciones** (en Samsung: *Ajustes > Notificaciones > Ajustes de aplicación*).\n2. Ordena la lista por **Más recientes** si tu móvil lo permite.\n3. Desactiva el interruptor de cualquier app que no necesites que te avise.\n\n### No olvides el navegador\nMuchas webs piden permiso para enviarte notificaciones y la gente acepta sin leer. Después llegan avisos tipo \"tu móvil está infectado\":\n\n1. Abre **Chrome** y toca los tres puntos > **Ajustes**.\n2. Entra en **Notificaciones** > **Sitios web**.\n3. Desactiva todos los sitios que no reconozcas o pulsa en cada uno y elige **Bloquear**.\n\nSi usas otro navegador, la ruta es similar: *Ajustes > Configuración de sitios > Notificaciones*."
+    },
+    {
+      "heading": "Encuentra y elimina la app que lanza anuncios a pantalla completa",
+      "body_markdown": "Si te salta publicidad **fuera** de cualquier app (en la pantalla de inicio, al desbloquear, mientras llamas), hay una app con permisos excesivos. Así se caza:\n\n### 1. Revisa el permiso \"Mostrar sobre otras apps\"\nEs el permiso que permite dibujar encima de todo. Pocas apps legítimas lo necesitan (mensajería flotante, grabadores de pantalla, algunos lanzadores).\n\n1. Ve a **Ajustes > Aplicaciones > Acceso especial de aplicaciones** (o *Ajustes > Aplicaciones > Avanzado*).\n2. Entra en **Mostrar sobre otras aplicaciones** (también llamado *Superponer en otras apps*).\n3. Desactiva el permiso a todo lo que no reconozcas al 100 %.\n\n### 2. Mira qué app estaba activa\nCuando salte el anuncio, pulsa el botón de **apps recientes** (el cuadrado o el gesto de deslizar hacia arriba y mantener). Muchas veces la miniatura del anuncio aparece con el icono de la app responsable.\n\n### 3. Revisa las apps instaladas recientemente\n1. **Ajustes > Aplicaciones > Ver todas las aplicaciones**.\n2. Ordena por **fecha de instalación** si está disponible.\n3. Desinstala linternas, editores de fotos desconocidos, \"limpiadores de RAM\", lectores de QR y teclados que instalaste y apenas usas.\n\n### 4. Usa el Modo seguro para confirmarlo\nEn Modo seguro solo funcionan las apps del sistema. Si ahí no hay anuncios, el culpable es una app que instalaste tú.\n\n1. Mantén pulsado el **botón de encendido**.\n2. Mantén pulsado sobre **Apagar** hasta que aparezca **Reiniciar en modo seguro**.\n3. Acepta y usa el móvil unos minutos.\n4. Para salir, reinicia normalmente.\n\n### 5. Analiza con Play Protect\n1. Abre **Google Play Store**.\n2. Toca tu foto de perfil > **Play Protect**.\n3. Pulsa **Analizar**. Si detecta apps dañinas, elimínalas.\n\n### 6. Si una app no se deja desinstalar\nAlgunas apps maliciosas se activan como administrador del dispositivo:\n\n1. **Ajustes > Seguridad > Aplicaciones de administración del dispositivo** (en algunos móviles está dentro de *Más ajustes de seguridad*).\n2. **Desactiva** el permiso de la app sospechosa.\n3. Ahora sí, desinstálala desde *Ajustes > Aplicaciones*.\n\nSi sospechas de algo más serio que publicidad, revisa también [las señales de que alguien espía tu móvil](/como-saber-si-alguien-espia-tu-movil-senales-y-revision-paso-a-paso/)."
+    },
+    {
+      "heading": "Bloquea los anuncios y los pop-ups en el navegador",
+      "body_markdown": "Navegar es donde más publicidad invasiva se encuentra. Tres niveles, de menos a más agresivo:\n\n### Nivel 1: activar el bloqueo que ya tienes\nEn **Chrome**:\n1. Tres puntos > **Ajustes** > **Configuración de sitios**.\n2. Entra en **Pop-ups y redirecciones** y déjalo en **Bloqueado**.\n3. Vuelve atrás y entra en **Anuncios**: actívalo para bloquear los anuncios intrusivos.\n\n### Nivel 2: usar el modo lectura o un navegador con bloqueador\nNavegadores como **Brave**, **Firefox** (con extensiones) u **Opera** incluyen bloqueo de anuncios integrado sin configuración. Descárgalos **solo desde Google Play**.\n\n### Nivel 3: DNS privado que filtra publicidad\nAndroid 9 y posteriores permiten usar un **DNS privado** a nivel de sistema, lo que puede filtrar dominios publicitarios en todas las apps:\n\n1. **Ajustes > Red e Internet > DNS privado** (en algunos móviles: *Conexiones > Más ajustes de conexión*).\n2. Elige **Nombre de host del proveedor de DNS privado**.\n3. Escribe el servidor de un proveedor de DNS con filtrado que tú elijas y guarda.\n\n**Aviso honesto:** esta opción puede romper el funcionamiento de alguna app o web, y todo tu tráfico DNS pasa por ese proveedor. Si algo deja de funcionar, vuelve a *Automático*. No la recomiendo si no te sientes cómodo tocando ajustes de red.\n\n**Lo que NO debes hacer:** instalar \"bloqueadores de anuncios\" tipo VPN de origen desconocido. Ven todo tu tráfico y muchos viven de... venderte publicidad."
+    },
+    {
+      "heading": "Quita la publicidad personalizada y los anuncios del propio sistema",
+      "body_markdown": "Hay dos frentes más que casi nadie toca.\n\n### Anuncios personalizados de Google\nNo reduce la cantidad de anuncios, pero sí deja de usar tu actividad para elegirlos:\n\n1. **Ajustes > Google > Todos los servicios > Anuncios**.\n2. Pulsa **Eliminar ID de publicidad** (o *Inhabilitar la personalización de anuncios*).\n3. Confirma.\n\nPuedes repetirlo cada cierto tiempo si quieres \"resetear\" tu perfil publicitario.\n\n### Publicidad de la capa del fabricante\nAlgunos móviles (sobre todo ciertos modelos de Xiaomi/Redmi/POCO con MIUI o HyperOS) muestran recomendaciones dentro de sus propias apps:\n\n1. Entra en **Ajustes > Contraseñas y seguridad > Autorización y revocación** (o *Servicios de sistema*) y desactiva **msa / Servicios de publicidad de MIUI** si aparece.\n2. En apps del sistema como **Descargas**, **Limpiador**, **Gestor de archivos** o **Temas**: abre la app, entra en sus **Ajustes** (icono de engranaje) y desactiva **Recibir recomendaciones** o **Anuncios**.\n3. En Samsung, abre apps como **Samsung Pay/Wallet** o **Tiempo** y desactiva **Ofertas de marketing** en sus ajustes.\n\n### Notificaciones de marketing de tu operador\nSi recibes SMS publicitarios de tu compañía, entra en el área de cliente de su app y busca **Preferencias de privacidad / comunicaciones comerciales**. Desmarca el envío de publicidad. Es un derecho, no un favor."
+    },
+    {
+      "heading": "Errores comunes que empeoran el problema",
+      "body_markdown": "- **Instalar apps \"limpiadoras\", \"antivirus gratis\" o \"booster de RAM\".** Android ya gestiona la memoria solo. Muchas de estas apps viven de mostrarte publicidad a pantalla completa. Si tienes alguna, desinstálala la primera.\n- **Instalar APK de fuera de Google Play.** Es la vía número uno de entrada de adware. Si necesitas una app concreta fuera de Play, usa tiendas conocidas y desactiva luego el permiso de *Instalar apps desconocidas*.\n- **Tocar \"Aceptar\" en avisos tipo \"su móvil tiene 5 virus\".** Son anuncios, no avisos del sistema. Cierra la pestaña.\n- **Hacer un restablecimiento de fábrica a la primera.** Es la última opción, no la primera. Antes prueba modo seguro y desinstalaciones.\n- **Dejar permisos de notificación a webs \"por si acaso\".** Si no es tu banco o tu correo, bloquéalo.\n- **Confundir publicidad con un móvil saturado.** Si además va lento o sin espacio, te ayudará [liberar espacio sin borrar tus fotos](/como-liberar-espacio-en-el-movil-sin-borrar-tus-fotos-android-y-iphone/).\n\nY si el spam también te llega por teléfono, tienes una guía específica para [bloquear llamadas spam en Android e iPhone](/como-bloquear-llamadas-spam-en-android-e-iphone-paso-a-paso/)."
+    },
+    {
+      "heading": "Plan de 10 minutos: haz esto en orden",
+      "body_markdown": "Si quieres un camino directo sin pensar, sigue esta secuencia:\n\n1. **Desinstala** cualquier limpiador, booster, linterna o editor desconocido instalado en los últimos meses.\n2. Revisa **Ajustes > Aplicaciones > Acceso especial > Mostrar sobre otras aplicaciones** y desactiva lo que no reconozcas.\n3. Entra en **Ajustes > Notificaciones** y corta las notificaciones de todas las apps que no necesites.\n4. En **Chrome > Ajustes > Notificaciones > Sitios web**, bloquea todas las webs de la lista.\n5. En **Chrome > Ajustes > Configuración de sitios**, bloquea **Pop-ups y redirecciones** y activa el bloqueo de **Anuncios**.\n6. Abre **Play Store > Play Protect > Analizar**.\n7. Ve a **Ajustes > Google > Anuncios** y elimina el **ID de publicidad**.\n8. Reinicia el móvil y usa el teléfono normalmente un día.\n\nSi después de todo esto siguen apareciendo anuncios a pantalla completa, entra en **Modo seguro** y comprueba. Si en Modo seguro no hay anuncios, sigue habiendo una app instalada: desinstala por tandas hasta dar con ella. Si incluso en Modo seguro aparecen, puede tratarse de adware preinstalado o de una ROM modificada; en ese caso, haz copia de seguridad de tus datos y valora un **restablecimiento de fábrica** desde *Ajustes > Sistema > Opciones de restablecimiento*, sin restaurar después la copia de apps completa (restaura contactos y fotos, y reinstala las apps a mano desde Play Store).\n\nCon estos pasos, la gran mayoría de móviles vuelven a estar limpios de publicidad invasiva. Mantenerlo así es sencillo: instala pocas apps, solo desde Google Play, y di que no cuando una web te pida enviarte notificaciones."
+    }
+  ],
+  "faq": [
+    {
+      "question": "¿Por qué me salen anuncios en la pantalla de inicio si no estoy usando ninguna app?",
+      "answer": "Porque una app tiene activado el permiso \"Mostrar sobre otras aplicaciones\" y lo usa para dibujar anuncios encima de todo. Ve a Ajustes > Aplicaciones > Acceso especial de aplicaciones > Mostrar sobre otras aplicaciones y desactívalo en todo lo que no reconozcas. Después desinstala la app sospechosa."
+    },
+    {
+      "question": "¿Hace falta instalar un antivirus para quitar la publicidad de Android?",
+      "answer": "En la mayoría de casos no. Google Play Protect, que ya viene en el móvil, puede analizar las apps instaladas. Muchos antivirus gratuitos de terceros muestran su propia publicidad, así que suelen empeorar el problema en lugar de arreglarlo."
+    },
+    {
+      "question": "¿Eliminar el ID de publicidad hace que desaparezcan los anuncios?",
+      "answer": "No. Seguirás viendo anuncios, pero dejarán de estar basados en tu actividad y perfil. Es una medida de privacidad, no un bloqueador. Para reducir la cantidad de anuncios necesitas bloquear pop-ups, notificaciones y desinstalar las apps que los generan."
+    },
+    {
+      "question": "¿Los bloqueadores de anuncios en Android son seguros?",
+      "answer": "Depende. Los navegadores con bloqueo integrado descargados desde Google Play son una opción razonable. Las apps que funcionan como VPN de origen desconocido ven todo tu tráfico, así que conviene evitarlas salvo que sean de un desarrollador con buena reputación."
+    },
+    {
+      "question": "Ya desinstalé la app y siguen los anuncios, ¿qué hago?",
+      "answer": "Reinicia en Modo seguro para confirmar si el origen es una app instalada. Revisa también los permisos de administrador del dispositivo y las notificaciones de sitios web en Chrome. Si persiste incluso en Modo seguro, haz copia de seguridad y valora un restablecimiento de fábrica."
+    }
+  ],
+  "tags": [
+    "android",
+    "publicidad",
+    "anuncios",
+    "seguridad movil",
+    "adware"
+  ],
+  "products": [],
+  "short": {
+    "title": "Anuncios en tu Android: el culpable está en Ajustes 📱",
+    "hook": "¿Anuncios al desbloquear el móvil? Hay una app culpable.",
+    "hook_emoji": "😤",
+    "hook_broll_query": "frustrated person smartphone",
+    "lines": [
+      {
+        "text": "Entra en Ajustes y busca Acceso especial de aplicaciones.",
+        "emoji": "⚙️",
+        "ui_path": [
+          "Ajustes",
+          "Aplicaciones",
+          "Acceso especial"
+        ],
+        "broll_query": "android settings menu"
+      },
+      {
+        "text": "Abre Mostrar sobre otras aplicaciones y desactiva lo desconocido.",
+        "emoji": "🚫",
+        "ui_path": [
+          "Acceso especial",
+          "Mostrar sobre otras apps"
+        ],
+        "broll_query": "hand tapping phone screen"
+      },
+      {
+        "text": "Desinstala limpiadores, linternas y editores que nunca usas.",
+        "emoji": "🗑️",
+        "ui_path": [],
+        "broll_query": "deleting app phone"
+      },
+      {
+        "text": "En Chrome, bloquea notificaciones de todos los sitios web.",
+        "emoji": "🔔",
+        "ui_path": [
+          "Chrome",
+          "Ajustes",
+          "Notificaciones",
+          "Sitios web"
+        ],
+        "broll_query": "mobile browser notifications"
+      },
+      {
+        "text": "Activa el bloqueo de ventanas emergentes y anuncios intrusivos.",
+        "emoji": "🛡️",
+        "ui_path": [
+          "Chrome",
+          "Configuración de sitios",
+          "Pop-ups"
+        ],
+        "broll_query": "popup ad screen"
+      },
+      {
+        "text": "Abre Play Store, pulsa Play Protect y analiza el móvil.",
+        "emoji": "🔍",
+        "ui_path": [
+          "Play Store",
+          "Play Protect",
+          "Analizar"
+        ],
+        "broll_query": "google play store phone"
+      },
+      {
+        "text": "Reinicia y comprueba: 9 de 10 veces desaparecen.",
+        "emoji": "✅",
+        "ui_path": [],
+        "broll_query": "happy person using phone"
+      }
+    ],
+    "cta": "Guía completa con el modo seguro en el enlace del perfil. Sígueme.",
+    "cta_emoji": "👉",
+    "hashtags": [
+      "android",
+      "trucosmovil",
+      "publicidad",
+      "tecnologia",
+      "trucodigital"
+    ]
+  },
+  "video": {
+    "file": "videos/como-quitar-la-publicidad-del-movil-android-guia-completa-para-eliminar-anuncios.mp4",
+    "youtube_id": null,
+    "tiktok_publish_id": null
+  }
+}

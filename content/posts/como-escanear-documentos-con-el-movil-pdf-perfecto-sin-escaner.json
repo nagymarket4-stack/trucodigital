@@ -1,0 +1,169 @@
+{
+  "slug": "como-escanear-documentos-con-el-movil-pdf-perfecto-sin-escaner",
+  "keyword": "cómo escanear documentos con el móvil",
+  "date": "2026-10-06T08:43:14+00:00",
+  "updated": "2026-10-06T08:43:14+00:00",
+  "draft": false,
+  "words": 1609,
+  "title": "Cómo escanear documentos con el móvil: PDF perfecto sin escáner",
+  "seo_title": "Cómo escanear documentos con el móvil (guía 2026)",
+  "meta_description": "Escanea DNI, contratos o facturas con el móvil y envíalos en PDF legible. Pasos para Android e iPhone, firma, varias páginas y consejos de calidad.",
+  "category": "movil",
+  "intro_markdown": "Te piden un documento \"escaneado en PDF\" y no tienes escáner en casa. La buena noticia: **tu móvil ya lleva uno dentro** y no necesitas instalar nada raro. Tanto Android como iPhone traen herramientas oficiales que recortan el documento, corrigen la perspectiva, lo aclaran y lo guardan como PDF de varias páginas.\n\nEl problema habitual no es escanear, es que el resultado parece una foto torcida con sombras, pesa 12 MB y en la administración o en el banco te lo rechazan. En esta guía verás **cómo hacerlo bien a la primera**: qué app usar en cada móvil, cómo juntar varias páginas, cómo reducir el tamaño, cómo firmar y qué errores evitan que te devuelvan el trámite.",
+  "key_takeaways": [
+    "En iPhone puedes escanear desde la app **Notas** o desde **Archivos** sin instalar nada; el resultado es un PDF real.",
+    "En Android, **Google Drive** incluye escáner (botón + → Escanear) y la app **Google Drive/Cámara** de muchos móviles lo integra en la propia cámara.",
+    "Escanea siempre sobre **fondo oscuro, luz indirecta y móvil paralelo** al papel: así se detectan los bordes y no salen sombras.",
+    "Para trámites oficiales: PDF, varias páginas en un solo archivo, **tamaño por debajo de 2-5 MB** y texto legible al 100 %.",
+    "Una foto JPG no es un escaneo: convierte siempre a PDF y revisa el documento antes de enviarlo."
+  ],
+  "sections": [
+    {
+      "heading": "Antes de empezar: prepara la escena (esto marca la diferencia)",
+      "body_markdown": "El 90 % de los escaneos malos se arreglan con 30 segundos de preparación:\n\n1. **Apoya el documento en una superficie oscura y mate** (mesa de madera, carpeta negra). El contraste ayuda al móvil a detectar los bordes del papel.\n2. **Alisa el papel.** Si viene doblado, pásale la mano o déjalo un rato bajo un libro.\n3. **Luz indirecta, nunca el flash.** El flash crea un brillo blanco en el centro. Lo ideal: luz de día cerca de una ventana, sin que tu cuerpo haga sombra.\n4. **Móvil paralelo al papel**, centrado, a unos 25-30 cm. No inclines el teléfono: aunque la app corrige la perspectiva, el texto de los bordes se deforma.\n5. **Limpia la lente** con un paño o la camiseta. Una lente con grasa produce ese efecto \"niebla\" que hace ilegible la letra pequeña.\n6. Quita clips, grapas y gomas. Y si el papel es muy fino, pon un folio blanco debajo para que no se transparente el reverso.\n\n> **Consejo:** si el documento tiene varias páginas, ordénalas antes en un montón. Escanearás mucho más rápido y en el orden correcto."
+    },
+    {
+      "heading": "Escanear en iPhone sin instalar nada (Notas y Archivos)",
+      "body_markdown": "iOS trae escáner integrado. El método más cómodo es la app **Notas**:\n\n1. Abre **Notas** y crea una nota nueva.\n2. Toca el icono de la **cámara** (o el clip, según la versión) y elige **Escanear documentos**.\n3. Coloca el documento en el visor. Con el modo **Automático** activado, el iPhone dispara solo cuando detecta los cuatro bordes.\n4. Si prefieres controlarlo tú, cambia arriba a **Manual** y pulsa el botón de disparo. Luego ajusta las esquinas arrastrando los tiradores y pulsa **Conservar escaneo**.\n5. Escanea el resto de páginas; se van acumulando. Cuando acabes, pulsa **Guardar**.\n6. Abre el escaneo dentro de la nota, pulsa **Compartir** → **Guardar en Archivos** o envíalo directamente por correo/WhatsApp. Se envía como **PDF**.\n\n### Desde la app Archivos (va directo a PDF)\n1. Abre **Archivos** y entra en la carpeta donde quieras guardarlo (por ejemplo *En mi iPhone*).\n2. Toca el botón **⋯** o **+** arriba y elige **Escanear documentos**.\n3. Escanea y pulsa **Guardar**: el PDF queda en esa carpeta, listo para adjuntar.\n\n### Ajustes útiles\n- Dentro del escaneo, el icono de los **tres círculos** permite elegir *Color*, *Escala de grises*, *Blanco y negro* o *Foto*. Para contratos y facturas, **escala de grises** suele dar el mejor equilibrio entre legibilidad y peso.\n- El icono de **recorte** reencuadra; el de **giro** endereza páginas apaisadas.\n- Para añadir una página a un PDF ya guardado: ábrelo, toca el icono de marcado, pulsa **+** y elige **Escanear páginas**."
+    },
+    {
+      "heading": "Escanear en Android: Google Drive y la cámara del propio móvil",
+      "body_markdown": "En Android no hay un único camino, pero casi todos los móviles tienen al menos uno de estos:\n\n### 1) Google Drive (funciona en cualquier Android)\n1. Abre **Google Drive** (viene preinstalada en la mayoría).\n2. Pulsa el botón **+** (abajo a la derecha) → **Escanear** o **Usar cámara**.\n3. Haz la foto del documento. Ajusta el recorte con las esquinas y confirma.\n4. Toca el **+** para añadir más páginas, usa el icono de **varita/filtro** para mejorar el contraste y el pincel para limpiar manchas si tu versión lo ofrece.\n5. Pulsa **Guardar**, ponle nombre (por ejemplo *Contrato_alquiler_2026*) y elige la carpeta. Se guarda como **PDF** en tu Drive.\n6. Para enviarlo: menú de tres puntos del archivo → **Compartir** → **Enviar una copia** → WhatsApp, Gmail, etc.\n\n### 2) Desde la app Cámara o Google Fotos\nMuchos Samsung, Xiaomi, OPPO o Pixel detectan el documento automáticamente: al apuntar a un papel aparece un botón tipo **Escanear documento** o **Documento**. Es rápido, pero a veces guarda **JPG**, no PDF: revisa la extensión antes de enviarlo.\n\n- **Samsung Galaxy:** en la app *Cámara*, con *Optimizador de escena* activo, aparece el botón de escaneo. También la app **Samsung Notes** permite insertar escaneos.\n- **Xiaomi / Redmi:** la app **Escáner de documentos** (o *Notas* → escanear) suele estar incluida.\n\n### 3) Apps que valen la pena\nSi escaneas a menudo y quieres extras (OCR para buscar texto, firma, compresión), las más fiables son **Microsoft Lens**, **Adobe Scan** y el propio **Google Drive**. Evita apps desconocidas que piden acceso a contactos o muestran publicidad agresiva: estás manejando **documentos con tus datos personales**."
+    },
+    {
+      "heading": "Varias páginas, PDF único y nombre correcto",
+      "body_markdown": "Casi todos los rechazos en trámites vienen de aquí: enviar **cinco archivos sueltos** cuando piden uno.\n\n- **Escanea todo en la misma sesión.** Tanto Notas (iPhone) como Drive (Android) acumulan páginas en un solo PDF si no cierras el escáner.\n- **¿Ya tienes PDFs separados?** Únelos:\n  - *iPhone:* en **Archivos**, selecciona varios PDFs → mantén pulsado → **Crear PDF** (o usa la app *Atajos* con la acción *Combinar PDF*).\n  - *Android:* abre los PDFs en una app de ofimática o usa un combinador de PDF de confianza; **Microsoft Lens** y **Adobe Scan** permiten añadir páginas al final de un escaneo.\n- **Orden y giro:** revisa que ninguna página esté boca abajo. En iPhone, abre el PDF, muestra las miniaturas y rota o arrastra para reordenar.\n- **Nombre descriptivo:** `DNI_anverso_reverso.pdf` o `Factura_luz_enero.pdf`. Nada de *Documento escaneado (3).pdf*: en una ventanilla eso genera errores.\n\nSi tienes que mandar un archivo pesado por correo, te puede servir esta guía: [cómo enviar archivos grandes gratis](/como-enviar-archivos-grandes-gratis-7-formas-que-funcionan-en-2026/)."
+    },
+    {
+      "heading": "Que no pese 15 MB: reducir tamaño sin perder legibilidad",
+      "body_markdown": "Muchas sedes electrónicas limitan los adjuntos a **2, 5 o 10 MB**. Trucos que funcionan:\n\n| Problema | Solución |\n|---|---|\n| PDF enorme | Escanea en **escala de grises** o **blanco y negro** en lugar de color |\n| Fondo gris sucio | Usa el filtro de documento/contraste: deja el fondo blanco y el archivo pesa menos |\n| Resolución excesiva | Si la app lo permite, elige calidad **media** (200-300 ppp es más que suficiente) |\n| Sigue pesando | Comprime: en iPhone, *Atajos*; en Android, la opción *Comprimir* de Adobe Scan o un compresor web de confianza |\n\nDos avisos importantes:\n\n- **No comprimas tanto que la letra pequeña se vuelva ilegible.** Abre el PDF, amplía al 200 % y comprueba que se lee el NIF, las cifras y la firma.\n- Si subes documentos a webs de compresión, ten en cuenta que **estás enviando datos personales a un tercero**. Para un DNI o una nómina, mejor hazlo en el móvil."
+    },
+    {
+      "heading": "Casos frecuentes: DNI, firmar un contrato y texto editable",
+      "body_markdown": "### Escanear el DNI o un carné\n- Escanea **anverso y reverso** y guárdalos como **un único PDF de dos páginas**, salvo que te pidan lo contrario.\n- Usa modo **color** (los sellos y hologramas deben verse) y comprueba que **los 4 bordes de la tarjeta** aparecen completos, sin recortar.\n- Nunca lo envíes por chats abiertos ni lo dejes en la galería compartida en la nube pública. Si alguna web \"gratuita\" te pide el DNI escaneado sin motivo claro, desconfía. Relacionado: [cómo saber si alguien espía tu móvil](/como-saber-si-alguien-espia-tu-movil-senales-y-revision-paso-a-paso/).\n\n### Firmar un documento escaneado\n- *iPhone:* abre el PDF en **Archivos**, toca el icono de **marcado** (punta de rotulador), luego **+** → **Firma**. Dibuja tu firma con el dedo una vez y quedará guardada para reutilizarla. Arrástrala y ajústala de tamaño.\n- *Android:* **Adobe Scan** / **Adobe Acrobat Reader** incluyen *Rellenar y firmar*; también muchos visores de PDF de Samsung y Xiaomi.\n- Para trámites oficiales en España, una firma dibujada **no es lo mismo que una firma electrónica** con certificado digital o Cl@ve. Si te piden \"firma electrónica\", necesitas el certificado, no un garabato sobre el PDF.\n\n### Convertir el escaneo en texto editable (OCR)\n- **Google Drive:** sube el PDF, haz clic derecho desde el ordenador → *Abrir con* → **Documentos de Google**. Te extrae el texto.\n- **Microsoft Lens** permite guardar directamente en **Word**.\n- *iPhone:* con **Texto en vivo**, mantén pulsado sobre el texto de una foto o escaneo y pulsa **Copiar**.\n- El OCR falla con letra manuscrita y escaneos borrosos: revisa siempre el resultado."
+    },
+    {
+      "heading": "Errores que arruinan un escaneo (y cómo evitarlos)",
+      "body_markdown": "- **Mandar una foto JPG cuando piden PDF.** Es el rechazo número uno. Convierte siempre (en iPhone: *Archivos* → selecciona la foto → *Crear PDF*).\n- **Sombra de tu propia mano o del móvil.** Colócate de lado respecto a la luz, no de espaldas.\n- **Flash encendido.** Genera un brillo que tapa el texto justo en el centro.\n- **Documento torcido y recorte automático mal hecho.** Revisa siempre las esquinas antes de guardar.\n- **Páginas que faltan.** Cuenta las páginas del PDF final; es más común de lo que parece.\n- **Guardar solo en la nube.** Si la app guarda únicamente en Drive y no tienes datos, no podrás adjuntarlo. Descarga una copia local.\n- **Dejar escaneos sensibles para siempre en la galería.** Después de enviar un DNI o una nómina, bórralo y vacía la papelera de la galería. Además, los escaneos acumulan espacio: puede ayudarte [liberar espacio en el móvil sin borrar fotos](/como-liberar-espacio-en-el-movil-sin-borrar-fotos/).\n- **Modo blanco y negro extremo** en documentos con sellos o firmas en azul: pueden desaparecer. Usa color o grises.\n\nCon esta rutina (fondo oscuro, luz lateral, móvil paralelo, filtro de documento, PDF único y nombre claro) obtendrás escaneos que no distinguirás de los de un escáner de oficina, y en menos de un minuto."
+    }
+  ],
+  "faq": [
+    {
+      "question": "¿Cómo escaneo un documento con el móvil sin instalar ninguna app?",
+      "answer": "En iPhone, abre la app **Notas**, crea una nota, toca la cámara y elige *Escanear documentos*; o usa **Archivos** → botón + → *Escanear documentos*. En Android, abre **Google Drive**, pulsa el botón + y elige *Escanear*. Muchos móviles también detectan documentos desde la propia app Cámara. En todos los casos el resultado se guarda como PDF."
+    },
+    {
+      "question": "¿Puedo enviar una foto en lugar de un escaneo?",
+      "answer": "Técnicamente sí, pero en trámites oficiales suele rechazarse: piden PDF, texto legible y páginas unidas en un solo archivo. Una foto sale torcida, con sombras y en JPG. Si solo tienes la foto, al menos conviértela a PDF antes de enviarla."
+    },
+    {
+      "question": "¿Cómo junto varias páginas escaneadas en un solo PDF?",
+      "answer": "Lo más sencillo es escanearlas todas en la misma sesión: Notas (iPhone) y Google Drive (Android) van acumulando páginas. Si ya tienes archivos sueltos, en iPhone puedes seleccionar varios PDFs en la app Archivos y usar *Crear PDF*; en Android, apps como Microsoft Lens o Adobe Scan permiten añadir páginas a un escaneo existente."
+    },
+    {
+      "question": "Mi PDF escaneado pesa demasiado para la sede electrónica, ¿qué hago?",
+      "answer": "Escanea en escala de grises en vez de color, aplica el filtro de documento para que el fondo quede blanco y baja la calidad a media (200-300 ppp bastan). Si aún así pesa, usa la función de comprimir de la propia app de escaneo. Comprueba después que la letra pequeña sigue siendo legible."
+    },
+    {
+      "question": "¿Es seguro escanear el DNI con el móvil?",
+      "answer": "Sí, siempre que lo envíes por un canal fiable y borres la copia cuando ya no la necesites, incluida la papelera de la galería. Evita apps de escaneo desconocidas que pidan permisos excesivos y desconfía de webs que piden el DNI escaneado sin una razón clara."
+    }
+  ],
+  "tags": [
+    "escanear documentos",
+    "pdf",
+    "android",
+    "iphone",
+    "apps",
+    "trámites"
+  ],
+  "products": [
+    {
+      "name": "Soporte de brazo flexible para móvil",
+      "reason": "Mantiene el móvil paralelo y fijo sobre la mesa, así los escaneos salen rectos y sin movimiento.",
+      "search_query": "soporte brazo flexible movil mesa"
+    },
+    {
+      "name": "Lámpara de escritorio LED con luz difusa",
+      "reason": "Da luz uniforme sin sombras ni reflejos, el mayor enemigo de un escaneo legible.",
+      "search_query": "lampara escritorio led regulable"
+    },
+    {
+      "name": "Alfombrilla o carpeta de color negro mate",
+      "reason": "El fondo oscuro ayuda a que el móvil detecte los bordes del papel y recorte bien.",
+      "search_query": "alfombrilla escritorio negra grande"
+    }
+  ],
+  "short": {
+    "title": "Escanea documentos con el móvil y manda un PDF perfecto 📄",
+    "hook": "¿Te rechazan los documentos? No mandes fotos, manda PDF.",
+    "hook_emoji": "📄",
+    "hook_broll_query": "hands holding paper document",
+    "lines": [
+      {
+        "text": "Pon el papel sobre una superficie oscura y lisa.",
+        "emoji": "📰",
+        "ui_path": [],
+        "broll_query": "document on dark desk"
+      },
+      {
+        "text": "Luz de ventana, nunca flash, y limpia la lente.",
+        "emoji": "💡",
+        "ui_path": [],
+        "broll_query": "natural window light desk"
+      },
+      {
+        "text": "En iPhone abre Notas y pulsa escanear documentos.",
+        "emoji": "📱",
+        "ui_path": [
+          "Notas",
+          "Cámara",
+          "Escanear documentos"
+        ],
+        "broll_query": "person using iphone notes"
+      },
+      {
+        "text": "En Android usa Google Drive, botón más, Escanear.",
+        "emoji": "⚙️",
+        "ui_path": [
+          "Google Drive",
+          "+",
+          "Escanear"
+        ],
+        "broll_query": "android phone scanning paper"
+      },
+      {
+        "text": "Añade todas las páginas antes de guardar el archivo.",
+        "emoji": "🗂️",
+        "ui_path": [],
+        "broll_query": "stack of paper pages"
+      },
+      {
+        "text": "Elige escala de grises para bajar el peso del PDF.",
+        "emoji": "📉",
+        "ui_path": [],
+        "broll_query": "smartphone screen pdf file"
+      },
+      {
+        "text": "Renombra con fecha y revisa que se lea todo.",
+        "emoji": "✅",
+        "ui_path": [],
+        "broll_query": "person checking phone screen"
+      }
+    ],
+    "cta": "Guía completa con firma y OCR en el enlace del perfil. Sígueme.",
+    "cta_emoji": "🔗",
+    "hashtags": [
+      "trucosmovil",
+      "escanear",
+      "pdf",
+      "android",
+      "iphone"
+    ]
+  },
+  "video": {
+    "file": "videos/como-escanear-documentos-con-el-movil-pdf-perfecto-sin-escaner.mp4",
+    "youtube_id": "CI0IjvkTlnw",
+    "tiktok_publish_id": null
+  }
+}

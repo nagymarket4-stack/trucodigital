@@ -1,0 +1,168 @@
+{
+  "slug": "como-crear-contrasenas-seguras-y-recordarlas-sin-volverte-loco",
+  "keyword": "cómo crear contraseñas seguras y recordarlas",
+  "date": "2026-10-06T08:49:05+00:00",
+  "updated": "2026-10-06T08:49:05+00:00",
+  "draft": false,
+  "words": 1717,
+  "title": "Cómo crear contraseñas seguras y recordarlas sin volverte loco",
+  "seo_title": "Cómo crear contraseñas seguras y recordarlas",
+  "meta_description": "Aprende a crear contraseñas seguras fáciles de recordar, usar un gestor gratis y activar la verificación en dos pasos para blindar tus cuentas hoy.",
+  "category": "seguridad",
+  "intro_markdown": "La mayoría de cuentas no se \"hackean\" con películas de hackers: se pierden porque alguien reutilizó la misma contraseña en cinco sitios y uno de ellos sufrió una filtración. Si tu clave del correo es la misma que la de una tienda online de hace años, tienes un problema esperando a pasar.\n\nLa buena noticia es que **no necesitas memorizar cuarenta contraseñas raras**. Necesitas memorizar bien **dos o tres**, y dejar que una herramienta gratuita se encargue del resto. En esta guía verás cómo inventar contraseñas realmente fuertes, cómo recordarlas sin apuntarlas en un post-it, qué gestor usar según tu móvil y cómo comprobar si alguna de tus claves ya está circulando por internet.",
+  "key_takeaways": [
+    "La longitud importa más que los símbolos raros: una frase de 4-5 palabras es más fuerte y más fácil de recordar que \"P@ssw0rd!\".",
+    "Nunca reutilices contraseñas: si una web sufre una filtración, los atacantes prueban ese mismo correo y clave en tu banco y tu email.",
+    "Usa un gestor de contraseñas (el del navegador, el del móvil o uno dedicado) y memoriza solo la contraseña maestra.",
+    "Activa la verificación en dos pasos en correo, banco, WhatsApp y redes: es la protección que más te salva.",
+    "Revisa periódicamente si tus cuentas aparecen en filtraciones con los avisos del propio móvil o navegador."
+  ],
+  "sections": [
+    {
+      "heading": "Qué hace realmente fuerte a una contraseña",
+      "body_markdown": "Olvídate de la vieja norma de \"mayúscula, número y símbolo\". Eso produce contraseñas incómodas de escribir y, además, predecibles: todos ponemos la mayúscula al principio y el signo de exclamación al final.\n\nLo que de verdad cuenta:\n\n1. **Longitud.** Cada carácter extra multiplica el tiempo que tardaría un programa en adivinarla por fuerza bruta. Por debajo de 12 caracteres te quedas corto; **apunta a 14-16 o más**.\n2. **Imprevisibilidad.** Que no contenga tu nombre, el de tu pareja, tu mascota, tu equipo, tu fecha de nacimiento ni la matrícula del coche. Todo eso está en tus redes sociales.\n3. **Que sea única.** Una contraseña perfecta repetida en diez webs vale lo que la web peor protegida de las diez.\n\n### Lo que debes evitar siempre\n\n- Palabras sueltas del diccionario, aunque cambies letras por números (`c0ntr4señ4` se rompe en segundos).\n- Secuencias de teclado: `qwerty`, `123456`, `asdfgh`.\n- Patrones con el nombre del servicio: `Miclave_Amazon`, `Miclave_Gmail`. Si ven una, deducen el resto.\n- Añadir solo un número al final cuando te obligan a cambiarla (`Verano2024` → `Verano2025`).\n\n> Pista: si tu contraseña se puede describir en una frase corta (\"mi nombre y el año\"), es débil."
+    },
+    {
+      "heading": "El método de la frase de paso: fuerte y memorizable",
+      "body_markdown": "La técnica más práctica para las **pocas contraseñas que sí tienes que memorizar** (la del móvil, la del correo principal y la maestra del gestor) es la *frase de paso*: varias palabras sin relación entre sí, unidas.\n\n**Cómo crearla paso a paso:**\n\n1. Elige **cuatro o cinco palabras al azar** que no formen una frase con sentido común: `tortuga`, `ladrillo`, `ciruela`, `telescopio`.\n2. Únelas con un separador que te resulte natural: `tortuga-ladrillo-ciruela-telescopio`.\n3. Añade **una pequeña variación personal** que no sea un dato público: una mayúscula en medio de una palabra y un número que signifique algo solo para ti: `tortuga-ladRillo-ciruela7-telescopio`.\n4. **Visualiza la escena** mientras la escribes diez veces seguidas: una tortuga subida a un ladrillo mirando una ciruela por un telescopio. El cerebro memoriza imágenes absurdas mucho mejor que cadenas de símbolos.\n\nEl resultado tiene más de 30 caracteres, se teclea rápido y no aparece en ningún diccionario.\n\n### Variante: el método de la frase personal\n\nPiensa una frase que solo tú dirías y toma la primera letra de cada palabra, mezclando algún número escrito en cifra:\n\n- Frase: \"En 1998 mi abuela plantó 3 limoneros en el patio de atrás\"\n- Contraseña: `E1998maP3leepda`\n\nEs sólida, pero recuerda: **úsala solo para una cuenta**. No la conviertas en tu patrón universal."
+    },
+    {
+      "heading": "La regla de oro: una contraseña distinta para cada sitio",
+      "body_markdown": "Este es el punto que más gente se salta y el que más disgustos da. El ataque más común hoy no es adivinar tu clave, es el **relleno de credenciales**: una web cualquiera sufre una filtración, los atacantes consiguen millones de pares correo+contraseña y los prueban automáticamente en Gmail, Amazon, PayPal, Instagram y bancos.\n\nSi tu clave es única en cada sitio, una filtración es una molestia (cambias esa clave y ya). Si la repites, es una cadena de desastres.\n\n**Prioriza por niveles.** No todas las cuentas valen lo mismo:\n\n| Nivel | Cuentas | Qué necesitan |\n|---|---|---|\n| Crítico | Correo principal, banco, gestor de contraseñas, cuenta Google/Apple | Contraseña única y larga + verificación en dos pasos |\n| Importante | Redes sociales, Amazon, PayPal, Hacienda, sanidad | Contraseña única generada + dos pasos si existe |\n| Secundario | Foros, tiendas que usas una vez, newsletters | Contraseña generada y guardada; no la memorices |\n\nTu **correo electrónico es la llave maestra real**: con acceso a él, cualquiera puede pedir \"he olvidado mi contraseña\" en el resto de servicios. Si solo vas a blindar una cuenta hoy, que sea esa."
+    },
+    {
+      "heading": "Gestores de contraseñas: cómo recordarlas todas sin memorizar nada",
+      "body_markdown": "Un gestor de contraseñas es una caja fuerte cifrada: guarda todas tus claves, las rellena sola en webs y apps, y genera contraseñas aleatorias cuando te registras. Tú solo recuerdas **una contraseña maestra** (ahí usas la frase de paso del apartado anterior).\n\n### Opción 1: el que ya tienes en el móvil (gratis y suficiente para la mayoría)\n\n- **iPhone / iPad:** app **Contraseñas** (en versiones anteriores, *Ajustes > Contraseñas*). Guarda, genera y avisa si una clave aparece en filtraciones. Se sincroniza con el llavero de iCloud.\n- **Android:** *Ajustes > Google > Autocompletar > Gestor de contraseñas de Google*, o desde Chrome en **Ajustes > Gestor de contraseñas**. También avisa de claves débiles o filtradas.\n- **Windows:** el gestor integrado en Chrome, Edge o Firefox hace el mismo trabajo en el ordenador.\n\n**Cómo activarlo en Android (rutas aproximadas, varían según marca):**\n\n1. Abre **Ajustes** y busca \"Autocompletar\" o \"Contraseñas\".\n2. Entra en **Servicio de autocompletado** y elige **Google** (o el gestor que instales).\n3. Entra en **Gestor de contraseñas de Google** y toca **Revisión de contraseñas**.\n4. Cambia una por una las que marque como **reutilizadas, débiles o filtradas**.\n\n**En iPhone:**\n\n1. Abre la app **Contraseñas** (o *Ajustes > Contraseñas*) y desbloquea con Face ID.\n2. Entra en **Seguridad** y mira las recomendaciones.\n3. Toca la cuenta afectada y **Cambiar contraseña en el sitio web**.\n\n### Opción 2: un gestor independiente\n\nSi usas Android y Windows y iPhone mezclados, o quieres compartir claves con tu pareja, un gestor dedicado multiplataforma te vendrá mejor. Busca uno que ofrezca **cifrado de extremo a extremo**, aplicación en todos tus sistemas y opción de exportar tus datos. Muchos tienen plan gratuito más que suficiente para un usuario normal.\n\n### ¿Y si pierdo el móvil o olvido la maestra?\n\n- Guarda la **contraseña maestra escrita a mano** en un papel dentro de un cajón cerrado de tu casa. Suena anticuado, pero un papel en casa no se filtra por internet.\n- Descarga y guarda los **códigos de recuperación** que te dé el servicio.\n- Ten un **segundo factor de reserva** (otro dispositivo o tu número de teléfono verificado).\n\nSi te preocupa perder el acceso físico, revisa también [qué hacer si te roban el móvil](/que-hacer-si-te-roban-el-movil-los-9-pasos-urgentes-android-y-iphone/)."
+    },
+    {
+      "heading": "Verificación en dos pasos: el escudo que sí marca la diferencia",
+      "body_markdown": "Aunque alguien consiga tu contraseña, con la **verificación en dos pasos (2FA)** no entra: necesita además un código temporal o tu aprobación en el móvil.\n\n**Actívala al menos en:** correo electrónico, cuenta de Google o Apple, banca online, WhatsApp, Instagram/Facebook y el propio gestor de contraseñas.\n\n**Qué método elegir, de mejor a peor:**\n\n1. **Llave física de seguridad** (USB o NFC): lo más resistente al phishing, útil si manejas datos sensibles.\n2. **App de autenticación** que genera códigos de 6 dígitos: muy recomendable y gratis.\n3. **Notificación push** del propio servicio: cómoda y segura.\n4. **SMS**: mejor que nada, pero vulnerable al robo de línea (duplicado de SIM). Úsalo solo si no hay otra opción.\n\n**En WhatsApp**, además, activa el PIN: *Ajustes > Cuenta > Verificación en dos pasos*. Evita que alguien registre tu número en otro teléfono.\n\nY recuerda: **ningún banco, ni Correos, ni Hacienda te pedirá nunca tu contraseña o tu código por SMS, correo o llamada**. Si te lo piden, es fraude. Ahí te conviene saber también [cómo bloquear llamadas spam](/como-bloquear-llamadas-spam-en-android-e-iphone-paso-a-paso/)."
+    },
+    {
+      "heading": "Comprueba si tus contraseñas ya están filtradas (y qué hacer)",
+      "body_markdown": "Las filtraciones de bases de datos son habituales y no dependen de ti. Lo que sí depende de ti es enterarte y reaccionar.\n\n**Cómo comprobarlo sin instalar nada raro:**\n\n- **iPhone:** app **Contraseñas > Seguridad**. Te lista las claves comprometidas, reutilizadas o fáciles de adivinar.\n- **Android / Chrome:** **Gestor de contraseñas de Google > Revisión de contraseñas**.\n- **Windows:** en Chrome, *Configuración > Autocompletar y contraseñas > Gestor de contraseñas > Revisión*; en Edge, el apartado **Monitor de contraseñas**.\n\n**Si aparece una cuenta comprometida, por este orden:**\n\n1. Cambia esa contraseña **por una generada y única**.\n2. Cambia la misma contraseña en **cualquier otro sitio donde la hubieras repetido**.\n3. Activa la **verificación en dos pasos** en esa cuenta.\n4. Revisa las **sesiones activas** y cierra las que no reconozcas (en Google: *Gestionar cuenta > Seguridad > Tus dispositivos*).\n5. Mira si han metido **reglas de reenvío** en tu correo o cambiado el teléfono de recuperación.\n\nSi notas comportamientos extraños en el teléfono, complementa esta revisión con la guía de [señales de que alguien espía tu móvil](/como-saber-si-alguien-espia-tu-movil-senales-y-revision-paso-a-paso/)."
+    },
+    {
+      "heading": "Errores frecuentes y rutina de mantenimiento",
+      "body_markdown": "### Errores que cometemos casi todos\n\n- **Guardar las claves en las notas del móvil o en un WhatsApp \"a mí mismo\"**: sin cifrado específico y visible para cualquiera que desbloquee tu pantalla.\n- **Enviar contraseñas por chat o correo**. Si tienes que compartir una, usa la función de compartir del gestor o dísela en persona.\n- **Usar la misma clave en el trabajo y en lo personal**.\n- **Responder con la verdad a las preguntas de seguridad**. El nombre de tu primera mascota está en Facebook. Responde con una frase inventada y guárdala en el gestor.\n- **Iniciar sesión en webs sensibles desde wifi públicas sin cuidado**. Si lo haces, asegúrate de que la dirección es la correcta y de que no has llegado desde un enlace de un correo.\n- **Cambiar contraseñas cada mes \"por si acaso\"**. Ya no se recomienda: lleva a claves peores. Cámbialas cuando haya un motivo (filtración, sospecha, dispositivo perdido).\n\n### Tu rutina en 20 minutos\n\n1. **Hoy:** cambia la contraseña del correo principal por una frase de paso larga y activa 2FA.\n2. **Hoy:** activa el gestor del móvil o instala uno y pon una contraseña maestra que memorices.\n3. **Esta semana:** pasa la **revisión de contraseñas** y arregla las 10 cuentas más importantes.\n4. **Cada registro nuevo:** deja que el gestor **genere** la contraseña; no la inventes tú.\n5. **Dos veces al año:** repite la revisión y comprueba que tus datos de recuperación (teléfono y correo alternativo) siguen siendo correctos.\n\nCon esto habrás pasado de \"una clave para todo\" a un sistema que aguanta de verdad, y lo único que tendrás que recordar será una frase sobre una tortuga y un telescopio."
+    }
+  ],
+  "faq": [
+    {
+      "question": "¿Cuántos caracteres debe tener una contraseña segura?",
+      "answer": "Como mínimo 12, pero lo recomendable hoy son 14-16 o más. La longitud protege mucho más que añadir símbolos raros. Si usas una frase de 4 o 5 palabras sin relación entre sí, superarás los 25 caracteres sin esfuerzo y la recordarás mejor."
+    },
+    {
+      "question": "¿Es seguro guardar las contraseñas en el navegador o en el móvil?",
+      "answer": "Sí, los gestores de Google, Apple, Chrome o Edge cifran los datos y son mucho más seguros que reutilizar una misma clave. La condición es que el dispositivo tenga bloqueo de pantalla con PIN fuerte o biometría y que la cuenta Google/Apple tenga verificación en dos pasos activada."
+    },
+    {
+      "question": "¿Qué pasa si olvido la contraseña maestra del gestor?",
+      "answer": "En los gestores con cifrado de extremo a extremo nadie puede recuperarla por ti: perderías el acceso a la bóveda. Por eso conviene apuntarla a mano en papel guardado en casa y descargar los códigos de recuperación cuando el servicio los ofrezca."
+    },
+    {
+      "question": "¿Hay que cambiar las contraseñas cada pocos meses?",
+      "answer": "No. Cambiarlas por rutina suele llevar a versiones más débiles, del tipo Verano2025. Cámbialas cuando haya un motivo real: una filtración, una sospecha de acceso, un dispositivo perdido o una clave que descubras que estabas reutilizando."
+    },
+    {
+      "question": "¿Cómo sé si mi contraseña ha sido filtrada?",
+      "answer": "Desde la propia app Contraseñas del iPhone (apartado Seguridad) o desde la Revisión de contraseñas del Gestor de contraseñas de Google en Android y Chrome. Ambos te avisan si una clave aparece en filtraciones conocidas, es débil o la has repetido."
+    }
+  ],
+  "tags": [
+    "contraseñas",
+    "seguridad",
+    "privacidad",
+    "gestor de contraseñas",
+    "doble factor"
+  ],
+  "products": [
+    {
+      "name": "Llave de seguridad física USB/NFC",
+      "reason": "Añade un segundo factor imposible de robar por phishing para tu correo y cuentas críticas.",
+      "search_query": "llave seguridad fido2 usb"
+    },
+    {
+      "name": "Cuaderno organizador de contraseñas",
+      "reason": "Útil para anotar a mano la contraseña maestra y los códigos de recuperación y guardarlos en casa.",
+      "search_query": "libreta organizador contraseñas"
+    },
+    {
+      "name": "Protector de pantalla de privacidad para móvil",
+      "reason": "Evita que alguien vea tu PIN o tus claves por encima del hombro en el transporte público.",
+      "search_query": "protector pantalla privacidad movil"
+    }
+  ],
+  "short": {
+    "title": "Tu contraseña se rompe en segundos: cámbiala así 🔒",
+    "hook": "¿Usas la misma contraseña en todo? Mal plan.",
+    "hook_emoji": "🔒",
+    "hook_broll_query": "person typing password laptop",
+    "lines": [
+      {
+        "text": "Olvida los símbolos raros: lo que manda es la longitud.",
+        "emoji": "📏",
+        "ui_path": [],
+        "broll_query": "keyboard typing close up"
+      },
+      {
+        "text": "Junta 4 palabras sin relación: tortuga ladrillo ciruela telescopio.",
+        "emoji": "🧠",
+        "ui_path": [],
+        "broll_query": "person thinking notebook"
+      },
+      {
+        "text": "Usa esa frase solo para el correo y el gestor.",
+        "emoji": "📧",
+        "ui_path": [],
+        "broll_query": "email inbox smartphone"
+      },
+      {
+        "text": "En Android abre el gestor de contraseñas de Google.",
+        "emoji": "⚙️",
+        "ui_path": [
+          "Ajustes",
+          "Google",
+          "Gestor de contraseñas"
+        ],
+        "broll_query": "android settings menu"
+      },
+      {
+        "text": "En iPhone revisa la app Contraseñas y el apartado Seguridad.",
+        "emoji": "🍏",
+        "ui_path": [
+          "Ajustes",
+          "Contraseñas",
+          "Seguridad"
+        ],
+        "broll_query": "iphone settings screen"
+      },
+      {
+        "text": "Cambia todas las marcadas como filtradas o repetidas.",
+        "emoji": "🔁",
+        "ui_path": [],
+        "broll_query": "woman using phone worried"
+      },
+      {
+        "text": "Activa la verificación en dos pasos en banco y correo.",
+        "emoji": "✅",
+        "ui_path": [],
+        "broll_query": "two factor authentication code"
+      }
+    ],
+    "cta": "Guía completa con todos los pasos en el enlace del perfil. Sígueme.",
+    "cta_emoji": "👉",
+    "hashtags": [
+      "contraseñas",
+      "seguridad",
+      "trucosmoviles",
+      "privacidad",
+      "ciberseguridad"
+    ]
+  },
+  "video": {
+    "file": "videos/como-crear-contrasenas-seguras-y-recordarlas-sin-volverte-loco.mp4",
+    "youtube_id": "aCH2hELEa6o",
+    "tiktok_publish_id": null
+  }
+}
