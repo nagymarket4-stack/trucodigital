@@ -29,11 +29,16 @@ def client():
     return build("youtube", "v3", credentials=creds, cache_discovery=False)
 
 
+def clean(text: str) -> str:
+    """YouTube rechaza '<' y '>' en título y descripción (invalidDescription)."""
+    return text.replace("<", "‹").replace(">", "›")
+
+
 def description(p: dict) -> str:
     url = f"{SITE['url'].rstrip('/')}/{p['slug']}/"
     tags = " ".join(f"#{h.replace(' ', '')}" for h in p["short"]["hashtags"])
     points = "\n".join(f"✅ {t}" for t in p["key_takeaways"])
-    return f"{p['meta_description']}\n\n{points}\n\n📖 Guía completa paso a paso: {url}\n\n#Shorts {tags}"
+    return clean(f"{p['meta_description']}\n\n{points}\n\n📖 Guía completa paso a paso: {url}\n\n#Shorts {tags}")
 
 
 def main() -> None:
@@ -46,7 +51,7 @@ def main() -> None:
     for p in pending[:MAX_PER_RUN]:
         body = {
             "snippet": {
-                "title": p["short"]["title"][:95],
+                "title": clean(p["short"]["title"])[:95],
                 "description": description(p)[:4900],
                 "tags": (p["tags"] + p["short"]["hashtags"])[:15],
                 "categoryId": "28",  # Ciencia y tecnología

@@ -47,7 +47,8 @@
     "music_volume": 0.14,
     "speech_rate": 0.9,
     "google_voice": "es-ES-Chirp3-HD-Charon",
-    "google_rate": 1.1
+    "google_rate": 1.1,
+    "require_google_voice": true
   },
   "upload": {
     "youtube": true,

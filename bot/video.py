@@ -159,6 +159,10 @@ def _syllables(word: str) -> float:
 _GOOGLE_OK = [True]
 
 
+class VoiceUnavailable(RuntimeError):
+    pass
+
+
 def google_tts(text: str) -> tuple[np.ndarray, list] | None:
     key = os.environ.get("GOOGLE_TTS_API_KEY")
     if not key or not _GOOGLE_OK[0]:
@@ -175,8 +179,11 @@ def google_tts(text: str) -> tuple[np.ndarray, list] | None:
         with wave.open(io.BytesIO(base64.b64decode(r.json()["audioContent"])), "rb") as w:
             rate, raw = w.getframerate(), w.readframes(w.getnframes())
     except (requests.RequestException, KeyError, wave.Error) as err:
-        print(f"    (Google TTS no disponible, uso Piper: {err})")
+        detail = getattr(getattr(err, "response", None), "text", "") or ""
+        print(f"    ! Google TTS falló: {err} {detail[:400]}")
         _GOOGLE_OK[0] = False
+        if V.get("require_google_voice"):
+            raise VoiceUnavailable("Google TTS no disponible: vídeos pospuestos para no publicar con voz robótica")
         return None
     audio = np.frombuffer(raw, np.int16).astype(np.float32) / 32768
     if rate != SR:
@@ -682,6 +689,9 @@ def main() -> None:
         print(f"Renderizando: {p['slug']}")
         try:
             out = render(p, voice, order.index(p["slug"]))
+        except VoiceUnavailable as err:
+            print(f"  ! {err}")
+            break
         except (subprocess.CalledProcessError, OSError, KeyError, ValueError) as err:
             print(f"  ! fallo: {err}")
             continue
